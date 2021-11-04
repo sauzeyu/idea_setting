@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="212" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException" />
       <item value="Exclude IDE and project directories from antivirus scans: C:\Users\Y7701\AppData\Local\JetBrains\IntelliJIdea2021.2 F:\web\Demo\demo C:\Users\Y7701\.gradle Alternatively, add the IDE process as an exclusion." />
       <item value="keep module.id stable when vendor modules does not change" />
       <item value="This package has been deprecated in favour of @vue/cli1" />
@@ -54,12 +55,11 @@
       <item value="Don't set daemon until init() has completed" />
       <item value="When running as a service the call to stop will be on a new thread so make sure the correct class loader is used to prevent a range of class not found exceptions." />
       <item value="register the natives via the static initializer. VM will invoke the initializeSystemClass method to complete the initialization for this class separated from clinit. Note that to use properties set by the VM, see the constraints described in the initializeSystemClass method." />
-      <item value="isolation" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="213" />
-        <entry key="ENGLISH" value="212" />
+        <entry key="ENGLISH" value="213" />
       </map>
     </option>
   </component>
