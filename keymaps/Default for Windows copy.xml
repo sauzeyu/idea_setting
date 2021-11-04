@@ -1,0 +1,13 @@
+<keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="$EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CWMHostShowPopupAction" />
+  <action id="Editor EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="Editor ShowTranslationDialogAction">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="ForceOthersToFollowAction" />
+</keymap>

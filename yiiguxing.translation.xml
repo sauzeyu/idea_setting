@@ -1,0 +1,72 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="548" />
+    <option name="newTranslationDialogX" value="952" />
+    <option name="newTranslationDialogY" value="212" />
+    <option name="pinNewTranslationDialog" value="true" />
+    <histories>
+      <item value="Exclude IDE and project directories from antivirus scans: C:\Users\Y7701\AppData\Local\JetBrains\IntelliJIdea2021.2 F:\web\Demo\demo C:\Users\Y7701\.gradle Alternatively, add the IDE process as an exclusion." />
+      <item value="keep module.id stable when vendor modules does not change" />
+      <item value="This package has been deprecated in favour of @vue/cli1" />
+      <item value="This package has been deprecated in favour of @vue/cli" />
+      <item value="no available service found in cluster 'default', please make sure registry config correct and keep your seata server running" />
+      <item value="receive" />
+      <item value="接" />
+      <item value="接受" />
+      <item value="revic" />
+      <item value="revice" />
+      <item value="enerally only look for a pattern after a prefix here, and on Tomcat only after the &quot;&quot; separator for its &quot;war:&quot; protocol." />
+      <item value="Create a new XmlBeanDefinitionReader for the given BeanFactory" />
+      <item value="nitialize any placeholder property sources in the context environment." />
+      <item value="Initialize message source for this context." />
+      <item value="bean Post Process" />
+      <item value="Invoke factory processors registered as beans in the context." />
+      <item value="Prepare the bean factory for use in this context." />
+      <item value="Tell the subclass to refresh the internal bean factory" />
+      <item value="Configurable Listable Bean Factory" />
+      <item value="prepare Refresh" />
+      <item value="PropertySourcesProperty" />
+      <item value="PropertySourcesPropertyResolver" />
+      <item value="Resolver" />
+      <item value="people" />
+      <item value="peop" />
+      <item value="peo" />
+      <item value="Path Matching Resource Pattern Resolver" />
+      <item value="get Resource Pattern Resolver" />
+      <item value="shutdown" />
+      <item value="to String" />
+      <item value="command" />
+      <item value="match" />
+      <item value="Wait was aborted with socket.close()" />
+      <item value="stop Await" />
+      <item value="await Socket" />
+      <item value="await Thread" />
+      <item value="Loop waiting for a connection and a valid command" />
+      <item value="Delegate utility execution to the Service" />
+      <item value="Use a fake executor" />
+      <item value="Initialize our defined Connectors" />
+      <item value="守护" />
+      <item value="INITIALIZING" />
+      <item value="INITIALIZED" />
+      <item value="onfigure the actions we will be using" />
+      <item value="Catalina" />
+      <item value="no config file, default to this loader - we might be in a 'single' env." />
+      <item value="Don't set daemon until init() has completed" />
+      <item value="When running as a service the call to stop will be on a new thread so make sure the correct class loader is used to prevent a range of class not found exceptions." />
+      <item value="register the natives via the static initializer. VM will invoke the initializeSystemClass method to complete the initialization for this class separated from clinit. Note that to use properties set by the VM, see the constraints described in the initializeSystemClass method." />
+      <item value="isolation" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="213" />
+        <entry key="ENGLISH" value="212" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1635925461918" />
+  </component>
+  <component name="Settings">
+    <option name="translateDocumentation" value="true" />
+  </component>
+</application>

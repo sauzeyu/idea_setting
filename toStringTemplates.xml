@@ -1,0 +1,12 @@
+<application>
+  <component name="ToStringTemplates" defaultTemplateName="JSONtoString">
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="JSONtoString" />
+          <option name="template" value="public java.lang.String toString() {&#10;return &quot;{\&quot;$classname\&quot;:{&quot;&#10;#set ($i = 0)&#10;#foreach ($member in $members)#if ($i == 0)&#10;+&quot;#####&#10;#else&#10;+&quot;,####&#10;#end#if ($member.string || $member.date)&#10;\&quot;$member.name\&quot;:\&quot;&quot;&#10;#else&#10;\&quot;$member.name\&quot;:&quot;&#10;#end#if ($member.primitiveArray || $member.objectArray)&#10;+java.util.Arrays.toString($member.name)&#10;#elseif ($member.string || $member.date)&#10;+$member.accessor+'\&quot;'&#10;#else&#10;+$member.accessor&#10;#end#set ($i = $i + 1)&#10;#end&#10;#if ( $class.hasSuper )&#10;+&quot;},\&quot;super-$classname\&quot;:&quot; +super.toString()+&quot;}&quot;;&#10;#else&#10;+&quot;}}&quot;;&#10;#end&#10;&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,11 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.gxa.edge.Daemon.start(mainThread)" />
+      </blacklist>
+    </blacklists>
+    <option id="java.clear.expression.type" value="true" />
+    <option id="java.method.name.contains.parameter.name" value="true" />
+  </component>
+</application>
