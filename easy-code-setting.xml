@@ -25,10 +25,7 @@
         </entry>
       </map>
     </option>
-    <option name="currColumnConfigGroupName" value="Default" />
-    <option name="currGlobalConfigGroupName" value="Default" />
     <option name="currTemplateGroupName" value="SSM-Build" />
-    <option name="currTypeMapperGroupName" value="Default" />
     <option name="globalConfigGroupMap">
       <map>
         <entry key="Default">
@@ -302,7 +299,5 @@
         </entry>
       </map>
     </option>
-    <option name="userSecure" value="" />
-    <option name="version" value="1.2.4" />
   </component>
 </application>

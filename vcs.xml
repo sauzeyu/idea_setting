@@ -18,49 +18,9 @@
           <option name="url" value="https://github.com/xiaofei555/Dubbo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/apache/shiro.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/thinknovo-admin/j259ssm_shiroproject.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/EdgeYu/cloud2021.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/spring-projects/spring-framework.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/apache/tomcat.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/thinknovo-admin/j259boot.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/thinknovo-admin/spring_activeMQ.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/Hernie/zunkeu8_plus.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/y_project/RuoYi-Cloud.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/thinknovo-admin/j259-springcloud-alibaba.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="F:\cloud-study" />
+    <option name="cloneParentDir" value="F:\DCS" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">

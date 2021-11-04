@@ -1,72 +1,83 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="546" />
-    <option name="newTranslationDialogX" value="952" />
-    <option name="newTranslationDialogY" value="212" />
+    <option name="lastReplacementTargetLanguage" value="CHINESE" />
+    <option name="newTranslationDialogHeight" value="404" />
+    <option name="newTranslationDialogWidth" value="693" />
+    <option name="newTranslationDialogX" value="641" />
+    <option name="newTranslationDialogY" value="585" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [comalibabadruidspringbootautoconfigureDruidDataSourceAutoConfigure.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError--&gt;class com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapperEnhancerBySpringCGLIBf1bea61c cannot access its superclass com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper" />
-      <item value=" the implement of javax.sql.DataSource, such as DruidDataSource(druid)/BasicDataSource(dbcp)/HikariDataSource(hikari) etc." />
-      <item value="Error creating bean with name 'sqlSessionFactoryBean' defined in class path resource [comgxaspringcloudconfigDataSourceProxyConfig.class]: Unsatisfied dependency expressed through method 'sqlSessionFactoryBean' parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'dataSourceProxy' is expected to be of type 'io.seata.rm.datasource.DataSourceProxy' but was actually of type 'com.alibaba.druid.pool.DruidDataSourceEnhancerBySpringCGLIB634a1692'" />
-      <item value="Bean" />
-      <item value="Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException" />
-      <item value="Exclude IDE and project directories from antivirus scans: C:\Users\Y7701\AppData\Local\JetBrains\IntelliJIdea2021.2 F:\web\Demo\demo C:\Users\Y7701\.gradle Alternatively, add the IDE process as an exclusion." />
-      <item value="keep module.id stable when vendor modules does not change" />
-      <item value="This package has been deprecated in favour of @vue/cli1" />
-      <item value="This package has been deprecated in favour of @vue/cli" />
-      <item value="no available service found in cluster 'default', please make sure registry config correct and keep your seata server running" />
-      <item value="receive" />
-      <item value="接" />
-      <item value="接受" />
-      <item value="revic" />
-      <item value="revice" />
-      <item value="enerally only look for a pattern after a prefix here, and on Tomcat only after the &quot;&quot; separator for its &quot;war:&quot; protocol." />
-      <item value="Create a new XmlBeanDefinitionReader for the given BeanFactory" />
-      <item value="nitialize any placeholder property sources in the context environment." />
-      <item value="Initialize message source for this context." />
-      <item value="bean Post Process" />
-      <item value="Invoke factory processors registered as beans in the context." />
-      <item value="Prepare the bean factory for use in this context." />
-      <item value="Tell the subclass to refresh the internal bean factory" />
-      <item value="Configurable Listable Bean Factory" />
-      <item value="prepare Refresh" />
-      <item value="PropertySourcesProperty" />
-      <item value="PropertySourcesPropertyResolver" />
-      <item value="Resolver" />
-      <item value="people" />
-      <item value="peop" />
-      <item value="peo" />
-      <item value="Path Matching Resource Pattern Resolver" />
-      <item value="get Resource Pattern Resolver" />
-      <item value="shutdown" />
-      <item value="to String" />
-      <item value="command" />
-      <item value="match" />
-      <item value="Wait was aborted with socket.close()" />
-      <item value="stop Await" />
-      <item value="await Socket" />
-      <item value="await Thread" />
-      <item value="Loop waiting for a connection and a valid command" />
-      <item value="Delegate utility execution to the Service" />
-      <item value="Use a fake executor" />
-      <item value="Initialize our defined Connectors" />
-      <item value="守护" />
-      <item value="INITIALIZING" />
-      <item value="INITIALIZED" />
-      <item value="onfigure the actions we will be using" />
-      <item value="Catalina" />
+      <item value="Injection" />
+      <item value="Idempotent loop body" />
+      <item value="Lambda can be replaced with method reference" />
+      <item value="Non-atomic operation on volatile field 'number'" />
+      <item value="increase" />
+      <item value="ThreadLocal values pertaining to this thread. This map is maintained&#10;      by the ThreadLocal class. " />
+      <item value=" Tell the subclass to refresh the internal bean factory." />
+      <item value=" Validate that all properties marked as required are resolvable:&#10;&#9;&#9; see ConfigurablePropertyResolversetRequiredProperties" />
+      <item value="Incorrect" />
+      <item value="recommended" />
+      <item value="APPLICATION" />
+      <item value="CONTAINER" />
+      <item value="Incorrect username or password (access token)" />
+      <item value="Resolving eureka endpoints via configuration" />
+      <item value="discovery" />
+      <item value="registry" />
+      <item value="protocol" />
+      <item value="欢迎" />
+      <item value="环境" />
+      <item value="curator" />
+      <item value="cu" />
+      <item value="detect" />
+      <item value="de" />
+      <item value="医院信息系统" />
+      <item value="医疗信息系统" />
+      <item value="医疗信息心跳" />
+      <item value="医疗信息" />
+      <item value="yi'l" />
+      <item value="yi" />
+      <item value="hi" />
+      <item value="Instance Info" />
+      <item value="total-avail-memory" />
+      <item value="current-memory-usage" />
+      <item value="General Infocurrent-memory-usage" />
+      <item value="General Info" />
+      <item value="EMERGENCY! EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT. RENEWALS ARE LESSER THAN THRESHOLD AND HENCE THE INSTANCES ARE NOT BEING EXPIRED JUST TO BE SAFE." />
+      <item value="EMERGENCY" />
+      <item value="commen" />
+      <item value="comment" />
+      <item value="Dangling" />
+      <item value="Dang" />
+      <item value="dangling" />
+      <item value="inspect" />
+      <item value="om.google.inject:guic" />
+      <item value="Recommended " />
+      <item value="commons" />
+      <item value="c" />
+      <item value="公共" />
+      <item value="gon" />
+      <item value="gong" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="216" />
-        <entry key="ENGLISH" value="217" />
+        <entry key="CHINESE" value="743" />
+        <entry key="ENGLISH" value="714" />
+        <entry key="LATIN" value="1" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="INDONESIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1635925461918" />
+    <option name="lastTrimTime" value="1635349630077" />
   </component>
   <component name="Settings">
+    <option name="autoReplace" value="true" />
+    <option name="keepFormat" value="true" />
+    <option name="selectTargetLanguageBeforeReplacement" value="true" />
+    <option name="showActionsInContextMenuOnlyWithSelection" value="false" />
+    <option name="showExplanation" value="true" />
+    <option name="showWordsOnStartup" value="true" />
     <option name="translateDocumentation" value="true" />
   </component>
 </application>
