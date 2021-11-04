@@ -1,10 +1,14 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="548" />
+    <option name="newTranslationDialogWidth" value="546" />
     <option name="newTranslationDialogX" value="952" />
     <option name="newTranslationDialogY" value="212" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [comalibabadruidspringbootautoconfigureDruidDataSourceAutoConfigure.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError--&gt;class com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapperEnhancerBySpringCGLIBf1bea61c cannot access its superclass com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper" />
+      <item value=" the implement of javax.sql.DataSource, such as DruidDataSource(druid)/BasicDataSource(dbcp)/HikariDataSource(hikari) etc." />
+      <item value="Error creating bean with name 'sqlSessionFactoryBean' defined in class path resource [comgxaspringcloudconfigDataSourceProxyConfig.class]: Unsatisfied dependency expressed through method 'sqlSessionFactoryBean' parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'dataSourceProxy' is expected to be of type 'io.seata.rm.datasource.DataSourceProxy' but was actually of type 'com.alibaba.druid.pool.DruidDataSourceEnhancerBySpringCGLIB634a1692'" />
+      <item value="Bean" />
       <item value="Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException" />
       <item value="Exclude IDE and project directories from antivirus scans: C:\Users\Y7701\AppData\Local\JetBrains\IntelliJIdea2021.2 F:\web\Demo\demo C:\Users\Y7701\.gradle Alternatively, add the IDE process as an exclusion." />
       <item value="keep module.id stable when vendor modules does not change" />
@@ -51,15 +55,11 @@
       <item value="INITIALIZED" />
       <item value="onfigure the actions we will be using" />
       <item value="Catalina" />
-      <item value="no config file, default to this loader - we might be in a 'single' env." />
-      <item value="Don't set daemon until init() has completed" />
-      <item value="When running as a service the call to stop will be on a new thread so make sure the correct class loader is used to prevent a range of class not found exceptions." />
-      <item value="register the natives via the static initializer. VM will invoke the initializeSystemClass method to complete the initialization for this class separated from clinit. Note that to use properties set by the VM, see the constraints described in the initializeSystemClass method." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="213" />
-        <entry key="ENGLISH" value="213" />
+        <entry key="CHINESE" value="216" />
+        <entry key="ENGLISH" value="217" />
       </map>
     </option>
   </component>
