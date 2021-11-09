@@ -1,12 +1,37 @@
 <application>
   <component name="AppStorage">
-    <option name="lastReplacementTargetLanguage" value="CHINESE" />
+    <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="693" />
-    <option name="newTranslationDialogX" value="641" />
-    <option name="newTranslationDialogY" value="585" />
+    <option name="newTranslationDialogWidth" value="669" />
+    <option name="newTranslationDialogX" value="714" />
+    <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="hour" />
+      <item value="提成" />
+      <item value="ti'c" />
+      <item value="薪水" />
+      <item value="amount " />
+      <item value="计算" />
+      <item value="抽象" />
+      <item value="Sale Worker" />
+      <item value="Hour Worker" />
+      <item value="描述" />
+      <item value="MIAOS" />
+      <item value="小时工固定" />
+      <item value="小时工" />
+      <item value="小时gong" />
+      <item value="小时公" />
+      <item value="description" />
+      <item value="deprecated" />
+      <item value="角色" />
+      <item value="职位" />
+      <item value="岗位" />
+      <item value="种" />
+      <item value="种类" />
+      <item value="工资" />
+      <item value="共i" />
+      <item value="雇员" />
       <item value="Injection" />
       <item value="Idempotent loop body" />
       <item value="Lambda can be replaced with method reference" />
@@ -32,36 +57,11 @@
       <item value="de" />
       <item value="医院信息系统" />
       <item value="医疗信息系统" />
-      <item value="医疗信息心跳" />
-      <item value="医疗信息" />
-      <item value="yi'l" />
-      <item value="yi" />
-      <item value="hi" />
-      <item value="Instance Info" />
-      <item value="total-avail-memory" />
-      <item value="current-memory-usage" />
-      <item value="General Infocurrent-memory-usage" />
-      <item value="General Info" />
-      <item value="EMERGENCY! EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT. RENEWALS ARE LESSER THAN THRESHOLD AND HENCE THE INSTANCES ARE NOT BEING EXPIRED JUST TO BE SAFE." />
-      <item value="EMERGENCY" />
-      <item value="commen" />
-      <item value="comment" />
-      <item value="Dangling" />
-      <item value="Dang" />
-      <item value="dangling" />
-      <item value="inspect" />
-      <item value="om.google.inject:guic" />
-      <item value="Recommended " />
-      <item value="commons" />
-      <item value="c" />
-      <item value="公共" />
-      <item value="gon" />
-      <item value="gong" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="743" />
-        <entry key="ENGLISH" value="714" />
+        <entry key="CHINESE" value="891" />
+        <entry key="ENGLISH" value="863" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="INDONESIAN" value="1" />
