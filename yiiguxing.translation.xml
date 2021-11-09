@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="t" />
       <item value="接口" />
       <item value="Employee Salary Strategy" />
       <item value="hour" />
@@ -56,12 +57,11 @@
       <item value="curator" />
       <item value="cu" />
       <item value="detect" />
-      <item value="de" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="898" />
-        <entry key="ENGLISH" value="871" />
+        <entry key="ENGLISH" value="872" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="INDONESIAN" value="1" />
