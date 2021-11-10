@@ -7,11 +7,13 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="salary" />
+      <item value="hour" />
+      <item value="sale" />
       <item value="属性" />
       <item value="t" />
       <item value="接口" />
       <item value="Employee Salary Strategy" />
-      <item value="hour" />
       <item value="提成" />
       <item value="ti'c" />
       <item value="薪水" />
@@ -55,13 +57,11 @@
       <item value="protocol" />
       <item value="欢迎" />
       <item value="环境" />
-      <item value="curator" />
-      <item value="cu" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="906" />
-        <entry key="ENGLISH" value="880" />
+        <entry key="ENGLISH" value="883" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="INDONESIAN" value="1" />
