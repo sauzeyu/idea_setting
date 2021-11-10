@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="669" />
+    <option name="newTranslationDialogWidth" value="667" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="属性" />
       <item value="t" />
       <item value="接口" />
       <item value="Employee Salary Strategy" />
@@ -56,12 +57,11 @@
       <item value="环境" />
       <item value="curator" />
       <item value="cu" />
-      <item value="detect" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="898" />
-        <entry key="ENGLISH" value="872" />
+        <entry key="CHINESE" value="906" />
+        <entry key="ENGLISH" value="880" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="INDONESIAN" value="1" />
