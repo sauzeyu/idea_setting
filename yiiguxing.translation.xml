@@ -2,11 +2,16 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="663" />
+    <option name="newTranslationDialogWidth" value="661" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="超出" />
+      <item value="提成率" />
+      <item value="提ti'c" />
+      <item value="提出率" />
+      <item value="注入" />
       <item value="quals' between objects of inconvertible types 'String' and 'EnumEmployeeType'" />
       <item value="薪资" />
       <item value="计算" />
@@ -52,16 +57,11 @@
       <item value="recommended" />
       <item value="APPLICATION" />
       <item value="CONTAINER" />
-      <item value="Incorrect username or password (access token)" />
-      <item value="Resolving eureka endpoints via configuration" />
-      <item value="discovery" />
-      <item value="registry" />
-      <item value="protocol" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="919" />
-        <entry key="ENGLISH" value="895" />
+        <entry key="CHINESE" value="950" />
+        <entry key="ENGLISH" value="926" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="INDONESIAN" value="1" />
