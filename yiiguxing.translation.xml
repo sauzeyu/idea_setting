@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="665" />
+    <option name="newTranslationDialogWidth" value="663" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="quals' between objects of inconvertible types 'String' and 'EnumEmployeeType'" />
       <item value="薪资" />
       <item value="计算" />
       <item value="salary" />
@@ -56,11 +57,10 @@
       <item value="discovery" />
       <item value="registry" />
       <item value="protocol" />
-      <item value="欢迎" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="918" />
+        <entry key="CHINESE" value="919" />
         <entry key="ENGLISH" value="895" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
