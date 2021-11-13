@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="659" />
+    <option name="newTranslationDialogWidth" value="657" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="虚拟" />
       <item value="超出" />
       <item value="提成率" />
       <item value="提ti'c" />
@@ -56,12 +57,11 @@
       <item value="Incorrect" />
       <item value="recommended" />
       <item value="APPLICATION" />
-      <item value="CONTAINER" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="950" />
-        <entry key="ENGLISH" value="926" />
+        <entry key="CHINESE" value="954" />
+        <entry key="ENGLISH" value="930" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="INDONESIAN" value="1" />
