@@ -30,9 +30,13 @@
           <option name="url" value="https://gitee.com/macrozheng/mall-swarm.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://172.16.10.118:17990/scm/web/dks_back.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="F:\GitHub" />
+    <option name="cloneParentDir" value="F:\vecent" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
