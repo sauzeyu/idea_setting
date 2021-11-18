@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="647" />
+    <option name="newTranslationDialogWidth" value="645" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="环境" />
       <item value="confluence" />
       <item value="confl" />
       <item value="front" />
@@ -56,12 +57,11 @@
       <item value="小时gong" />
       <item value="小时公" />
       <item value="description" />
-      <item value="deprecated" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="974" />
-        <entry key="ENGLISH" value="954" />
+        <entry key="CHINESE" value="982" />
+        <entry key="ENGLISH" value="962" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
