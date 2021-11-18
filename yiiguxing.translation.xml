@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="HIGHEST PRECEDENCE" />
+      <item value="DEFAULT EXPIRE DAY" />
       <item value="  &quot;error&quot;: &quot;Internal Server Error&quot;," />
       <item value="LEADER NOT AVAILABLE" />
       <item value="环境" />
@@ -55,13 +57,11 @@
       <item value="描述" />
       <item value="MIAOS" />
       <item value="小时工固定" />
-      <item value="小时工" />
-      <item value="小时gong" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="982" />
-        <entry key="ENGLISH" value="964" />
+        <entry key="ENGLISH" value="966" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
