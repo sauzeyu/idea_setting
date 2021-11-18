@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="LEADER NOT AVAILABLE" />
       <item value="环境" />
       <item value="confluence" />
       <item value="confl" />
@@ -56,12 +57,11 @@
       <item value="小时工" />
       <item value="小时gong" />
       <item value="小时公" />
-      <item value="description" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="982" />
-        <entry key="ENGLISH" value="962" />
+        <entry key="ENGLISH" value="963" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
