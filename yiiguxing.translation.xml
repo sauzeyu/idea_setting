@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="645" />
+    <option name="newTranslationDialogWidth" value="643" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Attempt" />
       <item value="Drawer Confirm" />
       <item value="Vehicle" />
       <item value="  Copyright (c) 2011-2016, hubin (jobob@qq.com).&#10;  &lt;p&gt;&#10;  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not&#10;  use this file except in compliance with the License. You may obtain a copy of&#10;  the License at&#10;  &lt;p&gt;&#10;  http:www.apache.orglicensesLICENSE-2.0&#10;  &lt;p&gt;&#10;  Unless required by applicable law or agreed to in writing, software&#10;  distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT&#10;  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the&#10;  License for the specific language governing permissions and limitations under&#10;  the License." />
@@ -56,11 +57,10 @@
       <item value="提成" />
       <item value="ti'c" />
       <item value="薪水" />
-      <item value="amount " />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="982" />
+        <entry key="CHINESE" value="983" />
         <entry key="ENGLISH" value="974" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
