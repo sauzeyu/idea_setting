@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Drawer Confirm" />
       <item value="  Copyright (c) 2011-2016, hubin (jobob@qq.com).&#10;  &lt;p&gt;&#10;  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not&#10;  use this file except in compliance with the License. You may obtain a copy of&#10;  the License at&#10;  &lt;p&gt;&#10;  http:www.apache.orglicensesLICENSE-2.0&#10;  &lt;p&gt;&#10;  Unless required by applicable law or agreed to in writing, software&#10;  distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT&#10;  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the&#10;  License for the specific language governing permissions and limitations under&#10;  the License." />
       <item value="  Copyright (c) 2011-&#10;  &lt;p&gt;&#10;  Licensed under the &#10;  use this file excep&#10;  the License at&#10;  &lt;p&gt;&#10;  http:www.apache.o&#10;  &lt;p&gt;&#10;  Unless required by &#10;  distributed under t&#10;  WARRANTIES OR CONDI&#10;  License for the spe&#10;  the License." />
       <item value="Drawer" />
@@ -56,12 +57,11 @@
       <item value="ti'c" />
       <item value="薪水" />
       <item value="amount " />
-      <item value="抽象" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="982" />
-        <entry key="ENGLISH" value="971" />
+        <entry key="ENGLISH" value="972" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
