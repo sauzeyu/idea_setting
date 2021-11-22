@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Drawer" />
+      <item value="upserting" />
       <item value="Associative Search" />
       <item value="HIGHEST PRECEDENCE" />
       <item value="DEFAULT EXPIRE DAY" />
@@ -55,13 +57,11 @@
       <item value="抽象" />
       <item value="Sale Worker" />
       <item value="Hour Worker" />
-      <item value="描述" />
-      <item value="MIAOS" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="982" />
-        <entry key="ENGLISH" value="967" />
+        <entry key="ENGLISH" value="969" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
