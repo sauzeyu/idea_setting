@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="643" />
+    <option name="newTranslationDialogWidth" value="641" />
     <option name="newTranslationDialogX" value="714" />
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Attempt to assign to const or readonly variable " />
       <item value="only Check Sign" />
       <item value="route" />
       <item value="no Match" />
@@ -56,11 +57,10 @@
       <item value="属性" />
       <item value="t" />
       <item value="接口" />
-      <item value="Employee Salary Strategy" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="983" />
+        <entry key="CHINESE" value="984" />
         <entry key="ENGLISH" value="975" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
