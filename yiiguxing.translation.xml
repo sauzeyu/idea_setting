@@ -7,6 +7,12 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="420-200-60" />
+      <item value="420-200-" />
+      <item value="420-200" />
+      <item value="420-" />
+      <item value="420" />
+      <item value="42" />
       <item value="Attempt to assign to const or readonly variable " />
       <item value="only Check Sign" />
       <item value="route" />
@@ -51,17 +57,11 @@
       <item value="quals' between objects of inconvertible types 'String' and 'EnumEmployeeType'" />
       <item value="薪资" />
       <item value="计算" />
-      <item value="salary" />
-      <item value="hour" />
-      <item value="sale" />
-      <item value="属性" />
-      <item value="t" />
-      <item value="接口" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="984" />
-        <entry key="ENGLISH" value="975" />
+        <entry key="CHINESE" value="988" />
+        <entry key="ENGLISH" value="979" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
