@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="吊销" />
       <item value="420-200-60" />
       <item value="420-200-" />
       <item value="420-200" />
@@ -56,12 +57,11 @@
       <item value="注入" />
       <item value="quals' between objects of inconvertible types 'String' and 'EnumEmployeeType'" />
       <item value="薪资" />
-      <item value="计算" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="988" />
-        <entry key="ENGLISH" value="979" />
+        <entry key="CHINESE" value="998" />
+        <entry key="ENGLISH" value="989" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
