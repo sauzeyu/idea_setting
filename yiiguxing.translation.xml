@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Char Sequence" />
       <item value="redundant" />
       <item value="Sample Test" />
       <item value="实体" />
@@ -56,12 +57,11 @@
       <item value="Use dk_msg.newBuilder() to construct." />
       <item value="constant" />
       <item value="const" />
-      <item value="cons" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1005" />
-        <entry key="ENGLISH" value="1003" />
+        <entry key="ENGLISH" value="1004" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
