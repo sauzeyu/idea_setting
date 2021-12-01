@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="644" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="注册" />
+      <item value="注册时间" />
+      <item value="registe" />
       <item value="common" />
       <item value="全局" />
       <item value="Globel" />
@@ -54,14 +57,11 @@
       <item value="expire" />
       <item value="gen Random Num" />
       <item value="dk Vehicl Info" />
-      <item value="shiro" />
-      <item value="webclient" />
-      <item value="Deprecated" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1018" />
-        <entry key="ENGLISH" value="1015" />
+        <entry key="CHINESE" value="1025" />
+        <entry key="ENGLISH" value="1021" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
