@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="637" />
+    <option name="newTranslationDialogWidth" value="635" />
     <option name="newTranslationDialogX" value="609" />
     <option name="newTranslationDialogY" value="608" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="吊销" />
       <item value="The content of element type &quot;resultMap&quot; must match &quot;(constructor?,id,result,association,collection,discriminator?)&quot;." />
       <item value="sign" />
       <item value="sig" />
@@ -27,7 +28,6 @@
       <item value="Rate Limit" />
       <item value="Stack" />
       <item value="trace" />
-      <item value="吊销" />
       <item value="420-200-60" />
       <item value="420-200-" />
       <item value="420-200" />
@@ -60,8 +60,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1028" />
-        <entry key="ENGLISH" value="1022" />
+        <entry key="CHINESE" value="1044" />
+        <entry key="ENGLISH" value="1038" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
