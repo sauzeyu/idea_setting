@@ -4,7 +4,6 @@
       <mapping pattern="a" type="AUTO_DETECTED" />
       <mapping pattern="books.xml" type="AUTO_DETECTED" />
       <mapping pattern=".*json" type="JSON" />
-      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
