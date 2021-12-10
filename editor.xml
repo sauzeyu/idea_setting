@@ -49,7 +49,7 @@
         <entry key="yaml" value="true" />
       </map>
     </option>
-    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
   </component>
