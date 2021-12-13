@@ -1,6 +1,6 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="Docker" type="docker">
+    <remote-server name="为辰-28" type="docker">
       <configuration>
         <option name="apiUrl" value="https://172.16.11.28:2376" />
         <option name="certificatesPath" value="C:\Users\Y7701\Desktop\fsdownload" />
