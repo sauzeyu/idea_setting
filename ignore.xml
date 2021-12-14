@@ -23,6 +23,7 @@
       <language id="NuxtJS" NEW_FILE="true" ENABLE="false" />
       <language id="Perforce" NEW_FILE="true" ENABLE="false" />
       <language id="Prettier" NEW_FILE="true" ENABLE="false" />
+      <language id="Sourcegraph" NEW_FILE="true" ENABLE="false" />
       <language id="StyleLint" NEW_FILE="true" ENABLE="false" />
       <language id="Stylint" NEW_FILE="true" ENABLE="false" />
       <language id="Swagger Codegen" NEW_FILE="true" ENABLE="false" />
@@ -30,13 +31,7 @@
       <language id="Up" NEW_FILE="true" ENABLE="false" />
     </languages>
     <userTemplates>
-      <template name="Example user template">### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen</template>
+      <template name="spring" />
     </userTemplates>
   </component>
 </application>
