@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="608" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="thymeleaf" />
       <item value="Default export is not declared in imported module" />
       <item value="The expression {artifactId} is deprecated. Please use {project.artifactId} instead." />
       <item value="ambiguous" />
@@ -56,7 +57,6 @@
       <item value="no Match" />
       <item value="Attempt" />
       <item value="Drawer Confirm" />
-      <item value="Vehicle" />
     </histories>
     <option name="languageScores">
       <map>
