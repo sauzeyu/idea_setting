@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping pattern="a" type="AUTO_DETECTED" />
       <mapping pattern="books.xml" type="AUTO_DETECTED" />
+      <removed_mapping ext="es" type="ActionScript" />
+      <mapping ext="es" type="Elasticsearch" />
       <mapping pattern=".*json" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
