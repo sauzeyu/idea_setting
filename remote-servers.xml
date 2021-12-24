@@ -3,7 +3,13 @@
     <remote-server name="为辰-28" type="docker">
       <configuration>
         <option name="apiUrl" value="https://172.16.11.28:2376" />
-        <option name="certificatesPath" value="C:\Users\Y7701\Desktop\fsdownload" />
+        <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-28" />
+      </configuration>
+    </remote-server>
+    <remote-server name="为辰-32" type="docker">
+      <configuration>
+        <option name="apiUrl" value="https://172.16.11.32:2376" />
+        <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-32" />
       </configuration>
     </remote-server>
   </component>
