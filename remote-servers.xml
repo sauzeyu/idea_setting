@@ -14,7 +14,7 @@
     </remote-server>
     <remote-server name="Docker" type="docker">
       <configuration>
-        <option name="apiUrl" value="https://172.16.11.154:2376" />
+        <option name="apiUrl" value="https://172.16.13.154:2376" />
         <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-Jira-154" />
       </configuration>
     </remote-server>
