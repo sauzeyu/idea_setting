@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="627" />
+    <option name="newTranslationDialogWidth" value="625" />
     <option name="newTranslationDialogX" value="609" />
     <option name="newTranslationDialogY" value="608" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="协议" />
       <item value="deprecated" />
       <item value="expression" />
       <item value="instead" />
@@ -56,12 +57,11 @@
       <item value="420" />
       <item value="42" />
       <item value="Attempt to assign to const or readonly variable " />
-      <item value="only Check Sign" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1078" />
-        <entry key="ENGLISH" value="1078" />
+        <entry key="CHINESE" value="1084" />
+        <entry key="ENGLISH" value="1084" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
