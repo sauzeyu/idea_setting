@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="608" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The number of object passed must be even but was" />
       <item value="协议" />
       <item value="deprecated" />
       <item value="expression" />
@@ -56,7 +57,6 @@
       <item value="420-" />
       <item value="420" />
       <item value="42" />
-      <item value="Attempt to assign to const or readonly variable " />
     </histories>
     <option name="languageScores">
       <map>
