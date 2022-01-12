@@ -7,6 +7,11 @@
     <option name="newTranslationDialogY" value="608" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="交通工具" />
+      <item value="交通工具及" />
+      <item value="交通re" />
+      <item value="jiao't" />
+      <item value="che" />
       <item value="      Return the Virtual Machine's Class object for the named&#10;      primitive type." />
       <item value="蓝牙" />
       <item value="la'b" />
@@ -52,16 +57,11 @@
       <item value="全局" />
       <item value="Globel" />
       <item value="q" />
-      <item value="Char Sequence" />
-      <item value="redundant" />
-      <item value="Sample Test" />
-      <item value="实体" />
-      <item value="stop Vehicle" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1105" />
-        <entry key="ENGLISH" value="1105" />
+        <entry key="CHINESE" value="1118" />
+        <entry key="ENGLISH" value="1118" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
