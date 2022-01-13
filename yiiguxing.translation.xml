@@ -80,5 +80,6 @@
     <option name="showActionsInContextMenuOnlyWithSelection" value="false" />
     <option name="showExplanation" value="true" />
     <option name="showWordsOnStartup" value="true" />
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
