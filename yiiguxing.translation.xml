@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="608" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="关键字" />
+      <item value="关键字在" />
       <item value="key Extractor" />
       <item value="source" />
       <item value="目标" />
@@ -55,13 +57,11 @@
       <item value="sign" />
       <item value="sig" />
       <item value="注册" />
-      <item value="注册时间" />
-      <item value="registe" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1127" />
-        <entry key="ENGLISH" value="1128" />
+        <entry key="CHINESE" value="1137" />
+        <entry key="ENGLISH" value="1138" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
