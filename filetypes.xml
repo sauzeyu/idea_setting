@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="a" type="AUTO_DETECTED" />
       <mapping pattern="books.xml" type="AUTO_DETECTED" />
+      <mapping pattern="a" type="AUTO_DETECTED" />
       <mapping ext="wxss" type="CSS" />
       <mapping ext="wxml" type="HTML" />
       <mapping pattern=".*json" type="JSON" />
