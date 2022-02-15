@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Creates a new instance&#10;Params:&#10;allowed – the origins that are allowed." />
       <item value="Specify to allow any request that comes from the same origin to frame this application. For example, if the application was hosted on example.com, then example.com could frame the application, but evil.com could not frame the application.&#10;Returns:&#10;the HeadersConfigurer for additional customization" />
       <item value="Collect" />
       <item value="Manipulation" />
@@ -56,12 +57,11 @@
       <item value="state" />
       <item value="'check(java.lang.String)' in 'com.vecentek.dk.Test' cannot be applied to '(java.lang.String, java.lang.Integer)'" />
       <item value="手机指纹" />
-      <item value="sh" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1141" />
-        <entry key="ENGLISH" value="1142" />
+        <entry key="CHINESE" value="1142" />
+        <entry key="ENGLISH" value="1143" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
