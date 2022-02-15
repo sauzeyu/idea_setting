@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Specify to allow any request that comes from the same origin to frame this application. For example, if the application was hosted on example.com, then example.com could frame the application, but evil.com could not frame the application.&#10;Returns:&#10;the HeadersConfigurer for additional customization" />
       <item value="Collect" />
       <item value="Manipulation" />
       <item value="翻译文档失败: 翻译失败: 未知错误&#10;&#10;&gt;Plugin v3.2.0.1  &#10;&gt;IntelliJ IDEA 2021.1.2  &#10;&gt;Build #IU-211.7442.40, built on June 1, 2021  &#10;&gt;Runtime version: 11.0.11+9-b1341.57 amd64  &#10;&gt;VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.  &#10;&gt;OS: Windows 10 10.0&#10;&#10;```&#10;cn.yiiguxing.plugin.translate.trans.TranslateException: Google 翻译 :: 翻译失败: 未知错误&#10;&#9;at cn.yiiguxing.plugin.translate.trans.AbstractTranslator.onError(AbstractTranslator.kt:47)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.onError(GoogleTranslator.kt:131)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.AbstractTranslator.access$onError(AbstractTranslator.kt:16)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.translateDocumentation(GoogleTranslator.kt:158)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.HtmlTranslatorKt.getTranslatedDocumentation(HtmlTranslator.kt:110)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.HtmlTranslatorKt.getTranslatedDocumentation(HtmlTranslator.kt:47)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.TranslateDocumentationTask$special$$inlined$runAsync$1.run(promise.kt:402)&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)&#10;&#9;at java.base/java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)&#10;&#9;at java.base/java.lang.Thread.run(Thread.java:829)&#10;Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.parseDocTranslation(GoogleTranslator.kt:125)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.access$parseDocTranslation(GoogleTranslator.kt:16)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator$translateDocumentation$1$client$2.invoke(GoogleTranslator.kt:58)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator$translateDocumentation$1$client$2.invoke(GoogleTranslator.kt:58)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.SimpleTranslateClient.parse(SimpleTranslateClient.kt:19)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.TranslateClient.execute(TranslateClient.kt:51)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.translateDocumentation(GoogleTranslator.kt:62)&#10;&#9;... 10 more&#10;```&#10;" />
@@ -56,12 +57,11 @@
       <item value="'check(java.lang.String)' in 'com.vecentek.dk.Test' cannot be applied to '(java.lang.String, java.lang.Integer)'" />
       <item value="手机指纹" />
       <item value="sh" />
-      <item value="手指 手机" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1140" />
-        <entry key="ENGLISH" value="1141" />
+        <entry key="CHINESE" value="1141" />
+        <entry key="ENGLISH" value="1142" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
