@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity. Occasionally a method may wish to test whether the current thread has been interrupted, and if so, to immediately throw this exception. The following code can be used to achieve this effect:&#10;    if (Thread.interrupted())   Clears interrupted status!&#10;        throw new InterruptedException();" />
+      <item value="Interrupted Exception" />
       <item value="Following columns have no computeddefault value and must be listed explicitly: phone_fingerprint " />
       <item value="Creates a new instance&#10;Params:&#10;allowed – the origins that are allowed." />
       <item value="Specify to allow any request that comes from the same origin to frame this application. For example, if the application was hosted on example.com, then example.com could frame the application, but evil.com could not frame the application.&#10;Returns:&#10;the HeadersConfigurer for additional customization" />
@@ -55,13 +57,11 @@
       <item value="diao" />
       <item value="class path resource [loglogback.xml] cannot be resolved to URL because it does not exist" />
       <item value="Logging system failed to initialize using configuration from 'classpath:loglogback.xml'" />
-      <item value="state" />
-      <item value="'check(java.lang.String)' in 'com.vecentek.dk.Test' cannot be applied to '(java.lang.String, java.lang.Integer)'" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1143" />
-        <entry key="ENGLISH" value="1143" />
+        <entry key="CHINESE" value="1144" />
+        <entry key="ENGLISH" value="1145" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
@@ -71,7 +71,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1644821011806" />
+    <option name="lastTrimTime" value="1645494939321" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
