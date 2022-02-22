@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Add a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
+      <item value="dd a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
+      <item value="Returns:&#10;a JWTCreator.Builder instance to configure." />
       <item value="Useful constant for the highest precedence value" />
       <item value="Indicate that message handling is complete, allowing for any cleanup or end-of-processing tasks to be performed such as applying header changes made via getHeaders() to the underlying HTTP message (if not applied already).&#10;This method should be automatically invoked at the end of message processing so typically applications should not have to invoke it. If invoked multiple times it should have no side effects.&#10;Returns:&#10;a Mono that indicates completion or error" />
       <item value="Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity. Occasionally a method may wish to test whether the current thread has been interrupted, and if so, to immediately throw this exception. The following code can be used to achieve this effect:&#10;    if (Thread.interrupted())   Clears interrupted status!&#10;        throw new InterruptedException();" />
@@ -54,14 +57,11 @@
       <item value="Default export is not declared in imported module" />
       <item value="The expression {artifactId} is deprecated. Please use {project.artifactId} instead." />
       <item value="ambiguous" />
-      <item value="roeot" />
-      <item value="吊销" />
-      <item value="diao" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1146" />
-        <entry key="ENGLISH" value="1147" />
+        <entry key="CHINESE" value="1149" />
+        <entry key="ENGLISH" value="1150" />
         <entry key="DANISH" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
