@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Annotation to mark a RestTemplate or WebClient bean to be configured to use a LoadBalancerClient.&#10;Author:&#10;Spencer Gibb" />
       <item value="      Main method and entry point when starting Tomcat via the provided&#10;      scripts.&#10;     &#10;      @param args Command line arguments to be processed" />
       <item value="Bootstrap loader for Catalina. This application constructs a class loader for use in loading the Catalina internal classes (by accumulating all of the JAR files found in the &quot;server&quot; directory under &quot;catalina.home&quot;), and starts the regular execution of the container. The purpose of this roundabout approach is to keep the Catalina internal classes (and any other classes they depend on, such as an XML parser) out of the system class path and therefore not visible to application level classes.&#10;Author:&#10;Craig R. McClanahan, Remy Maucherat" />
       <item value="The rx operators will offer aliases for input Mono type to preserve the &quot;at most one&quot; property of the resulting Mono. For instance flatMap returns a Mono, while there is a flatMapMany alias with possibly more than 1 emission.&#10;Mono&lt;Void&gt; should be used for Publisher that just completes without any value.&#10;It is intended to be used in implementations and return types, input parameters should keep using raw Publisher as much as possible.&#10;Note that using state in the java.util.function  lambdas used within Mono operators should be avoided, as these may be shared between several Subscribers.&#10;See Also:&#10;Flux&#10;Author:&#10;Sebastien Deleuze, Stephane Maldini, David Karnok, Simon Baslé&#10;Type parameters:&#10;&lt;T&gt; – the type of the single value of this class" />
@@ -56,12 +57,11 @@
       <item value="Invalid" />
       <item value="The number of object passed must be even but was" />
       <item value="协议" />
-      <item value="deprecated" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1155" />
-        <entry key="ENGLISH" value="1156" />
+        <entry key="CHINESE" value="1156" />
+        <entry key="ENGLISH" value="1157" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
