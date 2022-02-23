@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The rx operators will offer aliases for input Mono type to preserve the &quot;at most one&quot; property of the resulting Mono. For instance flatMap returns a Mono, while there is a flatMapMany alias with possibly more than 1 emission.&#10;Mono&lt;Void&gt; should be used for Publisher that just completes without any value.&#10;It is intended to be used in implementations and return types, input parameters should keep using raw Publisher as much as possible.&#10;Note that using state in the java.util.function  lambdas used within Mono operators should be avoided, as these may be shared between several Subscribers.&#10;See Also:&#10;Flux&#10;Author:&#10;Sebastien Deleuze, Stephane Maldini, David Karnok, Simon Baslé&#10;Type parameters:&#10;&lt;T&gt; – the type of the single value of this class" />
+      <item value="retain" />
+      <item value="Transform the item emitted by this Mono asynchronously, returning the value emitted by another Mono (possibly changing the value type).&#10; &#10;Params:&#10;transformer – the function to dynamically bind a new Mono&#10;Type parameters:&#10;&lt;R&gt; – the result type bound&#10;Returns:&#10;a new Mono with an asynchronously mapped value." />
       <item value="Obtain a InputStream from the given supplier, and read it into a Flux of DataBuffers. Closes the input stream when the Flux is terminated.&#10;Params:&#10;inputStreamSupplier – the supplier for the input stream to read from&#10;bufferFactory – the factory to create data buffers with&#10;bufferSize – the maximum size of the data buffers&#10;Returns:&#10;a Flux of data buffers read from the given channel" />
       <item value="Utility class for working with DataBuffers.&#10;Since:&#10;5.0&#10;Author:&#10;Arjen Poutsma, Brian Clozel" />
       <item value="Add a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
@@ -54,14 +57,11 @@
       <item value="deprecated" />
       <item value="expression" />
       <item value="instead" />
-      <item value="'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 74, column 17" />
-      <item value="thymeleaf" />
-      <item value="Default export is not declared in imported module" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1150" />
-        <entry key="ENGLISH" value="1151" />
+        <entry key="CHINESE" value="1153" />
+        <entry key="ENGLISH" value="1154" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
