@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Obtain a InputStream from the given supplier, and read it into a Flux of DataBuffers. Closes the input stream when the Flux is terminated.&#10;Params:&#10;inputStreamSupplier – the supplier for the input stream to read from&#10;bufferFactory – the factory to create data buffers with&#10;bufferSize – the maximum size of the data buffers&#10;Returns:&#10;a Flux of data buffers read from the given channel" />
+      <item value="Utility class for working with DataBuffers.&#10;Since:&#10;5.0&#10;Author:&#10;Arjen Poutsma, Brian Clozel" />
       <item value="Add a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
       <item value="dd a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
       <item value="Returns:&#10;a JWTCreator.Builder instance to configure." />
@@ -55,14 +57,13 @@
       <item value="'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 74, column 17" />
       <item value="thymeleaf" />
       <item value="Default export is not declared in imported module" />
-      <item value="The expression {artifactId} is deprecated. Please use {project.artifactId} instead." />
-      <item value="ambiguous" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1149" />
-        <entry key="ENGLISH" value="1150" />
+        <entry key="CHINESE" value="1150" />
+        <entry key="ENGLISH" value="1151" />
         <entry key="DANISH" value="2" />
+        <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="JAPANESE" value="1" />
