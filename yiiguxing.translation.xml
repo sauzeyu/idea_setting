@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="authority" />
       <item value="Return the body of the message as a Publisher.&#10;Returns:&#10;the body content publisher" />
       <item value="Return the request attribute value or if not present raise an" />
       <item value="Return the current HTTP request." />
@@ -56,12 +57,11 @@
       <item value="交通re" />
       <item value="jiao't" />
       <item value="che" />
-      <item value="      Return the Virtual Machine's Class object for the named&#10;      primitive type." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1170" />
-        <entry key="ENGLISH" value="1171" />
+        <entry key="CHINESE" value="1171" />
+        <entry key="ENGLISH" value="1172" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
