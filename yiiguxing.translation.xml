@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Defines an object to provide client request information to a servlet. The servlet container creates a ServletRequest object and passes it as an argument to the servlet's service method.&#10;A ServletRequest object provides data including parameter name and values, attributes, and an input stream. Interfaces that extend ServletRequest can provide additional protocol-specific data (for example, HTTP data is provided by javax.servlet.http.HttpServletRequest.&#10;See Also:&#10;javax.servlet.http.HttpServletRequest" />
       <item value="A Publisher is a provider of a potentially unbounded number of sequenced elements, publishing them according to the demand received from its Subscriber(s).&#10;A Publisher can serve multiple Subscribers subscribed subscribe(Subscriber) dynamically at various points in time.&#10;Type parameters:&#10;&lt;T&gt; – the type of element signaled." />
       <item value="A Reactive Streams Publisher with rx operators that emits 0 to N elements, and then completes (successfully or with an error).&#10;The recommended way to learn about the Flux API and discover new operators is through the reference documentation, rather than through this javadoc (as opposed to learning more about individual operators). See the &quot;which operator do I need?&quot; appendix .&#10; &#10;It is intended to be used in implementations and return types. Input parameters should keep using raw Publisher as much as possible.&#10;If it is known that the underlying Publisher will emit 0 or 1 element, Mono should be used instead.&#10;Note that using state in the java.util.function  lambdas used within Flux operators should be avoided, as these may be shared between several Subscribers.&#10;subscribe(CoreSubscriber) is an internal extension to subscribe(Subscriber) used internally for Context passing. User provided Subscriber may be passed to this &quot;subscribe&quot; extension but will loose the available per-subscribe Hooks.onLastOperator." />
       <item value="Basic abstraction over byte buffers.&#10;DataBuffers has a separate read and write position, as opposed to ByteBuffer's single position. As such, the DataBuffer does not require a flip to read after writing. In general, the following invariant holds for the read and write positions, and the capacity:&#10;0 &lt;= readPosition &lt;= writePosition &lt;= capacity&#10;The capacity of a DataBuffer is expanded on demand, similar to StringBuilder.&#10;The main purpose of the DataBuffer abstraction is to provide a convenient wrapper around ByteBuffer which is similar to Netty's io.netty.buffer.ByteBuf but can also be used on non-Netty platforms (i.e. Servlet containers).&#10;Since:&#10;5.0&#10;See Also:&#10;DataBufferFactory&#10;Author:&#10;Arjen Poutsma, Brian Clozel" />
@@ -56,12 +57,11 @@
       <item value="la'b" />
       <item value="trunk" />
       <item value="cursor" />
-      <item value="resume" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1165" />
-        <entry key="ENGLISH" value="1166" />
+        <entry key="CHINESE" value="1166" />
+        <entry key="ENGLISH" value="1167" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
