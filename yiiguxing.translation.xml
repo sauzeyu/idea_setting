@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="dangling" />
+      <item value="Dangling" />
+      <item value="segment" />
       <item value="authority" />
       <item value="Return the body of the message as a Publisher.&#10;Returns:&#10;the body content publisher" />
       <item value="Return the request attribute value or if not present raise an" />
@@ -54,14 +57,11 @@
       <item value="包含" />
       <item value="交通工具" />
       <item value="交通工具及" />
-      <item value="交通re" />
-      <item value="jiao't" />
-      <item value="che" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1171" />
-        <entry key="ENGLISH" value="1172" />
+        <entry key="CHINESE" value="1175" />
+        <entry key="ENGLISH" value="1174" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
