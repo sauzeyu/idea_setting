@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="replace default Configuration class" />
       <item value="dangling" />
       <item value="Dangling" />
       <item value="segment" />
@@ -56,12 +57,11 @@
       <item value="目标" />
       <item value="包含" />
       <item value="交通工具" />
-      <item value="交通工具及" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1175" />
-        <entry key="ENGLISH" value="1174" />
+        <entry key="ENGLISH" value="1175" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
