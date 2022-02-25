@@ -2,11 +2,14 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="615" />
+    <option name="newTranslationDialogWidth" value="613" />
     <option name="newTranslationDialogX" value="1208" />
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Method 'put()' recurses infinitely, and can only end by throwing an exception" />
+      <item value="Object" />
+      <item value="key – key with which the specified value is to be associated" />
       <item value="Claims" />
       <item value="Sets a custom JWT Claims parameter value. A null value will remove the property from the Claims.&#10;This is a convenience method. It will first ensure a Claims instance exists as the JWT body and then set the named property on the Claims instance using the Claims put method. This allows you to write code like this:" />
       <item value="Sets a custom JWT Claims parameter value. A null value will remove the property from the Claims.&#10;This is a convenience method. It will first ensure a Claims instance exists as the JWT body and then set the named property on the Claims instance using the Claims put method. This allows you to write code like this:&#10;       String jwt = Jwts.builder().claim(&quot;aName&quot;, &quot;aValue&quot;).compact();&#10;       &#10;instead of this:&#10;       Claims claims = Jwts.claims().put(&quot;aName&quot;, &quot;aValue&quot;);&#10;       String jwt = Jwts.builder().setClaims(claims).compact();&#10;       &#10;if desired.&#10;Params:&#10;name – the JWT Claims property name&#10;value – the value to set for the specified Claims property name&#10;Returns:&#10;the builder instance for method chaining." />
@@ -54,14 +57,11 @@
       <item value="Thrown by HttpMessageConverter implementations when the HttpMessageConverter.read method fails.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller" />
       <item value="batch" />
       <item value="des" />
-      <item value="关键字" />
-      <item value="关键字在" />
-      <item value="key Extractor" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1179" />
-        <entry key="ENGLISH" value="1180" />
+        <entry key="CHINESE" value="1181" />
+        <entry key="ENGLISH" value="1181" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
