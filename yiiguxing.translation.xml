@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Generates implementations for the equals and hashCode methods inherited by all objects, based on relevant fields." />
       <item value="Method 'put()' recurses infinitely, and can only end by throwing an exception" />
       <item value="Object" />
       <item value="key – key with which the specified value is to be associated" />
@@ -56,12 +57,11 @@
       <item value="unpacker" />
       <item value="Thrown by HttpMessageConverter implementations when the HttpMessageConverter.read method fails.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller" />
       <item value="batch" />
-      <item value="des" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1181" />
-        <entry key="ENGLISH" value="1181" />
+        <entry key="ENGLISH" value="1182" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
