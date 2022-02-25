@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="613" />
+    <option name="newTranslationDialogWidth" value="611" />
     <option name="newTranslationDialogX" value="1208" />
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Method invocation 'msg' may produce 'NullPointerException' " />
       <item value="Generates implementations for the equals and hashCode methods inherited by all objects, based on relevant fields." />
       <item value="Method 'put()' recurses infinitely, and can only end by throwing an exception" />
       <item value="Object" />
@@ -56,11 +57,10 @@
       <item value="Usage model. To motivate the behavior of add() and roll(), consider a user interface component with increment and decrement buttons for the month, day, and year, and an underlying GregorianCalendar. If the interface reads January 31, 1999 and the user presses the month increment button, what should it read? If the underlying implementation uses set(), it might read March 3, 1999. A better result would be February 28, 1999. Furthermore, if the user presses the month increment button again, it should read March 31, 1999, not March 28, 1999. By saving the original date and using either add() or roll(), depending on whether" />
       <item value="unpacker" />
       <item value="Thrown by HttpMessageConverter implementations when the HttpMessageConverter.read method fails.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller" />
-      <item value="batch" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1181" />
+        <entry key="CHINESE" value="1182" />
         <entry key="ENGLISH" value="1182" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
