@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="611" />
+    <option name="newTranslationDialogWidth" value="609" />
     <option name="newTranslationDialogX" value="1208" />
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Unchecked cast: 'java.lang.String' to 'T'" />
       <item value="Method invocation 'msg' may produce 'NullPointerException' " />
       <item value="Generates implementations for the equals and hashCode methods inherited by all objects, based on relevant fields." />
       <item value="Method 'put()' recurses infinitely, and can only end by throwing an exception" />
@@ -56,11 +57,10 @@
       <item value="翻译文档失败: 翻译失败: 未知错误&#10;&#10;&gt;Plugin v3.2.0.1  &#10;&gt;IntelliJ IDEA 2021.1.2  &#10;&gt;Build #IU-211.7442.40, built on June 1, 2021  &#10;&gt;Runtime version: 11.0.11+9-b1341.57 amd64  &#10;&gt;VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.  &#10;&gt;OS: Windows 10 10.0&#10;&#10;```&#10;cn.yiiguxing.plugin.translate.trans.TranslateException: Google 翻译 :: 翻译失败: 未知错误&#10;&#9;at cn.yiiguxing.plugin.translate.trans.AbstractTranslator.onError(AbstractTranslator.kt:47)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.onError(GoogleTranslator.kt:131)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.AbstractTranslator.access$onError(AbstractTranslator.kt:16)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.translateDocumentation(GoogleTranslator.kt:158)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.HtmlTranslatorKt.getTranslatedDocumentation(HtmlTranslator.kt:110)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.HtmlTranslatorKt.getTranslatedDocumentation(HtmlTranslator.kt:47)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.TranslateDocumentationTask$special$$inlined$runAsync$1.run(promise.kt:402)&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)&#10;&#9;at java.base/java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)&#10;&#9;at java.base/java.lang.Thread.run(Thread.java:829)&#10;Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.parseDocTranslation(GoogleTranslator.kt:125)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.access$parseDocTranslation(GoogleTranslator.kt:16)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator$translateDocumentation$1$client$2.invoke(GoogleTranslator.kt:58)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator$translateDocumentation$1$client$2.invoke(GoogleTranslator.kt:58)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.SimpleTranslateClient.parse(SimpleTranslateClient.kt:19)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.TranslateClient.execute(TranslateClient.kt:51)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.translateDocumentation(GoogleTranslator.kt:62)&#10;&#9;... 10 more&#10;```&#10;" />
       <item value="Usage model. To motivate the behavior of add() and roll(), consider a user interface component with increment and decrement buttons for the month, day, and year, and an underlying GregorianCalendar. If the interface reads January 31, 1999 and the user presses the month increment button, what should it read? If the underlying implementation uses set(), it might read March 3, 1999. A better result would be February 28, 1999. Furthermore, if the user presses the month increment button again, it should read March 31, 1999, not March 28, 1999. By saving the original date and using either add() or roll(), depending on whether" />
       <item value="unpacker" />
-      <item value="Thrown by HttpMessageConverter implementations when the HttpMessageConverter.read method fails.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1182" />
+        <entry key="CHINESE" value="1183" />
         <entry key="ENGLISH" value="1182" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1645494939321" />
+    <option name="lastTrimTime" value="1646214291340" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
