@@ -8,6 +8,13 @@
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
       <item value="Indicate that message handling is complete, allowing for any cleanup or end-of-processing tasks to be performed such as applying header changes made via getHeaders() to the underlying HTTP message (if not applied already).&#10;This method should be automatically invoked at the end of message processing so typically applications should not have to invoke it. If invoked multiple times it should have no side effects.&#10;Returns:&#10;a Mono that indicates completion or error" />
+      <item value="Set the HTTP status code to the given value (potentially non-standard and not resolvable through the HttpStatus enum) as an integer.&#10;Params:&#10;value – the status code value&#10;Returns:&#10;false if the status code change wasn't processed because the HTTP response is committed, true if successfully set.&#10;Since:&#10;5.2.4" />
+      <item value="Unauthorized" />
+      <item value="Reset Content" />
+      <item value="Non-Authoritative Information" />
+      <item value="Not Acceptable." />
+      <item value="402 Payment Required." />
+      <item value="00 Bad Request." />
       <item value="Return the first header value for the given header name, if any.&#10;Params:&#10;headerName – the header name&#10;Returns:&#10;the first header value, or null if none" />
       <item value="生成" />
       <item value="Unchecked cast: 'java.lang.String' to 'T'" />
@@ -50,18 +57,11 @@
       <item value="Returns:&#10;a JWTCreator.Builder instance to configure." />
       <item value="Useful constant for the highest precedence value" />
       <item value="Thrown when a thread is waiting, sleeping, or otherwise occupied, and the thread is interrupted, either before or during the activity. Occasionally a method may wish to test whether the current thread has been interrupted, and if so, to immediately throw this exception. The following code can be used to achieve this effect:&#10;    if (Thread.interrupted())   Clears interrupted status!&#10;        throw new InterruptedException();" />
-      <item value="Interrupted Exception" />
-      <item value="Following columns have no computeddefault value and must be listed explicitly: phone_fingerprint " />
-      <item value="Creates a new instance&#10;Params:&#10;allowed – the origins that are allowed." />
-      <item value="Specify to allow any request that comes from the same origin to frame this application. For example, if the application was hosted on example.com, then example.com could frame the application, but evil.com could not frame the application.&#10;Returns:&#10;the HeadersConfigurer for additional customization" />
-      <item value="Collect" />
-      <item value="Manipulation" />
-      <item value="翻译文档失败: 翻译失败: 未知错误&#10;&#10;&gt;Plugin v3.2.0.1  &#10;&gt;IntelliJ IDEA 2021.1.2  &#10;&gt;Build #IU-211.7442.40, built on June 1, 2021  &#10;&gt;Runtime version: 11.0.11+9-b1341.57 amd64  &#10;&gt;VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.  &#10;&gt;OS: Windows 10 10.0&#10;&#10;```&#10;cn.yiiguxing.plugin.translate.trans.TranslateException: Google 翻译 :: 翻译失败: 未知错误&#10;&#9;at cn.yiiguxing.plugin.translate.trans.AbstractTranslator.onError(AbstractTranslator.kt:47)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.onError(GoogleTranslator.kt:131)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.AbstractTranslator.access$onError(AbstractTranslator.kt:16)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.translateDocumentation(GoogleTranslator.kt:158)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.HtmlTranslatorKt.getTranslatedDocumentation(HtmlTranslator.kt:110)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.HtmlTranslatorKt.getTranslatedDocumentation(HtmlTranslator.kt:47)&#10;&#9;at cn.yiiguxing.plugin.translate.documentation.TranslateDocumentationTask$special$$inlined$runAsync$1.run(promise.kt:402)&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#10;&#9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)&#10;&#9;at java.base/java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)&#10;&#9;at java.base/java.lang.Thread.run(Thread.java:829)&#10;Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.parseDocTranslation(GoogleTranslator.kt:125)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.access$parseDocTranslation(GoogleTranslator.kt:16)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator$translateDocumentation$1$client$2.invoke(GoogleTranslator.kt:58)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator$translateDocumentation$1$client$2.invoke(GoogleTranslator.kt:58)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.SimpleTranslateClient.parse(SimpleTranslateClient.kt:19)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.TranslateClient.execute(TranslateClient.kt:51)&#10;&#9;at cn.yiiguxing.plugin.translate.trans.google.GoogleTranslator.translateDocumentation(GoogleTranslator.kt:62)&#10;&#9;... 10 more&#10;```&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1189" />
-        <entry key="ENGLISH" value="1190" />
+        <entry key="CHINESE" value="1197" />
+        <entry key="ENGLISH" value="1198" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
