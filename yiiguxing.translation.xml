@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="dynamic" />
       <item value="parse" />
       <item value="Indicate that message handling is complete, allowing for any cleanup or end-of-processing tasks to be performed such as applying header changes made via getHeaders() to the underlying HTTP message (if not applied already).&#10;This method should be automatically invoked at the end of message processing so typically applications should not have to invoke it. If invoked multiple times it should have no side effects.&#10;Returns:&#10;a Mono that indicates completion or error" />
       <item value="Set the HTTP status code to the given value (potentially non-standard and not resolvable through the HttpStatus enum) as an integer.&#10;Params:&#10;value – the status code value&#10;Returns:&#10;false if the status code change wasn't processed because the HTTP response is committed, true if successfully set.&#10;Since:&#10;5.2.4" />
@@ -56,12 +57,11 @@
       <item value="Add a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
       <item value="dd a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
       <item value="Returns:&#10;a JWTCreator.Builder instance to configure." />
-      <item value="Useful constant for the highest precedence value" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1198" />
-        <entry key="ENGLISH" value="1198" />
+        <entry key="ENGLISH" value="1199" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646214291340" />
+    <option name="lastTrimTime" value="1646707856017" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
