@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Contents of collection 'errorVinList' are updated, but never queried" />
       <item value="Returns true if this collection contains no elements.&#10;Returns:&#10;true if this collection contains no elements" />
       <item value="dynamic" />
       <item value="parse" />
@@ -56,11 +57,10 @@
       <item value="Obtain a InputStream from the given supplier, and read it into a Flux of DataBuffers. Closes the input stream when the Flux is terminated.&#10;Params:&#10;inputStreamSupplier – the supplier for the input stream to read from&#10;bufferFactory – the factory to create data buffers with&#10;bufferSize – the maximum size of the data buffers&#10;Returns:&#10;a Flux of data buffers read from the given channel" />
       <item value="Utility class for working with DataBuffers.&#10;Since:&#10;5.0&#10;Author:&#10;Arjen Poutsma, Brian Clozel" />
       <item value="Add a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
-      <item value="dd a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1199" />
+        <entry key="CHINESE" value="1200" />
         <entry key="ENGLISH" value="1200" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
