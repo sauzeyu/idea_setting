@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator (optional operation). The behavior of this operation is undefined if the specified collection is modified while the operation is in progress. (Note that this will occur if the specified collection is this list, and it's nonempty.)&#10;Params:&#10;c – collection containing elements to be added to this list&#10;Returns:&#10;true if this list changed as a result of the call" />
       <item value="Contents of collection 'errorVinList' are updated, but never queried" />
       <item value="Returns true if this collection contains no elements.&#10;Returns:&#10;true if this collection contains no elements" />
       <item value="dynamic" />
@@ -56,12 +57,11 @@
       <item value="Transform the item emitted by this Mono asynchronously, returning the value emitted by another Mono (possibly changing the value type).&#10; &#10;Params:&#10;transformer – the function to dynamically bind a new Mono&#10;Type parameters:&#10;&lt;R&gt; – the result type bound&#10;Returns:&#10;a new Mono with an asynchronously mapped value." />
       <item value="Obtain a InputStream from the given supplier, and read it into a Flux of DataBuffers. Closes the input stream when the Flux is terminated.&#10;Params:&#10;inputStreamSupplier – the supplier for the input stream to read from&#10;bufferFactory – the factory to create data buffers with&#10;bufferSize – the maximum size of the data buffers&#10;Returns:&#10;a Flux of data buffers read from the given channel" />
       <item value="Utility class for working with DataBuffers.&#10;Since:&#10;5.0&#10;Author:&#10;Arjen Poutsma, Brian Clozel" />
-      <item value="Add a specific Expires At (&quot;exp&quot;) claim to the Payload.&#10;Params:&#10;expiresAt – the Expires At value.&#10;Returns:&#10;this same Builder instance." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1200" />
-        <entry key="ENGLISH" value="1200" />
+        <entry key="ENGLISH" value="1201" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
