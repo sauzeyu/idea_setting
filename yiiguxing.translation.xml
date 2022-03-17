@@ -2,11 +2,14 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="605" />
+    <option name="newTranslationDialogWidth" value="767" />
     <option name="newTranslationDialogX" value="1208" />
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Cannot resolve method 'ok(java.lang.String, long, java.util.List&lt;com.vecentek.back.entity.DkmAdmin&gt;)'" />
+      <item value="Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory" />
+      <item value="nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dkmAdminServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dkmAdminMapper' defined in file " />
       <item value="Injection" />
       <item value="batch" />
       <item value="Non-static method cannot be referenced from a static contexT" />
@@ -54,14 +57,11 @@
       <item value="Get the order value of this object.&#10;Higher values are interpreted as lower priority. As a consequence, the object with the lowest value has the highest priority (somewhat analogous to Servlet load-on-startup values).&#10;Same order values will result in arbitrary sort positions for the affected objects.&#10;Returns:&#10;the order value" />
       <item value="Useful constant for the highest precedence value." />
       <item value="Useful constant for the highest precedence value.&#10;See Also:&#10;Integer.MIN_VALUE" />
-      <item value="Return the SSL session information if the request has been transmitted over a secure protocol including SSL certificates, if available.&#10;Returns:&#10;the session information, or null if none availabl" />
-      <item value="Annotation to mark a RestTemplate or WebClient bean to be configured to use a LoadBalancerClient.&#10;Author:&#10;Spencer Gibb" />
-      <item value="      Main method and entry point when starting Tomcat via the provided&#10;      scripts.&#10;     &#10;      @param args Command line arguments to be processed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1205" />
-        <entry key="ENGLISH" value="1205" />
+        <entry key="CHINESE" value="1207" />
+        <entry key="ENGLISH" value="1207" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
