@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Injection" />
       <item value="batch" />
       <item value="Non-static method cannot be referenced from a static contexT" />
       <item value="Non-static method cannot be referenced from a static contex" />
@@ -56,12 +57,11 @@
       <item value="Return the SSL session information if the request has been transmitted over a secure protocol including SSL certificates, if available.&#10;Returns:&#10;the session information, or null if none availabl" />
       <item value="Annotation to mark a RestTemplate or WebClient bean to be configured to use a LoadBalancerClient.&#10;Author:&#10;Spencer Gibb" />
       <item value="      Main method and entry point when starting Tomcat via the provided&#10;      scripts.&#10;     &#10;      @param args Command line arguments to be processed" />
-      <item value="Bootstrap loader for Catalina. This application constructs a class loader for use in loading the Catalina internal classes (by accumulating all of the JAR files found in the &quot;server&quot; directory under &quot;catalina.home&quot;), and starts the regular execution of the container. The purpose of this roundabout approach is to keep the Catalina internal classes (and any other classes they depend on, such as an XML parser) out of the system class path and therefore not visible to application level classes.&#10;Author:&#10;Craig R. McClanahan, Remy Maucherat" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1205" />
-        <entry key="ENGLISH" value="1204" />
+        <entry key="ENGLISH" value="1205" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
