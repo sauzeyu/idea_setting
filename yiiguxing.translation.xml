@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Non-static method cannot be referenced from a static context" />
       <item value="Cannot resolve method 'ok(java.lang.String, long, java.util.List&lt;com.vecentek.back.entity.DkmAdmin&gt;)'" />
       <item value="Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory" />
       <item value="nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dkmAdminServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dkmAdminMapper' defined in file " />
@@ -56,11 +57,10 @@
       <item value="Basic abstraction over byte buffers.&#10;DataBuffers has a separate read and write position, as opposed to ByteBuffer's single position. As such, the DataBuffer does not require a flip to read after writing. In general, the following invariant holds for the read and write positions, and the capacity:&#10;0 &lt;= readPosition &lt;= writePosition &lt;= capacity&#10;The capacity of a DataBuffer is expanded on demand, similar to StringBuilder.&#10;The main purpose of the DataBuffer abstraction is to provide a convenient wrapper around ByteBuffer which is similar to Netty's io.netty.buffer.ByteBuf but can also be used on non-Netty platforms (i.e. Servlet containers).&#10;Since:&#10;5.0&#10;See Also:&#10;DataBufferFactory&#10;Author:&#10;Arjen Poutsma, Brian Clozel" />
       <item value="Get the order value of this object.&#10;Higher values are interpreted as lower priority. As a consequence, the object with the lowest value has the highest priority (somewhat analogous to Servlet load-on-startup values).&#10;Same order values will result in arbitrary sort positions for the affected objects.&#10;Returns:&#10;the order value" />
       <item value="Useful constant for the highest precedence value." />
-      <item value="Useful constant for the highest precedence value.&#10;See Also:&#10;Integer.MIN_VALUE" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1207" />
+        <entry key="CHINESE" value="1208" />
         <entry key="ENGLISH" value="1207" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
