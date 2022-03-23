@@ -36,10 +36,10 @@
         <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-13" />
       </configuration>
     </remote-server>
-    <remote-server name="为辰-6-106" type="docker">
+    <remote-server name="为辰-6-107" type="docker">
       <configuration>
-        <option name="apiUrl" value="https://172.16.6.106" />
-        <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-6-106" />
+        <option name="apiUrl" value="https://172.16.6.107" />
+        <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-6-107" />
       </configuration>
     </remote-server>
   </component>
