@@ -21,7 +21,7 @@
     <remote-server name="为辰-11" type="docker">
       <configuration>
         <option name="apiUrl" value="https://172.16.13.11:2376" />
-        <option name="certificatesPath" value="C:\Users\Y7701\Desktop\为辰信安-Start\docker-ca\为辰-11" />
+        <option name="certificatesPath" value="E:\docker-ca\为辰-13-11" />
       </configuration>
     </remote-server>
     <remote-server name="为辰-12" type="docker">
