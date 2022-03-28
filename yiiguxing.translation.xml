@@ -2,11 +2,13 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="767" />
+    <option name="newTranslationDialogWidth" value="765" />
     <option name="newTranslationDialogX" value="1208" />
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Throwable argument 'e' to 'System.out.println()' call " />
+      <item value="Provides programmatic access to the stack trace information printed by printStackTrace(). Returns an array of stack trace elements, each representing one stack frame. The zeroth element of the array (assuming the array's length is non-zero) represents the top of the stack, which is the last method invocation in the sequence. Typically, this is the point at which this throwable was created and thrown. The last element of the array (assuming the array's length is non-zero) represents the bottom of the stack, which is the first method invocation in the sequence.&#10;Some virtual machines may, under some circumstances, omit one or more stack frames from the stack trace. In the extreme case, a virtual machine that has no stack trace information concerning this throwable is permitted to return a zero-length array from this method. Generally speaking, the array returned by this method will contain one element for every frame that would be printed by printStackTrace. Writes to the returned array do not affect future calls to this method.&#10;Returns:&#10;an array of stack trace elements representing the stack trace pertaining to this throwable." />
       <item value="Contents of collection 'errorVinList' are updated, but never queried " />
       <item value="SQL Integrity Constraint Violation Exception" />
       <item value="Returns the detail message string of this throwable.&#10;Returns:&#10;the detail message string of this Throwable instance (which may be null)." />
@@ -55,13 +57,11 @@
       <item value="Dangling" />
       <item value="segment" />
       <item value="authority" />
-      <item value="Return the body of the message as a Publisher.&#10;Returns:&#10;the body content publisher" />
-      <item value="Return the request attribute value or if not present raise an" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1216" />
-        <entry key="ENGLISH" value="1216" />
+        <entry key="CHINESE" value="1217" />
+        <entry key="ENGLISH" value="1217" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
