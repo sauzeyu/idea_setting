@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Returns the detail message string of this throwable.&#10;Returns:&#10;the detail message string of this Throwable instance (which may be null)." />
+      <item value="Constructs a new throwable with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to initCause.&#10;The fillInStackTrace() method is called to initialize the stack trace data in the newly created throwable.&#10;Params:&#10;message – the detail message. The detail message is saved for later retrieval by the getMessage() method." />
+      <item value="Specific details about the Throwable. For example, for FileNotFoundException, this contains the name of the file that could not be found." />
       <item value="Point not on curve" />
       <item value="Initializes the key pair generator for a certain keysize with the given source of randomness (and a default parameter set).&#10;Params:&#10;keysize – the keysize. This is an algorithm-specific metric, such as modulus length, specified in number of bits.&#10;random – the source of randomness.&#10;Throws:&#10;InvalidParameterException – if the keysize is not supported by this KeyPairGenerator object." />
       <item value="secret" />
@@ -54,14 +57,11 @@
       <item value="Return the request attribute value or if not present raise an" />
       <item value="Return the current HTTP request." />
       <item value="An &quot;reactive&quot; HTTP input message that exposes the input as Publisher.&#10;Typically implemented by an HTTP request on the server-side or a response on the client-side." />
-      <item value="Defines an object to provide client request information to a servlet. The servlet container creates a ServletRequest object and passes it as an argument to the servlet's service method.&#10;A ServletRequest object provides data including parameter name and values, attributes, and an input stream. Interfaces that extend ServletRequest can provide additional protocol-specific data (for example, HTTP data is provided by javax.servlet.http.HttpServletRequest.&#10;See Also:&#10;javax.servlet.http.HttpServletRequest" />
-      <item value="A Publisher is a provider of a potentially unbounded number of sequenced elements, publishing them according to the demand received from its Subscriber(s).&#10;A Publisher can serve multiple Subscribers subscribed subscribe(Subscriber) dynamically at various points in time.&#10;Type parameters:&#10;&lt;T&gt; – the type of element signaled." />
-      <item value="A Reactive Streams Publisher with rx operators that emits 0 to N elements, and then completes (successfully or with an error).&#10;The recommended way to learn about the Flux API and discover new operators is through the reference documentation, rather than through this javadoc (as opposed to learning more about individual operators). See the &quot;which operator do I need?&quot; appendix .&#10; &#10;It is intended to be used in implementations and return types. Input parameters should keep using raw Publisher as much as possible.&#10;If it is known that the underlying Publisher will emit 0 or 1 element, Mono should be used instead.&#10;Note that using state in the java.util.function  lambdas used within Flux operators should be avoided, as these may be shared between several Subscribers.&#10;subscribe(CoreSubscriber) is an internal extension to subscribe(Subscriber) used internally for Context passing. User provided Subscriber may be passed to this &quot;subscribe&quot; extension but will loose the available per-subscribe Hooks.onLastOperator." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1209" />
-        <entry key="ENGLISH" value="1210" />
+        <entry key="CHINESE" value="1213" />
+        <entry key="ENGLISH" value="1214" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
