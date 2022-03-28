@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="SQL Integrity Constraint Violation Exception" />
       <item value="Returns the detail message string of this throwable.&#10;Returns:&#10;the detail message string of this Throwable instance (which may be null)." />
       <item value="Constructs a new throwable with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to initCause.&#10;The fillInStackTrace() method is called to initialize the stack trace data in the newly created throwable.&#10;Params:&#10;message – the detail message. The detail message is saved for later retrieval by the getMessage() method." />
       <item value="Specific details about the Throwable. For example, for FileNotFoundException, this contains the name of the file that could not be found." />
@@ -56,12 +57,11 @@
       <item value="Return the body of the message as a Publisher.&#10;Returns:&#10;the body content publisher" />
       <item value="Return the request attribute value or if not present raise an" />
       <item value="Return the current HTTP request." />
-      <item value="An &quot;reactive&quot; HTTP input message that exposes the input as Publisher.&#10;Typically implemented by an HTTP request on the server-side or a response on the client-side." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1213" />
-        <entry key="ENGLISH" value="1214" />
+        <entry key="CHINESE" value="1215" />
+        <entry key="ENGLISH" value="1216" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
