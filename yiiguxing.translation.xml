@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Result type not match for select id=&quot;selectBluetoothList&quot; srcType: targetType: com.vecentek.back.entity.DkmBluetooths" />
       <item value="Encodes this String into a sequence of bytes using the platform's default charset, storing the result into a new byte array.&#10;The behavior of this method when this string cannot be encoded in the default charset is unspecified. The java.nio.charset.CharsetEncoder class should be used when more control over the encoding process is required" />
       <item value="Unreachable" />
       <item value="Throwable argument 'e' to 'System.out.println()' call " />
@@ -56,11 +57,10 @@
       <item value="Sets the JWT Claims exp (expiration) value. A null value will remove the property from the Claims.&#10;A JWT obtained after this timestamp should not be used.&#10;This is a convenience method. It will first ensure a Claims instance exists as the JWT body and then set the Claims expiration field with the specified value. This allows you to write code like this:&#10;       String jwt = Jwts.builder().setExpiration(new Date(System.currentTimeMillis() + 3600000)).compact();&#10;       &#10;instead of this:&#10;       Claims claims = Jwts.claims().setExpiration(new Date(System.currentTimeMillis() + 3600000));&#10;       String jwt = Jwts.builder().setClaims(claims).compact();&#10;       &#10;if desired.&#10;Params:&#10;exp – the JWT exp value or null to remove the property from the Claims map.&#10;Returns:&#10;the builder instance for method chaining." />
       <item value="replace default Configuration class" />
       <item value="dangling" />
-      <item value="Dangling" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1218" />
+        <entry key="CHINESE" value="1219" />
         <entry key="ENGLISH" value="1218" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1648088411178" />
+    <option name="lastTrimTime" value="1648520907920" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
