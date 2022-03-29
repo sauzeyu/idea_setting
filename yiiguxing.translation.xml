@@ -7,6 +7,10 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by" />
+      <item value="functionally" />
+      <item value=" Every derived table must have its own alias" />
+      <item value="very derived table must have its own alias" />
       <item value="already" />
       <item value="Result type not match for select id=&quot;selectBluetoothList&quot; srcType: targetType: com.vecentek.back.entity.DkmBluetooths" />
       <item value="Encodes this String into a sequence of bytes using the platform's default charset, storing the result into a new byte array.&#10;The behavior of this method when this string cannot be encoded in the default charset is unspecified. The java.nio.charset.CharsetEncoder class should be used when more control over the encoding process is required" />
@@ -53,15 +57,11 @@
       <item value="Object" />
       <item value="key – key with which the specified value is to be associated" />
       <item value="Claims" />
-      <item value="Sets a custom JWT Claims parameter value. A null value will remove the property from the Claims.&#10;This is a convenience method. It will first ensure a Claims instance exists as the JWT body and then set the named property on the Claims instance using the Claims put method. This allows you to write code like this:" />
-      <item value="Sets a custom JWT Claims parameter value. A null value will remove the property from the Claims.&#10;This is a convenience method. It will first ensure a Claims instance exists as the JWT body and then set the named property on the Claims instance using the Claims put method. This allows you to write code like this:&#10;       String jwt = Jwts.builder().claim(&quot;aName&quot;, &quot;aValue&quot;).compact();&#10;       &#10;instead of this:&#10;       Claims claims = Jwts.claims().put(&quot;aName&quot;, &quot;aValue&quot;);&#10;       String jwt = Jwts.builder().setClaims(claims).compact();&#10;       &#10;if desired.&#10;Params:&#10;name – the JWT Claims property name&#10;value – the value to set for the specified Claims property name&#10;Returns:&#10;the builder instance for method chaining." />
-      <item value="Sets the JWT Claims exp (expiration) value. A null value will remove the property from the Claims.&#10;A JWT obtained after this timestamp should not be used.&#10;This is a convenience method. It will first ensure a Claims instance exists as the JWT body and then set the Claims expiration field with the specified value. This allows you to write code like this:&#10;       String jwt = Jwts.builder().setExpiration(new Date(System.currentTimeMillis() + 3600000)).compact();&#10;       &#10;instead of this:&#10;       Claims claims = Jwts.claims().setExpiration(new Date(System.currentTimeMillis() + 3600000));&#10;       String jwt = Jwts.builder().setClaims(claims).compact();&#10;       &#10;if desired.&#10;Params:&#10;exp – the JWT exp value or null to remove the property from the Claims map.&#10;Returns:&#10;the builder instance for method chaining." />
-      <item value="replace default Configuration class" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1219" />
-        <entry key="ENGLISH" value="1219" />
+        <entry key="CHINESE" value="1222" />
+        <entry key="ENGLISH" value="1223" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
