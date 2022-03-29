@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Duplicate Key Exception" />
+      <item value="Cannot resolve method 'buildUserVehicleDTO(int, java.util.List&lt;com.vecentek.back.dto.UploadBluetoothsErrorDTO&gt;)'" />
       <item value="Checks if any of the CharSequences are empty (&quot;&quot;) or null or whitespace only.&#10;Whitespace is defined by Character.isWhitespace(char).&#10;       StringUtils.isAnyBlank((String) null)    = true&#10;       StringUtils.isAnyBlank((String[]) null)  = false&#10;       StringUtils.isAnyBlank(null, &quot;foo&quot;)      = true&#10;       StringUtils.isAnyBlank(null, null)       = true&#10;       StringUtils.isAnyBlank(&quot;&quot;, &quot;bar&quot;)        = true&#10;       StringUtils.isAnyBlank(&quot;bob&quot;, &quot;&quot;)        = true&#10;       StringUtils.isAnyBlank(&quot;  bob  &quot;, null)  = true&#10;       StringUtils.isAnyBlank(&quot; &quot;, &quot;bar&quot;)       = true&#10;       StringUtils.isAnyBlank(new String[] {})  = false&#10;       StringUtils.isAnyBlank(new String[]{&quot;&quot;}) = true&#10;       StringUtils.isAnyBlank(&quot;foo&quot;, &quot;bar&quot;)     = false&#10;       &#10;Params:&#10;css – the CharSequences to check, may be null or empty&#10;Returns:&#10;true if any of the CharSequences are empty or null or whitespace only&#10;Since:&#10;3.2" />
       <item value="Blank" />
       <item value="Checks if all of the CharSequences are empty (&quot;&quot;), null or whitespace only.&#10;Whitespace is defined by Character.isWhitespace(char).&#10;       StringUtils.isAllBlank(null)             = true&#10;       StringUtils.isAllBlank(null, &quot;foo&quot;)      = false&#10;       StringUtils.isAllBlank(null, null)       = true&#10;       StringUtils.isAllBlank(&quot;&quot;, &quot;bar&quot;)        = false&#10;       StringUtils.isAllBlank(&quot;bob&quot;, &quot;&quot;)        = false&#10;       StringUtils.isAllBlank(&quot;  bob  &quot;, null)  = false&#10;       StringUtils.isAllBlank(&quot; &quot;, &quot;bar&quot;)       = false&#10;       StringUtils.isAllBlank(&quot;foo&quot;, &quot;bar&quot;)     = false&#10;       StringUtils.isAllBlank(new String[] {})  = true&#10;       &#10;Params:&#10;css – the CharSequences to check, may be null or empty&#10;Returns:&#10;true if all of the CharSequences are empty or null or whitespace only" />
@@ -55,13 +57,11 @@
       <item value="Return the first header value for the given header name, if any.&#10;Params:&#10;headerName – the header name&#10;Returns:&#10;the first header value, or null if none" />
       <item value="生成" />
       <item value="Unchecked cast: 'java.lang.String' to 'T'" />
-      <item value="Method invocation 'msg' may produce 'NullPointerException' " />
-      <item value="Generates implementations for the equals and hashCode methods inherited by all objects, based on relevant fields." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1226" />
-        <entry key="ENGLISH" value="1227" />
+        <entry key="CHINESE" value="1227" />
+        <entry key="ENGLISH" value="1228" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
