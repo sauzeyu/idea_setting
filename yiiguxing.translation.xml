@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath." />
+      <item value="cache" />
+      <item value="currently" />
       <item value="Some problems were encountered while building the effective model for org.springframework.boot:dkserver-gateway:jar:1.0-SNAPSHOT&#10;'parent.relativePath' of POM org.springframework.boot:dkserver-gateway:1.0-SNAPSHOT (G:\Company\Dk\Dev\vecentek-dkserver\dkserver-gateway\pom.xml) points at com.vecentek.dkserver:vecentek-dkserver instead of org.springframework.boot:spring-boot-starter-parent, please verify your project structure @ line 5, column 13&#10;It is highly recommended to fix these problems because they threaten the stability of your build.&#10;For this reason, future Maven versions might no longer support building such malformed projects." />
       <item value="Duplicate Key Exception" />
       <item value="Cannot resolve method 'buildUserVehicleDTO(int, java.util.List&lt;com.vecentek.back.dto.UploadBluetoothsErrorDTO&gt;)'" />
@@ -54,14 +57,11 @@
       <item value="Non-Authoritative Information" />
       <item value="Not Acceptable." />
       <item value="402 Payment Required." />
-      <item value="00 Bad Request." />
-      <item value="Return the first header value for the given header name, if any.&#10;Params:&#10;headerName – the header name&#10;Returns:&#10;the first header value, or null if none" />
-      <item value="生成" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1228" />
-        <entry key="ENGLISH" value="1229" />
+        <entry key="CHINESE" value="1231" />
+        <entry key="ENGLISH" value="1232" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
