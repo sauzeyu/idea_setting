@@ -7,6 +7,10 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Error has been observed at the following site(s):&#10;&#9;__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]&#10;&#9;__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]&#10;&#9;__checkpoint ⇢ HTTP GET &quot;vecentekdkserver-backdkmRoleselectForPage?pageIndex=1&amp;pageSize=10&quot; [ExceptionHandlingWebHandler]&#10;Original Stack Trace:" />
+      <item value="block()blockFirst()blockLast() are blocking" />
+      <item value="which is not supported in thread reactor-http-nio-2" />
+      <item value="Error has been observed at the following site(s):" />
       <item value="You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath." />
       <item value="cache" />
       <item value="currently" />
@@ -53,15 +57,11 @@
       <item value="Indicate that message handling is complete, allowing for any cleanup or end-of-processing tasks to be performed such as applying header changes made via getHeaders() to the underlying HTTP message (if not applied already).&#10;This method should be automatically invoked at the end of message processing so typically applications should not have to invoke it. If invoked multiple times it should have no side effects.&#10;Returns:&#10;a Mono that indicates completion or error" />
       <item value="Set the HTTP status code to the given value (potentially non-standard and not resolvable through the HttpStatus enum) as an integer.&#10;Params:&#10;value – the status code value&#10;Returns:&#10;false if the status code change wasn't processed because the HTTP response is committed, true if successfully set.&#10;Since:&#10;5.2.4" />
       <item value="Unauthorized" />
-      <item value="Reset Content" />
-      <item value="Non-Authoritative Information" />
-      <item value="Not Acceptable." />
-      <item value="402 Payment Required." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1231" />
-        <entry key="ENGLISH" value="1232" />
+        <entry key="CHINESE" value="1235" />
+        <entry key="ENGLISH" value="1236" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
