@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="680" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Process terminated" />
       <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be taken into account for dependency calculation if the library is used elsewhere, it will not be passed on transitively" />
       <item value="whether to support dynamic refresh, the default does not support " />
       <item value="Constructs an instance with the value present.&#10;Params:&#10;value – the non-null value to be present&#10;Throws:&#10;NullPointerException – if value is null" />
@@ -56,12 +57,11 @@
       <item value="Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator (optional operation). The behavior of this operation is undefined if the specified collection is modified while the operation is in progress. (Note that this will occur if the specified collection is this list, and it's nonempty.)&#10;Params:&#10;c – collection containing elements to be added to this list&#10;Returns:&#10;true if this list changed as a result of the call" />
       <item value="Contents of collection 'errorVinList' are updated, but never queried" />
       <item value="Returns true if this collection contains no elements.&#10;Returns:&#10;true if this collection contains no elements" />
-      <item value="dynamic" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1239" />
-        <entry key="ENGLISH" value="1239" />
+        <entry key="ENGLISH" value="1240" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
