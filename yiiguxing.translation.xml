@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="580" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="whether to support dynamic refresh, the default does not support " />
       <item value="Constructs an instance with the value present.&#10;Params:&#10;value – the non-null value to be present&#10;Throws:&#10;NullPointerException – if value is null" />
       <item value="Returns an Optional with the specified present non-null value.&#10;Params:&#10;value – the value to be present, which must be non-null&#10;Type parameters:&#10;&lt;T&gt; – the class of the value&#10;Returns:&#10;an Optional with the value present&#10;Throws:&#10;NullPointerException – if value is null" />
       <item value="Error has been observed at the following site(s):&#10;&#9;__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]&#10;&#9;__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]&#10;&#9;__checkpoint ⇢ HTTP GET &quot;vecentekdkserver-backdkmRoleselectForPage?pageIndex=1&amp;pageSize=10&quot; [ExceptionHandlingWebHandler]&#10;Original Stack Trace:" />
@@ -56,12 +57,11 @@
       <item value="Returns true if this collection contains no elements.&#10;Returns:&#10;true if this collection contains no elements" />
       <item value="dynamic" />
       <item value="parse" />
-      <item value="Indicate that message handling is complete, allowing for any cleanup or end-of-processing tasks to be performed such as applying header changes made via getHeaders() to the underlying HTTP message (if not applied already).&#10;This method should be automatically invoked at the end of message processing so typically applications should not have to invoke it. If invoked multiple times it should have no side effects.&#10;Returns:&#10;a Mono that indicates completion or error" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1237" />
-        <entry key="ENGLISH" value="1238" />
+        <entry key="CHINESE" value="1238" />
+        <entry key="ENGLISH" value="1239" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
