@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="765" />
-    <option name="newTranslationDialogX" value="1208" />
-    <option name="newTranslationDialogY" value="580" />
+    <option name="newTranslationDialogWidth" value="763" />
+    <option name="newTranslationDialogX" value="1060" />
+    <option name="newTranslationDialogY" value="680" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be taken into account for dependency calculation if the library is used elsewhere, it will not be passed on transitively" />
       <item value="whether to support dynamic refresh, the default does not support " />
       <item value="Constructs an instance with the value present.&#10;Params:&#10;value – the non-null value to be present&#10;Throws:&#10;NullPointerException – if value is null" />
       <item value="Returns an Optional with the specified present non-null value.&#10;Params:&#10;value – the value to be present, which must be non-null&#10;Type parameters:&#10;&lt;T&gt; – the class of the value&#10;Returns:&#10;an Optional with the value present&#10;Throws:&#10;NullPointerException – if value is null" />
@@ -56,11 +57,10 @@
       <item value="Contents of collection 'errorVinList' are updated, but never queried" />
       <item value="Returns true if this collection contains no elements.&#10;Returns:&#10;true if this collection contains no elements" />
       <item value="dynamic" />
-      <item value="parse" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1238" />
+        <entry key="CHINESE" value="1239" />
         <entry key="ENGLISH" value="1239" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
