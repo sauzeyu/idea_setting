@@ -2,11 +2,12 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="763" />
-    <option name="newTranslationDialogX" value="1060" />
-    <option name="newTranslationDialogY" value="680" />
+    <option name="newTranslationDialogWidth" value="761" />
+    <option name="newTranslationDialogX" value="669" />
+    <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Cannot perform refactoring. Caret should be positioned at symbol to be refactored" />
       <item value="Creates a new tag from given byte array. Similar BerTag(byte[], int, int) but using the full array.&#10;Params:&#10;aBuf – to create the tag" />
       <item value="Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.2.RELEASE:repackage (repackage) on project dkserver-common: Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.3.2.RELEASE:repackage failed: Unable to find main class&#10;" />
       <item value="Unable to find main class" />
@@ -56,11 +57,10 @@
       <item value="Returns the detail message string of this throwable.&#10;Returns:&#10;the detail message string of this Throwable instance (which may be null)." />
       <item value="Constructs a new throwable with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to initCause.&#10;The fillInStackTrace() method is called to initialize the stack trace data in the newly created throwable.&#10;Params:&#10;message – the detail message. The detail message is saved for later retrieval by the getMessage() method." />
       <item value="Specific details about the Throwable. For example, for FileNotFoundException, this contains the name of the file that could not be found." />
-      <item value="Point not on curve" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1253" />
+        <entry key="CHINESE" value="1254" />
         <entry key="ENGLISH" value="1254" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
