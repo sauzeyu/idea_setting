@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="680" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Creates a new tag from given byte array. Similar BerTag(byte[], int, int) but using the full array.&#10;Params:&#10;aBuf – to create the tag" />
       <item value="Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.2.RELEASE:repackage (repackage) on project dkserver-common: Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.3.2.RELEASE:repackage failed: Unable to find main class&#10;" />
       <item value="Unable to find main class" />
       <item value="Using authentication suppliers: [ConfigFileRegistryAuthSupplier]" />
@@ -56,12 +57,11 @@
       <item value="Constructs a new throwable with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to initCause.&#10;The fillInStackTrace() method is called to initialize the stack trace data in the newly created throwable.&#10;Params:&#10;message – the detail message. The detail message is saved for later retrieval by the getMessage() method." />
       <item value="Specific details about the Throwable. For example, for FileNotFoundException, this contains the name of the file that could not be found." />
       <item value="Point not on curve" />
-      <item value="Initializes the key pair generator for a certain keysize with the given source of randomness (and a default parameter set).&#10;Params:&#10;keysize – the keysize. This is an algorithm-specific metric, such as modulus length, specified in number of bits.&#10;random – the source of randomness.&#10;Throws:&#10;InvalidParameterException – if the keysize is not supported by this KeyPairGenerator object." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1252" />
-        <entry key="ENGLISH" value="1253" />
+        <entry key="CHINESE" value="1253" />
+        <entry key="ENGLISH" value="1254" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1648520907920" />
+    <option name="lastTrimTime" value="1649397036498" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
