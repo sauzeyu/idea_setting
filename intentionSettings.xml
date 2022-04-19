@@ -2,5 +2,6 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="Java/Refactorings/Introduce local variable" />
     <ignoreAction name="Java/Control Flow/Iterate" />
+    <ignoreAction name="GitHub Copilot/Open GitHub Copilot" />
   </component>
 </application>

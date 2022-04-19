@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="车型" />
       <item value="Returns an Optional describing the specified value, if non-null, otherwise returns an empty Optional." />
       <item value="Cannot perform refactoring. Caret should be positioned at symbol to be refactored" />
       <item value="Creates a new tag from given byte array. Similar BerTag(byte[], int, int) but using the full array.&#10;Params:&#10;aBuf – to create the tag" />
@@ -56,12 +57,11 @@
       <item value="Contents of collection 'errorVinList' are updated, but never queried " />
       <item value="SQL Integrity Constraint Violation Exception" />
       <item value="Returns the detail message string of this throwable.&#10;Returns:&#10;the detail message string of this Throwable instance (which may be null)." />
-      <item value="Constructs a new throwable with the specified detail message. The cause is not initialized, and may subsequently be initialized by a call to initCause.&#10;The fillInStackTrace() method is called to initialize the stack trace data in the newly created throwable.&#10;Params:&#10;message – the detail message. The detail message is saved for later retrieval by the getMessage() method." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1255" />
-        <entry key="ENGLISH" value="1254" />
+        <entry key="CHINESE" value="1259" />
+        <entry key="ENGLISH" value="1258" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1649397036498" />
+    <option name="lastTrimTime" value="1650334509633" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
