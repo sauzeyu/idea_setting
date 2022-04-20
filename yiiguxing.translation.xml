@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Inferred type 'E' for type parameter 'E' is not within its bound; should implement 'com.baomidou.mybatisplus.core.metadata.IPage&lt;com.vecentek.back.entity.DkmKey&gt;'" />
       <item value="Native code saves some indication of the stack backtrace in this slo" />
       <item value="The first argument is treated as the name of a system property. System properties are accessible through the System.getProperty(String) method. The string value of this property is then interpreted as an integer value using the grammar supported by decode and an Integer object representing this value is returned.&#10;If there is no property with the specified name, if the specified name is empty or null, or if the property does not have the correct numeric format, then null is returned.&#10;In other words, this method returns an Integer object equal to the value of:&#10;getInteger(nm, null)&#10;Params:&#10;nm – property name.&#10;Returns:&#10;the Integer value of the property.&#10;Throws:&#10;SecurityException – for the same reasons as System.getProperty&#10;See Also:&#10;System.getProperty(String), System.getProperty(String, String)" />
       <item value="Converts the argument to an int by an unsigned conversion. In an unsigned conversion to an int, the high-order 24 bits of the int are zero and the low-order 8 bits are equal to the bits of the byte argument. Consequently, zero and positive byte values are mapped to a numerically equal int value and negative byte values are mapped to an int value equal to the input plus 28.&#10;Params:&#10;x – the value to convert to an unsigned int&#10;Returns:&#10;the argument converted to int by an unsigned conversion&#10;Since:&#10;1.8" />
@@ -56,11 +57,10 @@
       <item value="functionally" />
       <item value=" Every derived table must have its own alias" />
       <item value="very derived table must have its own alias" />
-      <item value="already" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1264" />
+        <entry key="CHINESE" value="1265" />
         <entry key="ENGLISH" value="1265" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
