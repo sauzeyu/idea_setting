@@ -2,11 +2,32 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="761" />
+    <option name="newTranslationDialogWidth" value="759" />
     <option name="newTranslationDialogX" value="669" />
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="et the foreground fill color Note: Ensure Foreground color is set prior to background color.&#10;Params:&#10;bg – color" />
+      <item value="  BLACK1(0),&#10;    WHITE1(1),&#10;    RED1(2),&#10;    BRIGHT_GREEN1(3),&#10;    BLUE1(4),&#10;    YELLOW1(5),&#10;    PINK1(6),&#10;    TURQUOISE1(7),&#10;    BLACK(8),&#10;    WHITE(9),&#10;    RED(10),&#10;    BRIGHT_GREEN(11),&#10;    BLUE(12),&#10;    YELLOW(13),&#10;    PINK(14),&#10;    TURQUOISE(15),&#10;    DARK_RED(16),&#10;    GREEN(17),&#10;    DARK_BLUE(18),&#10;    DARK_YELLOW(19),&#10;    VIOLET(20),&#10;    TEAL(21),&#10;    GREY_25_PERCENT(22),&#10;    GREY_50_PERCENT(23),&#10;    CORNFLOWER_BLUE(24),&#10;    MAROON(25),&#10;    LEMON_CHIFFON(26),&#10;    LIGHT_TURQUOISE1(27),&#10;    ORCHID(28),&#10;    CORAL(29),&#10;    ROYAL_BLUE(30),&#10;    LIGHT_CORNFLOWER_BLUE(31),&#10;    SKY_BLUE(40),&#10;    LIGHT_TURQUOISE(41),&#10;    LIGHT_GREEN(42),&#10;    LIGHT_YELLOW(43),&#10;    PALE_BLUE(44),&#10;    ROSE(45),&#10;    LAVENDER(46),&#10;    TAN(47),&#10;    LIGHT_BLUE(48),&#10;    AQUA(49),&#10;    LIME(50),&#10;    GOLD(51),&#10;    LIGHT_ORANGE(52),&#10;    ORANGE(53),&#10;    BLUE_GREY(54),&#10;    GREY_40_PERCENT(55),&#10;    DARK_TEAL(56),&#10;    SEA_GREEN(57),&#10;    DARK_GREEN(58),&#10;    OLIVE_GREEN(59),&#10;    BROWN(60),&#10;    PLUM(61),&#10;    INDIGO(62),&#10;    GREY_80_PERCENT(63),&#10;    AUTOMATIC(64);" />
+      <item value="无" />
+      <item value="透明" />
+      <item value="A deprecated indexing scheme for colours that is still required for some records, and for backwards compatibility with OLE2 formats.&#10;Each element corresponds to a color index (zero-based). When using the default indexed color palette, the values are not written out, but instead are implied. When the color palette has been modified from default, then the entire color palette is used.&#10;Author:&#10;Yegor Kozlov" />
+      <item value="     0-7 duplicates of 8-15 for compatibility (OOXML spec pt.1 sec. 18.8.27)" />
+      <item value="INDIGO" />
+      <item value="GREY_80_PERCENT" />
+      <item value="AUTOMATIC" />
+      <item value="LIGHT TURQUOISE" />
+      <item value="BLUE 1" />
+      <item value="RED 1" />
+      <item value="WHITE 1" />
+      <item value="BLACK 1" />
+      <item value="GREY_25_PERCENT" />
+      <item value="et the background fill color.&#10;For example:&#10;       cs.setFillPattern(HSSFCellStyle.FINE_DOTS );&#10;       cs.setFillBackgroundColor(new HSSFColor.RED().getIndex());&#10;       &#10;optionally a Foreground and background fill can be applied: Note: Ensure Foreground color is set prior to background&#10;       cs.setFillPattern(HSSFCellStyle.FINE_DOTS );&#10;       cs.setFillForegroundColor(new HSSFColor.BLUE().getIndex());&#10;       cs.setFillBackgroundColor(new HSSFColor.RED().getIndex());&#10;       &#10;or, for the special case of SOLID_FILL:&#10;       cs.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND );&#10;       cs.setFillForegroundColor(new HSSFColor.RED().getIndex());&#10;       &#10;It is necessary to set the fill style in order for the color to be shown in the cell.&#10;Params:&#10;bg – color" />
+      <item value="et the background fill color.&#10;Params:&#10;bg – color" />
+      <item value="bold" />
+      <item value="bo" />
+      <item value="get the index within the XSSFWorkbook (sequence within the collection of Font objects)&#10;Returns:&#10;unique index number of the underlying record this Font represents (probably you don't care unless you're comparing which one is which)&#10;Since:&#10;4.0.0" />
+      <item value="get whether the cell's using this style are to be hidden&#10;Returns:&#10;hidden - whether the cell using this style should be hidden" />
       <item value="Returns a string whose value is this string, with any leading and trailing whitespace removed.&#10;If this String object represents an empty character sequence, or the first and last characters of character sequence represented by this String object both have codes greater than '\u0020' (the space character), then a reference to this String object is returned.&#10;Otherwise, if there is no character with a code greater than '\u0020' in the string, then a String object representing an empty string is returned.&#10;Otherwise, let k be the index of the first character in the string whose code is greater than '\u0020', and let m be the index of the last character in the string whose code is greater than '\u0020'. A String object is returned, representing the substring of this string that begins with the character at index k and ends with the character at index m-that is, the result of this.substring(k, m + 1).&#10;This method may be used to trim whitespace (as defined above) from the beginning and end of a string.&#10;Returns:&#10;A string whose value is this string, with any leading and trailing white space removed, or this string if it has no leading or trailing white space." />
       <item value="存在" />
       <item value="already Ex" />
@@ -36,32 +57,11 @@
       <item value="[FATAL] 'dependencies.dependency.[com.vecentek.dkserver:dkserver-common:1.0-SNAPSHOT]' for com.vecentek.dkserver:dkserver-common:1.0-SNAPSHOT is referencing itself. @ com.vecentek.dkserver:vecentek-dkserver:1.0-SNAPSHOT, G:\Company\Dk\Dev\vecentek-dkserver\pom.xml, line 89, column 21" />
       <item value="ome problems were encountered while processing the POMs:" />
       <item value="itself" />
-      <item value="referencing" />
-      <item value="ependencies.dependency.version' for de.codecentric:spring-boot-admin-starter-server:jar is missing. @ line 23, column 21" />
-      <item value="Some problems were encountered while processing the POMs" />
-      <item value="Some problems were encountered while processing the POMs:" />
-      <item value="Process terminated" />
-      <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be taken into account for dependency calculation if the library is used elsewhere, it will not be passed on transitively" />
-      <item value="whether to support dynamic refresh, the default does not support " />
-      <item value="Constructs an instance with the value present.&#10;Params:&#10;value – the non-null value to be present&#10;Throws:&#10;NullPointerException – if value is null" />
-      <item value="Returns an Optional with the specified present non-null value.&#10;Params:&#10;value – the value to be present, which must be non-null&#10;Type parameters:&#10;&lt;T&gt; – the class of the value&#10;Returns:&#10;an Optional with the value present&#10;Throws:&#10;NullPointerException – if value is null" />
-      <item value="Error has been observed at the following site(s):&#10;&#9;__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]&#10;&#9;__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]&#10;&#9;__checkpoint ⇢ HTTP GET &quot;vecentekdkserver-backdkmRoleselectForPage?pageIndex=1&amp;pageSize=10&quot; [ExceptionHandlingWebHandler]&#10;Original Stack Trace:" />
-      <item value="block()blockFirst()blockLast() are blocking" />
-      <item value="which is not supported in thread reactor-http-nio-2" />
-      <item value="Error has been observed at the following site(s):" />
-      <item value="You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath." />
-      <item value="cache" />
-      <item value="currently" />
-      <item value="Some problems were encountered while building the effective model for org.springframework.boot:dkserver-gateway:jar:1.0-SNAPSHOT&#10;'parent.relativePath' of POM org.springframework.boot:dkserver-gateway:1.0-SNAPSHOT (G:\Company\Dk\Dev\vecentek-dkserver\dkserver-gateway\pom.xml) points at com.vecentek.dkserver:vecentek-dkserver instead of org.springframework.boot:spring-boot-starter-parent, please verify your project structure @ line 5, column 13&#10;It is highly recommended to fix these problems because they threaten the stability of your build.&#10;For this reason, future Maven versions might no longer support building such malformed projects." />
-      <item value="Duplicate Key Exception" />
-      <item value="Cannot resolve method 'buildUserVehicleDTO(int, java.util.List&lt;com.vecentek.back.dto.UploadBluetoothsErrorDTO&gt;)'" />
-      <item value="Checks if any of the CharSequences are empty (&quot;&quot;) or null or whitespace only.&#10;Whitespace is defined by Character.isWhitespace(char).&#10;       StringUtils.isAnyBlank((String) null)    = true&#10;       StringUtils.isAnyBlank((String[]) null)  = false&#10;       StringUtils.isAnyBlank(null, &quot;foo&quot;)      = true&#10;       StringUtils.isAnyBlank(null, null)       = true&#10;       StringUtils.isAnyBlank(&quot;&quot;, &quot;bar&quot;)        = true&#10;       StringUtils.isAnyBlank(&quot;bob&quot;, &quot;&quot;)        = true&#10;       StringUtils.isAnyBlank(&quot;  bob  &quot;, null)  = true&#10;       StringUtils.isAnyBlank(&quot; &quot;, &quot;bar&quot;)       = true&#10;       StringUtils.isAnyBlank(new String[] {})  = false&#10;       StringUtils.isAnyBlank(new String[]{&quot;&quot;}) = true&#10;       StringUtils.isAnyBlank(&quot;foo&quot;, &quot;bar&quot;)     = false&#10;       &#10;Params:&#10;css – the CharSequences to check, may be null or empty&#10;Returns:&#10;true if any of the CharSequences are empty or null or whitespace only&#10;Since:&#10;3.2" />
-      <item value="Blank" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1273" />
-        <entry key="ENGLISH" value="1274" />
+        <entry key="CHINESE" value="1297" />
+        <entry key="ENGLISH" value="1298" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
