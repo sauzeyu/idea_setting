@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Return a hexadecimal string representation of the MD5 digest of the given bytes.&#10;Params:&#10;bytes – the bytes to calculate the digest over&#10;Returns:&#10;a hexadecimal digest string" />
+      <item value="Miscellaneous methods for calculating digests.&#10;Mainly for internal use within the framework; consider Apache Commons Codec  for a more comprehensive suite of digest utilities.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller, Craig Andrew" />
+      <item value="Miscellaneous methods for calculating digests.&#10;Mainly for internal use within the framework; consider Apache Commons Codec  for a more comprehensive suite of digest utilities.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller, Craig Andrews" />
       <item value="Inferred type 'E' for type parameter 'E' is not within its bound; should implement 'com.baomidou.mybatisplus.core.metadata.IPage&lt;com.vecentek.back.entity.DkmKey&gt;'" />
       <item value="Native code saves some indication of the stack backtrace in this slo" />
       <item value="The first argument is treated as the name of a system property. System properties are accessible through the System.getProperty(String) method. The string value of this property is then interpreted as an integer value using the grammar supported by decode and an Integer object representing this value is returned.&#10;If there is no property with the specified name, if the specified name is empty or null, or if the property does not have the correct numeric format, then null is returned.&#10;In other words, this method returns an Integer object equal to the value of:&#10;getInteger(nm, null)&#10;Params:&#10;nm – property name.&#10;Returns:&#10;the Integer value of the property.&#10;Throws:&#10;SecurityException – for the same reasons as System.getProperty&#10;See Also:&#10;System.getProperty(String), System.getProperty(String, String)" />
@@ -54,14 +57,11 @@
       <item value="Checks if all of the CharSequences are empty (&quot;&quot;), null or whitespace only.&#10;Whitespace is defined by Character.isWhitespace(char).&#10;       StringUtils.isAllBlank(null)             = true&#10;       StringUtils.isAllBlank(null, &quot;foo&quot;)      = false&#10;       StringUtils.isAllBlank(null, null)       = true&#10;       StringUtils.isAllBlank(&quot;&quot;, &quot;bar&quot;)        = false&#10;       StringUtils.isAllBlank(&quot;bob&quot;, &quot;&quot;)        = false&#10;       StringUtils.isAllBlank(&quot;  bob  &quot;, null)  = false&#10;       StringUtils.isAllBlank(&quot; &quot;, &quot;bar&quot;)       = false&#10;       StringUtils.isAllBlank(&quot;foo&quot;, &quot;bar&quot;)     = false&#10;       StringUtils.isAllBlank(new String[] {})  = true&#10;       &#10;Params:&#10;css – the CharSequences to check, may be null or empty&#10;Returns:&#10;true if all of the CharSequences are empty or null or whitespace only" />
       <item value="Abbreviates a String using ellipses. This will turn &quot;Now is the time for all good men&quot; into &quot;Now is the time for...&quot;&#10;Specifically:&#10;If the number of characters in str is less than or equal to maxWidth, return str.&#10;Else abbreviate it to (substring(str, 0, max-3) + &quot;...&quot;).&#10;If maxWidth is less than 4, throw an IllegalArgumentException.&#10;In no case will it return a String of length greater than maxWidth.&#10;       StringUtils.abbreviate(null, )      = null&#10;       StringUtils.abbreviate(&quot;&quot;, 4)        = &quot;&quot;&#10;       StringUtils.abbreviate(&quot;abcdefg&quot;, 6) = &quot;abc...&quot;&#10;       StringUtils.abbreviate(&quot;abcdefg&quot;, 7) = &quot;abcdefg&quot;&#10;       StringUtils.abbreviate(&quot;abcdefg&quot;, 8) = &quot;abcdefg&quot;&#10;       StringUtils.abbreviate(&quot;abcdefg&quot;, 4) = &quot;a...&quot;&#10;       StringUtils.abbreviate(&quot;abcdefg&quot;, 3) = IllegalArgumentException&#10;       &#10;Params:&#10;str – the String to check, may be null&#10;maxWidth – maximum length of result String, must be at least 4" />
       <item value="which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by" />
-      <item value="functionally" />
-      <item value=" Every derived table must have its own alias" />
-      <item value="very derived table must have its own alias" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1265" />
-        <entry key="ENGLISH" value="1265" />
+        <entry key="CHINESE" value="1267" />
+        <entry key="ENGLISH" value="1268" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
