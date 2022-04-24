@@ -1,5 +1,5 @@
 <application>
-  <component name="ToStringTemplates" defaultTemplateName="JSONtoString">
+  <component name="ToStringTemplates" defaultTemplateName="String concat (+)">
     <option name="templates">
       <list>
         <TemplateResource>
