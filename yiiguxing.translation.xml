@@ -7,6 +7,12 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="uto-generated catch block" />
+      <item value="TODO: take care of charset?" />
+      <item value=" TODO: checking logic and metric operation should be separated." />
+      <item value="TODO: handle decode error here." />
+      <item value="TODO: check GC friendly?" />
+      <item value=" bad design here, should refactor!" />
       <item value="Cannot resolve configuration property 'sentinel.nacos.serverAddr' " />
       <item value="Not registered via @EnableConfigurationProperties, marked as Spring component, or scanned via @ConfigurationPropertiesScan " />
       <item value="Cluster Entity Utils" />
@@ -51,17 +57,11 @@
       <item value="无" />
       <item value="透明" />
       <item value="A deprecated indexing scheme for colours that is still required for some records, and for backwards compatibility with OLE2 formats.&#10;Each element corresponds to a color index (zero-based). When using the default indexed color palette, the values are not written out, but instead are implied. When the color palette has been modified from default, then the entire color palette is used.&#10;Author:&#10;Yegor Kozlov" />
-      <item value="     0-7 duplicates of 8-15 for compatibility (OOXML spec pt.1 sec. 18.8.27)" />
-      <item value="INDIGO" />
-      <item value="GREY_80_PERCENT" />
-      <item value="AUTOMATIC" />
-      <item value="LIGHT TURQUOISE" />
-      <item value="BLUE 1" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1339" />
-        <entry key="ENGLISH" value="1338" />
+        <entry key="CHINESE" value="1343" />
+        <entry key="ENGLISH" value="1344" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
