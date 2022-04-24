@@ -7,6 +7,20 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The blockHandler is located in the same class with the original method by default. However, if some methods share the same signature and intend to set the same block handler, then users can set the class where the block handler exists. Note that the block handler method must be static." />
+      <item value="Returns:&#10;the entry type (inbound or outbound), outbound by default" />
+      <item value="The annotation indicates a definition of Sentinel resource" />
+      <item value="The annotation indicates a definition of Sentinel resource.&#10;Since:&#10;0.1.1&#10;Author:&#10;Eric Zhao, zhaoyuguang" />
+      <item value="A read-only DataSource with Nacos backend. When the data in Nacos backend has been modified, Nacos will automatically push the new value so that the dynamic configuration can be real-time." />
+      <item value="This demo demonstrates how to use Nacos as the data source of Sentinel rules. Before you start, you need to start a Nacos server in local first, and then use NacosConfigSender to publish initial rule configuration to Nacos." />
+      <item value="Test Resource" />
+      <item value="remote Address" />
+      <item value="fill your namespace id,if you want to use namespace. for example: 0f5c7314-4983-4022-ad5a-347de1d1057d,you can get it on nacos's console" />
+      <item value="s demo demonstrates how to use Nacos as the data source of Sentinel rules. Before you start, you need to start a Nacos server in local first, and then use NacosConfigSender to publish initial rule configuration to Nacos." />
+      <item value="This demo demonstrates how to use Nacos as the data source of Sentinel rules. Before you start, you need to start a Nacos server in local first, and then use NacosConfigSender to publish initial rule configuration to Nacos.&#10;Author:&#10;Eric Zhao" />
+      <item value="Single-thread pool. Once the thread pool is blocked, we throw up the old tas" />
+      <item value="A read-only DataSource with Nacos backend. When the data in Nacos backend has been modified, Nacos will automatically push the new value so that the dynamic configuration can be real-time.&#10;Author:&#10;Eric Zhao" />
+      <item value="Fetch real time statistics info of the machine.&#10;Params:&#10;ip – ip to fetch&#10;port – port of the ip&#10;type – one of [root, default, cluster], 'root' means fetching from tree root node, 'default' means fetching from tree default node, 'cluster' means fetching from cluster node.&#10;searchKey – key to search&#10;Returns:&#10;node statistics info." />
       <item value="修改" />
       <item value="修改密码" />
       <item value="修改米" />
@@ -43,25 +57,11 @@
       <item value="Converts the argument to an int by an unsigned conversion. In an unsigned conversion to an int, the high-order 24 bits of the int are zero and the low-order 8 bits are equal to the bits of the byte argument. Consequently, zero and positive byte values are mapped to a numerically equal int value and negative byte values are mapped to an int value equal to the input plus 28.&#10;Params:&#10;x – the value to convert to an unsigned int&#10;Returns:&#10;the argument converted to int by an unsigned conversion&#10;Since:&#10;1.8" />
       <item value="Parses the string argument as a signed short in the radix specified by the second argument. The characters in the string must all be digits, of the specified radix (as determined by whether Character.digit(char, int) returns a nonnegative value) except that the first character may be an ASCII minus sign '-' ('\u002D') to indicate a negative value or an ASCII plus sign '+' ('\u002B') to indicate a positive value. The resulting short value is returned.&#10;An exception of type NumberFormatException is thrown if any of the following situations occurs:&#10;The first argument is null or is a string of length zero.&#10;The radix is either smaller than Character.MIN_RADIX or larger than Character.MAX_RADIX.&#10;Any character of the string is not a digit of the specified radix, except that the first character may be a minus sign '-' ('\u002D') or plus sign '+' ('\u002B') provided that the string is longer than length 1.&#10;The value represented by the string is not a value of type short.&#10;Params:&#10;s – the String containing the short representation to be parsed&#10;radix – the radix to be used while parsing s&#10;Returns:&#10;the short represented by the string argument in the specified radix.&#10;Throws:&#10;NumberFormatException – If the String does not contain a parsable short." />
       <item value="Returns true if this list contains no elements.&#10;Returns:&#10;true if this list contains no elements" />
-      <item value="SUFFIX" />
-      <item value="This class represents a file or form item that was received within a multipartform-data POST request.&#10;After retrieving an instance of this class from a FileUpload instance (see parseRequest(javax.servlet.http.HttpServletRequest)), you may either request all contents of the file at once using get() or request an InputStream with getInputStream() and process the file without attempting to load it into memory, which may come handy with large files.&#10;While this interface does not extend javax.activation.DataSource per se (to avoid a seldom used dependency), several of the defined methods are specifically defined with the same signatures as methods in that interface. This allows an implementation of this interface to also implement javax.activation.DataSource with minimal additional work.&#10;Since:&#10;1.3 additionally implements FileItemHeadersSupport&#10;Version:&#10;Id: FileItem.java 1454690 2013-03-09 12:08:48Z simonetripodi " />
-      <item value="ells whether or not this string matches the given regular expression.&#10;An invocation of this method of the form str.matches(regex) yields exactly the same result as the expression&#10;Pattern.matches(regex, str)&#10;Params:&#10;regex – the regular expression to which this string is to be matched&#10;Returns:&#10;true if, and only if, this string matches the given regular expression&#10;Throws:&#10;PatternSyntaxException – if the regular expression's syntax is invalid&#10;Since:&#10;1.4&#10;See Also:&#10;Pattern" />
-      <item value="车型" />
-      <item value="Returns an Optional describing the specified value, if non-null, otherwise returns an empty Optional." />
-      <item value="Cannot perform refactoring. Caret should be positioned at symbol to be refactored" />
-      <item value="Creates a new tag from given byte array. Similar BerTag(byte[], int, int) but using the full array.&#10;Params:&#10;aBuf – to create the tag" />
-      <item value="Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.2.RELEASE:repackage (repackage) on project dkserver-common: Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.3.2.RELEASE:repackage failed: Unable to find main class&#10;" />
-      <item value="Unable to find main class" />
-      <item value="Using authentication suppliers: [ConfigFileRegistryAuthSupplier]" />
-      <item value="&#10;For this reason, future Maven versions might no longer support building such malformed projects.&#10;" />
-      <item value="dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.vecentek.dkserver:dkserver-common:jar -&gt; duplicate declaration of version 1.0-SNAPSHOT @ line 31, column 21" />
-      <item value="&#10;It is highly recommended to fix these problems because they threaten the stability of your build.&#10;For this reason, future Maven versions might no longer support building such malformed projects.&#10;" />
-      <item value="'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.vecentek.dkserver:dkserver-common:jar -&gt; duplicate declaration of version 1.0-SNAPSHOT @ line 31, column 21&#10;It is highly recommended to fix these problems because they threaten the stability of your build.&#10;For this reason, future Maven versions might no longer support building such malformed projects.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1303" />
-        <entry key="ENGLISH" value="1304" />
+        <entry key="CHINESE" value="1317" />
+        <entry key="ENGLISH" value="1318" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1650334509633" />
+    <option name="lastTrimTime" value="1650779790376" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
