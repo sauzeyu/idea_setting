@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="flow Rule Default Publisher" />
+      <item value="@Component(&quot;flowRuleDefaultPublisher&quot;)&#10;" />
+      <item value="In Memory Rule Repository Adapter" />
       <item value="The web interceptor for privilege-based authorization.&#10;move from old AuthorizationInterceptor.&#10;Since:&#10;1.7.1&#10;Author:&#10;lkxiaolou, wxq" />
       <item value="WRITE RULE" />
       <item value="Returns:&#10;the privilege type" />
@@ -54,14 +57,11 @@
       <item value="get whether the cell's using this style are to be hidden&#10;Returns:&#10;hidden - whether the cell using this style should be hidden" />
       <item value="Returns a string whose value is this string, with any leading and trailing whitespace removed.&#10;If this String object represents an empty character sequence, or the first and last characters of character sequence represented by this String object both have codes greater than '\u0020' (the space character), then a reference to this String object is returned.&#10;Otherwise, if there is no character with a code greater than '\u0020' in the string, then a String object representing an empty string is returned.&#10;Otherwise, let k be the index of the first character in the string whose code is greater than '\u0020', and let m be the index of the last character in the string whose code is greater than '\u0020'. A String object is returned, representing the substring of this string that begins with the character at index k and ends with the character at index m-that is, the result of this.substring(k, m + 1).&#10;This method may be used to trim whitespace (as defined above) from the beginning and end of a string.&#10;Returns:&#10;A string whose value is this string, with any leading and trailing white space removed, or this string if it has no leading or trailing white space." />
       <item value="存在" />
-      <item value="already Ex" />
-      <item value="Return a hexadecimal string representation of the MD5 digest of the given bytes.&#10;Params:&#10;bytes – the bytes to calculate the digest over&#10;Returns:&#10;a hexadecimal digest string" />
-      <item value="Miscellaneous methods for calculating digests.&#10;Mainly for internal use within the framework; consider Apache Commons Codec  for a more comprehensive suite of digest utilities.&#10;Since:&#10;3.0&#10;Author:&#10;Arjen Poutsma, Juergen Hoeller, Craig Andrew" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1324" />
-        <entry key="ENGLISH" value="1325" />
+        <entry key="CHINESE" value="1327" />
+        <entry key="ENGLISH" value="1328" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
