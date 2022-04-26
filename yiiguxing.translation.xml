@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="flow Rule Dialog Scope" />
+      <item value="flow Rule Dialog" />
       <item value="uto-generated catch block" />
       <item value="TODO: take care of charset?" />
       <item value=" TODO: checking logic and metric operation should be separated." />
@@ -55,13 +57,11 @@
       <item value="et the foreground fill color Note: Ensure Foreground color is set prior to background color.&#10;Params:&#10;bg – color" />
       <item value="  BLACK1(0),&#10;    WHITE1(1),&#10;    RED1(2),&#10;    BRIGHT_GREEN1(3),&#10;    BLUE1(4),&#10;    YELLOW1(5),&#10;    PINK1(6),&#10;    TURQUOISE1(7),&#10;    BLACK(8),&#10;    WHITE(9),&#10;    RED(10),&#10;    BRIGHT_GREEN(11),&#10;    BLUE(12),&#10;    YELLOW(13),&#10;    PINK(14),&#10;    TURQUOISE(15),&#10;    DARK_RED(16),&#10;    GREEN(17),&#10;    DARK_BLUE(18),&#10;    DARK_YELLOW(19),&#10;    VIOLET(20),&#10;    TEAL(21),&#10;    GREY_25_PERCENT(22),&#10;    GREY_50_PERCENT(23),&#10;    CORNFLOWER_BLUE(24),&#10;    MAROON(25),&#10;    LEMON_CHIFFON(26),&#10;    LIGHT_TURQUOISE1(27),&#10;    ORCHID(28),&#10;    CORAL(29),&#10;    ROYAL_BLUE(30),&#10;    LIGHT_CORNFLOWER_BLUE(31),&#10;    SKY_BLUE(40),&#10;    LIGHT_TURQUOISE(41),&#10;    LIGHT_GREEN(42),&#10;    LIGHT_YELLOW(43),&#10;    PALE_BLUE(44),&#10;    ROSE(45),&#10;    LAVENDER(46),&#10;    TAN(47),&#10;    LIGHT_BLUE(48),&#10;    AQUA(49),&#10;    LIME(50),&#10;    GOLD(51),&#10;    LIGHT_ORANGE(52),&#10;    ORANGE(53),&#10;    BLUE_GREY(54),&#10;    GREY_40_PERCENT(55),&#10;    DARK_TEAL(56),&#10;    SEA_GREEN(57),&#10;    DARK_GREEN(58),&#10;    OLIVE_GREEN(59),&#10;    BROWN(60),&#10;    PLUM(61),&#10;    INDIGO(62),&#10;    GREY_80_PERCENT(63),&#10;    AUTOMATIC(64);" />
       <item value="无" />
-      <item value="透明" />
-      <item value="A deprecated indexing scheme for colours that is still required for some records, and for backwards compatibility with OLE2 formats.&#10;Each element corresponds to a color index (zero-based). When using the default indexed color palette, the values are not written out, but instead are implied. When the color palette has been modified from default, then the entire color palette is used.&#10;Author:&#10;Yegor Kozlov" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1343" />
-        <entry key="ENGLISH" value="1344" />
+        <entry key="CHINESE" value="1346" />
+        <entry key="ENGLISH" value="1347" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
