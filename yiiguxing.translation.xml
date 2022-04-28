@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="fallback To Local When Fail" />
       <item value="Advance" />
       <item value="show Advance Button" />
       <item value="query App Machines" />
@@ -56,12 +57,11 @@
       <item value="This demo demonstrates how to use Nacos as the data source of Sentinel rules. Before you start, you need to start a Nacos server in local first, and then use NacosConfigSender to publish initial rule configuration to Nacos.&#10;Author:&#10;Eric Zhao" />
       <item value="Single-thread pool. Once the thread pool is blocked, we throw up the old tas" />
       <item value="A read-only DataSource with Nacos backend. When the data in Nacos backend has been modified, Nacos will automatically push the new value so that the dynamic configuration can be real-time.&#10;Author:&#10;Eric Zhao" />
-      <item value="Fetch real time statistics info of the machine.&#10;Params:&#10;ip – ip to fetch&#10;port – port of the ip&#10;type – one of [root, default, cluster], 'root' means fetching from tree root node, 'default' means fetching from tree default node, 'cluster' means fetching from cluster node.&#10;searchKey – key to search&#10;Returns:&#10;node statistics info." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1355" />
-        <entry key="ENGLISH" value="1356" />
+        <entry key="CHINESE" value="1356" />
+        <entry key="ENGLISH" value="1357" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
