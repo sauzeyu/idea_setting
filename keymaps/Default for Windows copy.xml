@@ -15,5 +15,6 @@
   </action>
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="shift q" />
+    <keyboard-shortcut first-keystroke="shift t" />
   </action>
 </keymap>
