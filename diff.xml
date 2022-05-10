@@ -3,7 +3,6 @@
     <option name="PLACES_MAP">
       <entry key="DirDiff">
         <PlaceSettings>
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
           <option name="SHOW_INDENT_LINES" value="true" />
         </PlaceSettings>
       </entry>
