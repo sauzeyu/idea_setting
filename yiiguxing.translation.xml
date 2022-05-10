@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="u 6 CE 8\u 518 C\u 4 E 2 D\u 5 FC 3\u 5730\u 5740" />
       <item value="JWT must not be accepted before &quot; + nbfVal + &quot;. Current time: &quot; + nowVal +&#10;                        &quot;, a difference of &quot; +&#10;                        differenceMillis + &quot; milliseconds.  Allowed clock skew: &quot; +&#10;                        this.allowedClockSkewMillis + &quot; milliseconds." />
       <item value="ublic class ExpiredJwtException extends ClaimJwtException {&#10;&#10;    public ExpiredJwtException(Header header, Claims claims, String message) {&#10;        super(header, claims, message);&#10;    }&#10;&#10;    &#10;      @param header jwt header&#10;      @param claims jwt claims (body)&#10;      @param message exception message&#10;      @param cause cause&#10;      @since 0.5&#10;     &#10;    public ExpiredJwtException(Header header, Claims claims, String message, Throwable cause) {&#10;        super(header, claims, message, cause);&#10;    }" />
       <item value="Base class for JWT-related runtime exceptions." />
@@ -56,12 +57,11 @@
       <item value="The annotation indicates a definition of Sentinel resource.&#10;Since:&#10;0.1.1&#10;Author:&#10;Eric Zhao, zhaoyuguang" />
       <item value="This demo demonstrates how to use Nacos as the data source of Sentinel rules. Before you start, you need to start a Nacos server in local first, and then use NacosConfigSender to publish initial rule configuration to Nacos." />
       <item value="Test Resource" />
-      <item value="remote Address" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1361" />
-        <entry key="ENGLISH" value="1362" />
+        <entry key="CHINESE" value="1362" />
+        <entry key="ENGLISH" value="1363" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
