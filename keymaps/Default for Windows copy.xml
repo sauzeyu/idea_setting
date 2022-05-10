@@ -10,4 +10,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="ForceOthersToFollowAction" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift e" />
+  </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift q" />
+  </action>
 </keymap>
