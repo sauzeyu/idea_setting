@@ -2,11 +2,14 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="753" />
+    <option name="newTranslationDialogWidth" value="751" />
     <option name="newTranslationDialogX" value="669" />
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="售后换件" />
+      <item value="售后" />
+      <item value="shou'h" />
       <item value="Incompatible types. Found: 'com.baomidou.mybatisplus.annotation.IdType', required: 'java.lang.String" />
       <item value="http Message Not Readable Exception" />
       <item value="annot resolve method 'ok(java.lang.String, int, java.util.List&lt;com.vecentek.back.dto.DkmVehicleDTO&gt;)" />
@@ -54,14 +57,11 @@
       <item value="api Query Machine Rules" />
       <item value="Internal" />
       <item value="check Entity Internal" />
-      <item value="The blockHandler is located in the same class with the original method by default. However, if some methods share the same signature and intend to set the same block handler, then users can set the class where the block handler exists. Note that the block handler method must be static." />
-      <item value="Returns:&#10;the entry type (inbound or outbound), outbound by default" />
-      <item value="The annotation indicates a definition of Sentinel resource" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1364" />
-        <entry key="ENGLISH" value="1364" />
+        <entry key="CHINESE" value="1369" />
+        <entry key="ENGLISH" value="1369" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
