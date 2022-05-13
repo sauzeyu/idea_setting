@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="present" />
       <item value="售后换件" />
       <item value="售后" />
       <item value="shou'h" />
@@ -56,12 +57,11 @@
       <item value="api Add Flow Rule" />
       <item value="api Query Machine Rules" />
       <item value="Internal" />
-      <item value="check Entity Internal" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1369" />
-        <entry key="ENGLISH" value="1369" />
+        <entry key="ENGLISH" value="1370" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
