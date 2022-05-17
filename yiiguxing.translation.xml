@@ -2,11 +2,14 @@
   <component name="AppStorage">
     <option name="lastReplacementTargetLanguage" value="ENGLISH" />
     <option name="newTranslationDialogHeight" value="404" />
-    <option name="newTranslationDialogWidth" value="751" />
-    <option name="newTranslationDialogX" value="669" />
-    <option name="newTranslationDialogY" value="487" />
+    <option name="newTranslationDialogWidth" value="749" />
+    <option name="newTranslationDialogX" value="1040" />
+    <option name="newTranslationDialogY" value="520" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="ble Manufacturer" />
+      <item value="蓝牙模块供应商零件号" />
+      <item value="蓝牙模块供应商硬件号" />
       <item value="检查文件是否合法" />
       <item value="检查文件是否he'f" />
       <item value="检查文件是否合肥" />
@@ -54,14 +57,11 @@
       <item value="flow Rule Default Publisher" />
       <item value="@Component(&quot;flowRuleDefaultPublisher&quot;)&#10;" />
       <item value="In Memory Rule Repository Adapter" />
-      <item value="The web interceptor for privilege-based authorization.&#10;move from old AuthorizationInterceptor.&#10;Since:&#10;1.7.1&#10;Author:&#10;lkxiaolou, wxq" />
-      <item value="WRITE RULE" />
-      <item value="Returns:&#10;the privilege type" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1374" />
-        <entry key="ENGLISH" value="1375" />
+        <entry key="CHINESE" value="1376" />
+        <entry key="ENGLISH" value="1377" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
