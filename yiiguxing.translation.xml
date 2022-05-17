@@ -7,6 +7,9 @@
     <option name="newTranslationDialogY" value="487" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="检查文件是否合法" />
+      <item value="检查文件是否he'f" />
+      <item value="检查文件是否合肥" />
       <item value="present" />
       <item value="售后换件" />
       <item value="售后" />
@@ -54,14 +57,11 @@
       <item value="The web interceptor for privilege-based authorization.&#10;move from old AuthorizationInterceptor.&#10;Since:&#10;1.7.1&#10;Author:&#10;lkxiaolou, wxq" />
       <item value="WRITE RULE" />
       <item value="Returns:&#10;the privilege type" />
-      <item value="api Add Flow Rule" />
-      <item value="api Query Machine Rules" />
-      <item value="Internal" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1369" />
-        <entry key="ENGLISH" value="1370" />
+        <entry key="CHINESE" value="1374" />
+        <entry key="ENGLISH" value="1375" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1652236167148" />
+    <option name="lastTrimTime" value="1652777873087" />
   </component>
   <component name="Settings">
     <option name="autoReplace" value="true" />
