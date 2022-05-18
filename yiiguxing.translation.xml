@@ -7,6 +7,14 @@
     <option name="newTranslationDialogY" value="520" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="nclusion rule to use for entries (&quot;content&quot;) of annotated java.util.Maps and referential types (like java.util.concurrent.atomic.AtomicReference); defaults to JsonInclude.Include.ALWAYS." />
+      <item value="nclusion rule to use for instances (values) of types (Classes) or properties annotated; defaults to" />
+      <item value="USE DEFAULTS" />
+      <item value="CUSTOM" />
+      <item value="NON EMPTY" />
+      <item value="Value that indicates that properties are included unless their value is:&#10;null&#10;&quot;absent&quot; value of a referential type (like Java 8 `Optional`, or {link java.util.concurrent.atomic.AtomicReference}); that is, something that would not deference to a non-null value.&#10;This option is mostly used to work with &quot;Optional&quot;s (Java 8, Guava).&#10;Since:&#10;2.6" />
+      <item value="Value that indicates that only properties with non-null values are to be included." />
+      <item value="Value that indicates that property is to be always included, independent of value of the property." />
       <item value="maximum" />
       <item value="1867734617" />
       <item value="Max Upload Size Exceeded Exception" />
@@ -49,19 +57,11 @@
       <item value="TODO: take care of charset?" />
       <item value=" TODO: checking logic and metric operation should be separated." />
       <item value="TODO: handle decode error here." />
-      <item value="TODO: check GC friendly?" />
-      <item value=" bad design here, should refactor!" />
-      <item value="Cannot resolve configuration property 'sentinel.nacos.serverAddr' " />
-      <item value="Not registered via @EnableConfigurationProperties, marked as Spring component, or scanned via @ConfigurationPropertiesScan " />
-      <item value="Cluster Entity Utils" />
-      <item value="Publish rules to remote rule configuration center for given application name." />
-      <item value="lookup" />
-      <item value="Returns a charset object for the named charset.&#10;Params:&#10;charsetName – The name of the requested charset; may be either a canonical name or an alias&#10;Returns:&#10;A charset object for the named charset&#10;Throws:&#10;IllegalCharsetNameException – If the given charset name is illegal&#10;IllegalArgumentException – If the given charsetName is null&#10;UnsupportedCharsetException – If no support for the named charset is available in this instance of the Java virtual machine" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1386" />
-        <entry key="ENGLISH" value="1386" />
+        <entry key="CHINESE" value="1393" />
+        <entry key="ENGLISH" value="1394" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
