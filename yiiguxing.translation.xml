@@ -7,6 +7,7 @@
     <option name="newTranslationDialogY" value="520" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="personal And Calibration String" />
       <item value="INTERNAL SERVER ERROR" />
       <item value="Bad Request." />
       <item value="ble Manufacturer" />
@@ -56,12 +57,11 @@
       <item value="CLUSTER MAP DATA ID POSTFIX" />
       <item value="PARAM FLOW DATA ID POSTFIX" />
       <item value="FLOW DATA ID POSTFIX" />
-      <item value="flow Rule Default Publisher" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1378" />
-        <entry key="ENGLISH" value="1379" />
+        <entry key="CHINESE" value="1379" />
+        <entry key="ENGLISH" value="1380" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
