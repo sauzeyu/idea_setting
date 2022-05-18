@@ -7,6 +7,10 @@
     <option name="newTranslationDialogY" value="520" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="maximum" />
+      <item value="1867734617" />
+      <item value="Max Upload Size Exceeded Exception" />
+      <item value="File Size Limit Exceeded Exception" />
       <item value="1048576" />
       <item value="Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl" />
       <item value="Maximum" />
@@ -53,15 +57,11 @@
       <item value="Publish rules to remote rule configuration center for given application name." />
       <item value="lookup" />
       <item value="Returns a charset object for the named charset.&#10;Params:&#10;charsetName – The name of the requested charset; may be either a canonical name or an alias&#10;Returns:&#10;A charset object for the named charset&#10;Throws:&#10;IllegalCharsetNameException – If the given charset name is illegal&#10;IllegalArgumentException – If the given charsetName is null&#10;UnsupportedCharsetException – If no support for the named charset is available in this instance of the Java virtual machine" />
-      <item value="tandardCharsets.UTF_8 can be used instead " />
-      <item value="A read-only DataSource with Nacos backend. When the data in Nacos backend has been modified, Nacos will automatically push the new value so that the dynamic configuration can be real-time." />
-      <item value="Load registered init functions and execute in order.&#10;Author:&#10;Eric Zhao" />
-      <item value="SENTINEL GROUP" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1383" />
-        <entry key="ENGLISH" value="1382" />
+        <entry key="CHINESE" value="1386" />
+        <entry key="ENGLISH" value="1386" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
