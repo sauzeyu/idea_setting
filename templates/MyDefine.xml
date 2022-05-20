@@ -3,7 +3,7 @@
     <variable name="date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
     <variable name="param" expression="groovyScript(&quot;def result = '';def params = \&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {if(params[i] != '')result+='* @param ' + params[i] + ((i &lt; params.size() - 1) ? '\\r\\n ' : '')}; return result == '' ? null : '\\r\\n ' + result&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
-    <variable name="return" expression="groovyScript(&quot;return \&quot;${_1}\&quot; == 'void' ? null : '\\r\\n * @return ' + \&quot;${_1}\&quot;&quot;, methodReturnType())" defaultValue="" alwaysStopAt="false" />
+    <variable name="return" expression="groovyScript(&quot;return \&quot;${_1}\&quot; == 'void' ? null : '\\r\\n * @return {@link ' + \&quot;${_1}\&quot;+'}'&quot;, methodReturnType())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_COMMENT" value="true" />
     </context>
