@@ -7,6 +7,8 @@
     <option name="newTranslationDialogY" value="520" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="page Index" />
+      <item value="page Size" />
       <item value="nclusion rule to use for entries (&quot;content&quot;) of annotated java.util.Maps and referential types (like java.util.concurrent.atomic.AtomicReference); defaults to JsonInclude.Include.ALWAYS." />
       <item value="nclusion rule to use for instances (values) of types (Classes) or properties annotated; defaults to" />
       <item value="USE DEFAULTS" />
@@ -55,13 +57,11 @@
       <item value="flow Rule Dialog" />
       <item value="uto-generated catch block" />
       <item value="TODO: take care of charset?" />
-      <item value=" TODO: checking logic and metric operation should be separated." />
-      <item value="TODO: handle decode error here." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1393" />
-        <entry key="ENGLISH" value="1394" />
+        <entry key="CHINESE" value="1395" />
+        <entry key="ENGLISH" value="1396" />
         <entry key="DANISH" value="2" />
         <entry key="FRISIAN" value="1" />
         <entry key="LATIN" value="1" />
