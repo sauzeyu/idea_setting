@@ -1,0 +1,54 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="815" />
+    <option name="newTranslationDialogY" value="451" />
+    <option name="pinTranslationDialog" value="true" />
+    <histories>
+      <item value="吊销" />
+      <item value="过期" />
+      <item value="freeze" />
+      <item value="冻结" />
+      <item value="已启用" />
+      <item value="Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured. Reason: Failed to determine a suitable driver class" />
+      <item value="fail" />
+      <item value="失效" />
+      <item value="失效开始时间" />
+      <item value="生效" />
+      <item value="生效开始时间" />
+      <item value="申请" />
+      <item value="申请时间" />
+      <item value="周期开始时间" />
+      <item value="Variable 'dkmKeyLogs' initializer 'new ArrayList&lt;&gt;()' is redundant" />
+      <item value="Method has 9 parameters, which is greater than 7 authorized." />
+      <item value="reates an ArrayBlockingQueue with the given (fixed) capacity and default access policy. Params: capacity – the capacity of this queue Throws: IllegalArgumentException – if capacity &lt; 1" />
+      <item value="历史导出记录" />
+      <item value="任务名称" />
+      <item value="导出状态" />
+      <item value="历史导出列表" />
+      <item value="历史导出" />
+      <item value="钥匙使用记录" />
+      <item value="Failed to execute goal com.spotify:docker-maven-plugin:1.0.0:build (build-image) on project dkserver-back: Exception caught" />
+      <item value="Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project dkserver-back: There are test failures. Please refer to D:\worksapce\back2.0-framework\dkserver-back\target\surefire-reports for the individual test results. Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream." />
+      <item value="[INFO] [INFO] --- docker-maven-plugin:1.0.0:build (build-image) @ dkserver-back --- [INFO] Using authentication suppliers: [ConfigFileRegistryAuthSupplier] [INFO] Copying D:\worksapce\back2.0-framework\dkserver-back\target\dkserver-back-1.0-SNAPSHOT.jar -&gt; D:\worksapce\back2.0-framework\dkserver-back\target\docker\dkserver-back-1.0-SNAPSHOT.jar [INFO] Building image dkserver-back" />
+      <item value="Non-resolvable parent POM for com.vecentek.dkserver:dkserver-icce:1.0-SNAPSHOT: Could not find artifact com.vecentek.dkserver:vecentek-dkserver:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM" />
+      <item value="For more information about the errors and possible solutions, please read the following articles:" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="33" />
+        <entry key="ENGLISH" value="33" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1656384686823" />
+  </component>
+  <component name="Settings">
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="sauzeyu@163.com" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>

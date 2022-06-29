@@ -1,0 +1,292 @@
+<application>
+  <component name="EasyCodeSetting">
+    <option name="author" value="makejava" />
+    <option name="columnConfigGroupMap">
+      <map>
+        <entry key="Default">
+          <value>
+            <ColumnConfigGroup>
+              <option name="elementList">
+                <list>
+                  <ColumnConfig>
+                    <option name="selectValue" value="" />
+                    <option name="title" value="disable" />
+                    <option name="type" value="BOOLEAN" />
+                  </ColumnConfig>
+                  <ColumnConfig>
+                    <option name="selectValue" value="add,edit,query,del,ui" />
+                    <option name="title" value="support" />
+                    <option name="type" value="SELECT" />
+                  </ColumnConfig>
+                </list>
+              </option>
+              <option name="name" value="Default" />
+            </ColumnConfigGroup>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="currColumnConfigGroupName" value="Default" />
+    <option name="currGlobalConfigGroupName" value="Default" />
+    <option name="currTemplateGroupName" value="MybatisPlus" />
+    <option name="currTypeMapperGroupName" value="Default" />
+    <option name="globalConfigGroupMap">
+      <map>
+        <entry key="Default">
+          <value>
+            <GlobalConfigGroup>
+              <option name="elementList">
+                <list>
+                  <GlobalConfig>
+                    <option name="name" value="autoImport.vm" />
+                    <option name="value" value="##自动导入包（仅导入实体属性需要的包，通常用于实体类）&#10;#foreach($import in $importList)&#10;import $!import;&#10;#end" />
+                  </GlobalConfig>
+                  <GlobalConfig>
+                    <option name="name" value="define.vm" />
+                    <option name="value" value="##（Velocity宏定义）&#10;&#10;##定义设置表名后缀的宏定义，调用方式：#setTableSuffix(&quot;Test&quot;)&#10;#macro(setTableSuffix $suffix)&#10;    #set($tableName = $!tool.append($tableInfo.name, $suffix))&#10;#end&#10;&#10;##定义设置包名后缀的宏定义，调用方式：#setPackageSuffix(&quot;Test&quot;)&#10;#macro(setPackageSuffix $suffix)&#10;#if($suffix!=&quot;&quot;)package #end#if($tableInfo.savePackageName!=&quot;&quot;)$!{tableInfo.savePackageName}.#{end}$!suffix;&#10;#end&#10;&#10;##定义直接保存路径与文件名简化的宏定义，调用方式：#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;#macro(save $path $fileName)&#10;    $!callback.setSavePath($tool.append($tableInfo.savePath, $path))&#10;    $!callback.setFileName($tool.append($tableInfo.name, $fileName))&#10;#end&#10;&#10;##定义表注释的宏定义，调用方式：#tableComment(&quot;注释信息&quot;)&#10;#macro(tableComment $desc)&#10;/**&#10; * $!{tableInfo.comment}($!{tableInfo.name})$desc&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;#end&#10;&#10;##定义GET，SET方法的宏定义，调用方式：#getSetMethod($column)&#10;#macro(getSetMethod $column)&#10;&#10;    public $!{tool.getClsNameByFullName($column.type)} get$!{tool.firstUpperCase($column.name)}() {&#10;        return $!{column.name};&#10;    }&#10;&#10;    public void set$!{tool.firstUpperCase($column.name)}($!{tool.getClsNameByFullName($column.type)} $!{column.name}) {&#10;        this.$!{column.name} = $!{column.name};&#10;    }&#10;#end" />
+                  </GlobalConfig>
+                  <GlobalConfig>
+                    <option name="name" value="init.vm" />
+                    <option name="value" value="##初始化区域&#10;&#10;##去掉表的t_前缀&#10;$!tableInfo.setName($tool.getClassName($tableInfo.obj.name.replaceFirst(&quot;book_&quot;,&quot;&quot;)))&#10;&#10;##参考阿里巴巴开发手册，POJO 类中布尔类型的变量，都不要加 is 前缀，否则部分框架解析会引起序列化错误&#10;#foreach($column in $tableInfo.fullColumn)&#10;#if($column.name.startsWith(&quot;is&quot;) &amp;&amp; $column.type.equals(&quot;java.lang.Boolean&quot;))&#10;    $!column.setName($tool.firstLowerCase($column.name.substring(2)))&#10;#end&#10;#end&#10;&#10;##实现动态排除列&#10;#set($temp = $tool.newHashSet(&quot;testCreateTime&quot;, &quot;otherColumn&quot;))&#10;#foreach($item in $temp)&#10;    #set($newList = $tool.newArrayList())&#10;    #foreach($column in $tableInfo.fullColumn)&#10;        #if($column.name!=$item)&#10;            ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;            $tool.call($newList.add($column))&#10;        #end&#10;    #end&#10;    ##重新保存&#10;    $tableInfo.setFullColumn($newList)&#10;#end&#10;&#10;##对importList进行篡改&#10;#set($temp = $tool.newHashSet())&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(!$column.type.startsWith(&quot;java.lang.&quot;))&#10;        ##带有反回值的方法调用时使用$tool.call来消除返回值&#10;        $tool.call($temp.add($column.type))&#10;    #end&#10;#end&#10;##覆盖&#10;#set($importList = $temp)" />
+                  </GlobalConfig>
+                  <GlobalConfig>
+                    <option name="name" value="mybatisSupport.vm" />
+                    <option name="value" value="##针对Mybatis 进行支持，主要用于生成xml文件&#10;#foreach($column in $tableInfo.fullColumn)&#10;    ##储存列类型&#10;    $tool.call($column.ext.put(&quot;sqlType&quot;, $tool.getField($column.obj.dataType, &quot;typeName&quot;)))&#10;    #if($tool.newHashSet(&quot;java.lang.String&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;VARCHAR&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Boolean&quot;, &quot;boolean&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;BOOLEAN&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Byte&quot;, &quot;byte&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;BYTE&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Integer&quot;, &quot;int&quot;, &quot;java.lang.Short&quot;, &quot;short&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;INTEGER&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Long&quot;, &quot;long&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;INTEGER&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.lang.Float&quot;, &quot;float&quot;, &quot;java.lang.Double&quot;, &quot;double&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;NUMERIC&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.util.Date&quot;, &quot;java.sql.Timestamp&quot;, &quot;java.time.Instant&quot;, &quot;java.time.LocalDateTime&quot;, &quot;java.time.OffsetDateTime&quot;, &quot;&#9;java.time.ZonedDateTime&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;TIMESTAMP&quot;)&#10;    #elseif($tool.newHashSet(&quot;java.sql.Date&quot;, &quot;java.time.LocalDate&quot;).contains($column.type))&#10;        #set($jdbcType=&quot;TIMESTAMP&quot;)&#10;    #else&#10;        ##其他类型&#10;        #set($jdbcType=&quot;VARCHAR&quot;)&#10;    #end&#10;    $tool.call($column.ext.put(&quot;jdbcType&quot;, $jdbcType))&#10;#end&#10;&#10;##定义宏，查询所有列&#10;#macro(allSqlColumn)#foreach($column in $tableInfo.fullColumn)$column.obj.name#if($velocityHasNext), #end#end#end&#10;" />
+                  </GlobalConfig>
+                </list>
+              </option>
+              <option name="name" value="Default" />
+            </GlobalConfigGroup>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="templateGroupMap">
+      <map>
+        <entry key="Default">
+          <value>
+            <TemplateGroup>
+              <option name="elementList">
+                <list>
+                  <Template>
+                    <option name="code" value="##定义初始变量&#10;#set($tableName = $tool.append($tableInfo.name, &quot;Controller&quot;))&#10;##设置回调&#10;$!callback.setFileName($tool.append($tableName, &quot;.java&quot;))&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/controller&quot;))&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}controller;&#10;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;&#10;import org.springframework.data.domain.Page;&#10;import org.springframework.data.domain.PageRequest;&#10;import org.springframework.http.ResponseEntity;&#10;import org.springframework.web.bind.annotation.*;&#10;&#10;import javax.annotation.Resource;&#10;&#10;/**&#10; * $!{tableInfo.comment}($!{tableInfo.name})表控制层&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;@RestController&#10;@RequestMapping(&quot;$!tool.firstLowerCase($tableInfo.name)&quot;)&#10;public class $!{tableName} {&#10;    /**&#10;     * 服务对象&#10;     */&#10;    @Resource&#10;    private $!{tableInfo.name}Service $!tool.firstLowerCase($tableInfo.name)Service;&#10;&#10;    /**&#10;     * 分页查询&#10;     *&#10;     * @param $!{tool.firstLowerCase($tableInfo.name)} 筛选条件&#10;     * @param pageRequest      分页对象&#10;     * @return 查询结果&#10;     */&#10;    @GetMapping&#10;    public ResponseEntity&lt;Page&lt;$!{tableInfo.name}&gt;&gt; queryByPage($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}, PageRequest pageRequest) {&#10;        return ResponseEntity.ok(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryByPage($!{tool.firstLowerCase($tableInfo.name)}, pageRequest));&#10;    }&#10;&#10;    /**&#10;     * 通过主键查询单条数据&#10;     *&#10;     * @param id 主键&#10;     * @return 单条数据&#10;     */&#10;    @GetMapping(&quot;{id}&quot;)&#10;    public ResponseEntity&lt;$!{tableInfo.name}&gt; queryById(@PathVariable(&quot;id&quot;) $!pk.shortType id) {&#10;        return ResponseEntity.ok(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryById(id));&#10;    }&#10;&#10;    /**&#10;     * 新增数据&#10;     *&#10;     * @param $!{tool.firstLowerCase($tableInfo.name)} 实体&#10;     * @return 新增结果&#10;     */&#10;    @PostMapping&#10;    public ResponseEntity&lt;$!{tableInfo.name}&gt; add($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}) {&#10;        return ResponseEntity.ok(this.$!{tool.firstLowerCase($tableInfo.name)}Service.insert($!{tool.firstLowerCase($tableInfo.name)}));&#10;    }&#10;&#10;    /**&#10;     * 编辑数据&#10;     *&#10;     * @param $!{tool.firstLowerCase($tableInfo.name)} 实体&#10;     * @return 编辑结果&#10;     */&#10;    @PutMapping&#10;    public ResponseEntity&lt;$!{tableInfo.name}&gt; edit($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}) {&#10;        return ResponseEntity.ok(this.$!{tool.firstLowerCase($tableInfo.name)}Service.update($!{tool.firstLowerCase($tableInfo.name)}));&#10;    }&#10;&#10;    /**&#10;     * 删除数据&#10;     *&#10;     * @param id 主键&#10;     * @return 删除是否成功&#10;     */&#10;    @DeleteMapping&#10;    public ResponseEntity&lt;Boolean&gt; deleteById($!pk.shortType id) {&#10;        return ResponseEntity.ok(this.$!{tool.firstLowerCase($tableInfo.name)}Service.deleteById(id));&#10;    }&#10;&#10;}&#10;" />
+                    <option name="name" value="controller.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##定义初始变量&#10;#set($tableName = $tool.append($tableInfo.name, &quot;Dao&quot;))&#10;##设置回调&#10;$!callback.setFileName($tool.append($tableName, &quot;.java&quot;))&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/dao&quot;))&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}dao;&#10;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import org.apache.ibatis.annotations.Param;&#10;import org.springframework.data.domain.Pageable;&#10;import java.util.List;&#10;&#10;/**&#10; * $!{tableInfo.comment}($!{tableInfo.name})表数据库访问层&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;public interface $!{tableName} {&#10;&#10;    /**&#10;     * 通过ID查询单条数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 实例对象&#10;     */&#10;    $!{tableInfo.name} queryById($!pk.shortType $!pk.name);&#10;&#10;    /**&#10;     * 查询指定行数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 查询条件&#10;     * @param pageable         分页对象&#10;     * @return 对象列表&#10;     */&#10;    List&lt;$!{tableInfo.name}&gt; queryAllByLimit($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}), @Param(&quot;pageable&quot;) Pageable pageable);&#10;&#10;    /**&#10;     * 统计总行数&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 查询条件&#10;     * @return 总行数&#10;     */&#10;    long count($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}));&#10;&#10;    /**&#10;     * 新增数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 实例对象&#10;     * @return 影响行数&#10;     */&#10;    int insert($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}));&#10;&#10;    /**&#10;     * 批量新增数据（MyBatis原生foreach方法）&#10;     *&#10;     * @param entities List&lt;$!{tableInfo.name}&gt; 实例对象列表&#10;     * @return 影响行数&#10;     */&#10;    int insertBatch(@Param(&quot;entities&quot;) List&lt;$!{tableInfo.name}&gt; entities);&#10;&#10;    /**&#10;     * 批量新增或按主键更新数据（MyBatis原生foreach方法）&#10;     *&#10;     * @param entities List&lt;$!{tableInfo.name}&gt; 实例对象列表&#10;     * @return 影响行数&#10;     * @throws org.springframework.jdbc.BadSqlGrammarException 入参是空List的时候会抛SQL语句错误的异常，请自行校验入参&#10;     */&#10;    int insertOrUpdateBatch(@Param(&quot;entities&quot;) List&lt;$!{tableInfo.name}&gt; entities);&#10;&#10;    /**&#10;     * 修改数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 实例对象&#10;     * @return 影响行数&#10;     */&#10;    int update($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}));&#10;&#10;    /**&#10;     * 通过主键删除数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 影响行数&#10;     */&#10;    int deleteById($!pk.shortType $!pk.name);&#10;&#10;}&#10;" />
+                    <option name="name" value="dao.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="// 禁止将生成结果写入到文件&#10;$!callback.setWriteFile(false)&#10;&#10;//调试表原始对象&#10;$!tool.debug($tableInfo.obj)&#10;&#10;//调试列原始对象&#10;$!tool.debug($tableInfo.fullColumn.get(0).obj)&#10;&#10;//调试列原始列类型&#10;$!tool.debug($tableInfo.fullColumn.get(0).obj.dataType)&#10;&#10;//获取原始列类型中的字段&#10;sqlType = $!tool.getField($tableInfo.fullColumn.get(0).obj.dataType, &quot;typeName&quot;)&#10;&#10;//执行原始列类型中的方法&#10;sqlTypeLen = $!tableInfo.fullColumn.get(0).obj.dataType.getLength()&#10;" />
+                    <option name="name" value="debug.json.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##引入宏定义&#10;$!{define.vm}&#10;&#10;##使用宏定义设置回调（保存位置与文件后缀）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##使用宏定义设置包后缀&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##使用全局变量实现默认包导入&#10;$!{autoImport.vm}&#10;import java.io.Serializable;&#10;&#10;##使用宏定义实现类注释信息&#10;#tableComment(&quot;实体类&quot;)&#10;public class $!{tableInfo.name} implements Serializable {&#10;    private static final long serialVersionUID = $!tool.serial();&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})/**&#10;     * ${column.comment}&#10;     */#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;&#10;#foreach($column in $tableInfo.fullColumn)&#10;##使用宏定义实现get,set方法&#10;#getSetMethod($column)&#10;#end&#10;&#10;}&#10;" />
+                    <option name="name" value="entity.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##引入mybatis支持&#10;$!{mybatisSupport.vm}&#10;&#10;##设置保存名称与保存位置&#10;$!callback.setFileName($tool.append($!{tableInfo.name}, &quot;Dao.xml&quot;))&#10;$!callback.setSavePath($tool.append($modulePath, &quot;/src/main/resources/mapper&quot;))&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;!DOCTYPE mapper PUBLIC &quot;-//mybatis.org//DTD Mapper 3.0//EN&quot; &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;&gt;&#10;&lt;mapper namespace=&quot;$!{tableInfo.savePackageName}.dao.$!{tableInfo.name}Dao&quot;&gt;&#10;&#10;    &lt;resultMap type=&quot;$!{tableInfo.savePackageName}.entity.$!{tableInfo.name}&quot; id=&quot;$!{tableInfo.name}Map&quot;&gt;&#10;#foreach($column in $tableInfo.fullColumn)&#10;        &lt;result property=&quot;$!column.name&quot; column=&quot;$!column.obj.name&quot; jdbcType=&quot;$!column.ext.jdbcType&quot;/&gt;&#10;#end&#10;    &lt;/resultMap&gt;&#10;&#10;    &lt;!--查询单个--&gt;&#10;    &lt;select id=&quot;queryById&quot; resultMap=&quot;$!{tableInfo.name}Map&quot;&gt;&#10;        select&#10;          #allSqlColumn()&#10;&#10;        from $!tableInfo.obj.name&#10;        where $!pk.obj.name = #{$!pk.name}&#10;    &lt;/select&gt;&#10;&#10;    &lt;!--查询指定行数据--&gt;&#10;    &lt;select id=&quot;queryAllByLimit&quot; resultMap=&quot;$!{tableInfo.name}Map&quot;&gt;&#10;        select&#10;          #allSqlColumn()&#10;&#10;        from $!tableInfo.obj.name&#10;        &lt;where&gt;&#10;#foreach($column in $tableInfo.fullColumn)&#10;            &lt;if test=&quot;$!column.name != null#if($column.type.equals(&quot;java.lang.String&quot;)) and $!column.name != ''#end&quot;&gt;&#10;                and $!column.obj.name = #{$!column.name}&#10;            &lt;/if&gt;&#10;#end&#10;        &lt;/where&gt;&#10;        limit #{pageable.offset}, #{pageable.pageSize}&#10;    &lt;/select&gt;&#10;&#10;    &lt;!--统计总行数--&gt;&#10;    &lt;select id=&quot;count&quot; resultType=&quot;java.lang.Long&quot;&gt;&#10;        select count(1)&#10;        from $!tableInfo.obj.name&#10;        &lt;where&gt;&#10;#foreach($column in $tableInfo.fullColumn)&#10;            &lt;if test=&quot;$!column.name != null#if($column.type.equals(&quot;java.lang.String&quot;)) and $!column.name != ''#end&quot;&gt;&#10;                and $!column.obj.name = #{$!column.name}&#10;            &lt;/if&gt;&#10;#end&#10;        &lt;/where&gt;&#10;    &lt;/select&gt;&#10;&#10;    &lt;!--新增所有列--&gt;&#10;    &lt;insert id=&quot;insert&quot; keyProperty=&quot;$!pk.name&quot; useGeneratedKeys=&quot;true&quot;&gt;&#10;        insert into $!{tableInfo.obj.name}(#foreach($column in $tableInfo.otherColumn)$!column.obj.name#if($velocityHasNext), #end#end)&#10;        values (#foreach($column in $tableInfo.otherColumn)#{$!{column.name}}#if($velocityHasNext), #end#end)&#10;    &lt;/insert&gt;&#10;&#10;    &lt;insert id=&quot;insertBatch&quot; keyProperty=&quot;$!pk.name&quot; useGeneratedKeys=&quot;true&quot;&gt;&#10;        insert into $!{tableInfo.obj.name}(#foreach($column in $tableInfo.otherColumn)$!column.obj.name#if($velocityHasNext), #end#end)&#10;        values&#10;        &lt;foreach collection=&quot;entities&quot; item=&quot;entity&quot; separator=&quot;,&quot;&gt;&#10;        (#foreach($column in $tableInfo.otherColumn)#{entity.$!{column.name}}#if($velocityHasNext), #end#end)&#10;        &lt;/foreach&gt;&#10;    &lt;/insert&gt;&#10;&#10;    &lt;insert id=&quot;insertOrUpdateBatch&quot; keyProperty=&quot;$!pk.name&quot; useGeneratedKeys=&quot;true&quot;&gt;&#10;        insert into $!{tableInfo.obj.name}(#foreach($column in $tableInfo.otherColumn)$!column.obj.name#if($velocityHasNext), #end#end)&#10;        values&#10;        &lt;foreach collection=&quot;entities&quot; item=&quot;entity&quot; separator=&quot;,&quot;&gt;&#10;            (#foreach($column in $tableInfo.otherColumn)#{entity.$!{column.name}}#if($velocityHasNext), #end#end)&#10;        &lt;/foreach&gt;&#10;        on duplicate key update&#10;        #foreach($column in $tableInfo.otherColumn)$!column.obj.name = values($!column.obj.name)#if($velocityHasNext),&#10;        #end#end&#10;&#10;    &lt;/insert&gt;&#10;&#10;    &lt;!--通过主键修改数据--&gt;&#10;    &lt;update id=&quot;update&quot;&gt;&#10;        update $!{tableInfo.obj.name}&#10;        &lt;set&gt;&#10;#foreach($column in $tableInfo.otherColumn)&#10;            &lt;if test=&quot;$!column.name != null#if($column.type.equals(&quot;java.lang.String&quot;)) and $!column.name != ''#end&quot;&gt;&#10;                $!column.obj.name = #{$!column.name},&#10;            &lt;/if&gt;&#10;#end&#10;        &lt;/set&gt;&#10;        where $!pk.obj.name = #{$!pk.name}&#10;    &lt;/update&gt;&#10;&#10;    &lt;!--通过主键删除--&gt;&#10;    &lt;delete id=&quot;deleteById&quot;&gt;&#10;        delete from $!{tableInfo.obj.name} where $!pk.obj.name = #{$!pk.name}&#10;    &lt;/delete&gt;&#10;&#10;&lt;/mapper&gt;&#10;" />
+                    <option name="name" value="mapper.xml.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##定义初始变量&#10;#set($tableName = $tool.append($tableInfo.name, &quot;Service&quot;))&#10;##设置回调&#10;$!callback.setFileName($tool.append($tableName, &quot;.java&quot;))&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/service&quot;))&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}service;&#10;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import org.springframework.data.domain.Page;&#10;import org.springframework.data.domain.PageRequest;&#10;&#10;/**&#10; * $!{tableInfo.comment}($!{tableInfo.name})表服务接口&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;public interface $!{tableName} {&#10;&#10;    /**&#10;     * 通过ID查询单条数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 实例对象&#10;     */&#10;    $!{tableInfo.name} queryById($!pk.shortType $!pk.name);&#10;&#10;    /**&#10;     * 分页查询&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 筛选条件&#10;     * @param pageRequest      分页对象&#10;     * @return 查询结果&#10;     */&#10;    Page&lt;$!{tableInfo.name}&gt; queryByPage($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}), PageRequest pageRequest);&#10;&#10;    /**&#10;     * 新增数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 实例对象&#10;     * @return 实例对象&#10;     */&#10;    $!{tableInfo.name} insert($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}));&#10;&#10;    /**&#10;     * 修改数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 实例对象&#10;     * @return 实例对象&#10;     */&#10;    $!{tableInfo.name} update($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}));&#10;&#10;    /**&#10;     * 通过主键删除数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 是否成功&#10;     */&#10;    boolean deleteById($!pk.shortType $!pk.name);&#10;&#10;}" />
+                    <option name="name" value="service.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##定义初始变量&#10;#set($tableName = $tool.append($tableInfo.name, &quot;ServiceImpl&quot;))&#10;##设置回调&#10;$!callback.setFileName($tool.append($tableName, &quot;.java&quot;))&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/service/impl&quot;))&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}service.impl;&#10;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import $!{tableInfo.savePackageName}.dao.$!{tableInfo.name}Dao;&#10;import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;&#10;import org.springframework.stereotype.Service;&#10;import org.springframework.data.domain.Page;&#10;import org.springframework.data.domain.PageImpl;&#10;import org.springframework.data.domain.PageRequest;&#10;&#10;import javax.annotation.Resource;&#10;&#10;/**&#10; * $!{tableInfo.comment}($!{tableInfo.name})表服务实现类&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;@Service(&quot;$!tool.firstLowerCase($!{tableInfo.name})Service&quot;)&#10;public class $!{tableName} implements $!{tableInfo.name}Service {&#10;    @Resource&#10;    private $!{tableInfo.name}Dao $!tool.firstLowerCase($!{tableInfo.name})Dao;&#10;&#10;    /**&#10;     * 通过ID查询单条数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 实例对象&#10;     */&#10;    @Override&#10;    public $!{tableInfo.name} queryById($!pk.shortType $!pk.name) {&#10;        return this.$!{tool.firstLowerCase($!{tableInfo.name})}Dao.queryById($!pk.name);&#10;    }&#10;&#10;    /**&#10;     * 分页查询&#10;     *&#10;     * @param $!{tool.firstLowerCase($tableInfo.name)} 筛选条件&#10;     * @param pageRequest      分页对象&#10;     * @return 查询结果&#10;     */&#10;    @Override&#10;    public Page&lt;$!{tableInfo.name}&gt; queryByPage($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}, PageRequest pageRequest) {&#10;        long total = this.$!{tool.firstLowerCase($tableInfo.name)}Dao.count($!{tool.firstLowerCase($tableInfo.name)});&#10;        return new PageImpl&lt;&gt;(this.$!{tool.firstLowerCase($tableInfo.name)}Dao.queryAllByLimit($!{tool.firstLowerCase($tableInfo.name)}, pageRequest), pageRequest, total);&#10;    }&#10;&#10;    /**&#10;     * 新增数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 实例对象&#10;     * @return 实例对象&#10;     */&#10;    @Override&#10;    public $!{tableInfo.name} insert($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name})) {&#10;        this.$!{tool.firstLowerCase($!{tableInfo.name})}Dao.insert($!tool.firstLowerCase($!{tableInfo.name}));&#10;        return $!tool.firstLowerCase($!{tableInfo.name});&#10;    }&#10;&#10;    /**&#10;     * 修改数据&#10;     *&#10;     * @param $!tool.firstLowerCase($!{tableInfo.name}) 实例对象&#10;     * @return 实例对象&#10;     */&#10;    @Override&#10;    public $!{tableInfo.name} update($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name})) {&#10;        this.$!{tool.firstLowerCase($!{tableInfo.name})}Dao.update($!tool.firstLowerCase($!{tableInfo.name}));&#10;        return this.queryById($!{tool.firstLowerCase($!{tableInfo.name})}.get$!tool.firstUpperCase($pk.name)());&#10;    }&#10;&#10;    /**&#10;     * 通过主键删除数据&#10;     *&#10;     * @param $!pk.name 主键&#10;     * @return 是否成功&#10;     */&#10;    @Override&#10;    public boolean deleteById($!pk.shortType $!pk.name) {&#10;        return this.$!{tool.firstLowerCase($!{tableInfo.name})}Dao.deleteById($!pk.name) &gt; 0;&#10;    }&#10;}" />
+                    <option name="name" value="serviceImpl.java.vm" />
+                  </Template>
+                </list>
+              </option>
+              <option name="name" value="Default" />
+            </TemplateGroup>
+          </value>
+        </entry>
+        <entry key="MybatisPlus">
+          <value>
+            <TemplateGroup>
+              <option name="elementList">
+                <list>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;Controller&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/controller&quot;, &quot;Controller.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;controller&quot;)&#10;&#10;##定义服务名&#10;#set($serviceName = $!tool.append($!tool.firstLowerCase($!tableInfo.name), &quot;Service&quot;))&#10;&#10;##定义实体对象名&#10;#set($entityName = $!tool.firstLowerCase($!tableInfo.name))&#10;&#10;import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;&#10;import com.baomidou.mybatisplus.extension.api.ApiController;&#10;import com.baomidou.mybatisplus.extension.api.R;&#10;import com.baomidou.mybatisplus.extension.plugins.pagination.Page;&#10;import $!{tableInfo.savePackageName}.entity.$!tableInfo.name;&#10;import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;&#10;import org.springframework.web.bind.annotation.*;&#10;&#10;import javax.annotation.Resource;&#10;import java.io.Serializable;&#10;import java.util.List;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表控制层&quot;)&#10;@RestController&#10;@RequestMapping(&quot;$!tool.firstLowerCase($!tableInfo.name)&quot;)&#10;public class $!{tableName} extends ApiController {&#10;    /**&#10;     * 服务对象&#10;     */&#10;    @Resource&#10;    private $!{tableInfo.name}Service $!{serviceName};&#10;&#10;    /**&#10;     * 分页查询所有数据&#10;     *&#10;     * @param page 分页对象&#10;     * @param $!entityName 查询实体&#10;     * @return 所有数据&#10;     */&#10;    @GetMapping&#10;    public R selectAll(Page&lt;$!tableInfo.name&gt; page, $!tableInfo.name $!entityName) {&#10;        return success(this.$!{serviceName}.page(page, new QueryWrapper&lt;&gt;($!entityName)));&#10;    }&#10;&#10;    /**&#10;     * 通过主键查询单条数据&#10;     *&#10;     * @param id 主键&#10;     * @return 单条数据&#10;     */&#10;    @GetMapping(&quot;{id}&quot;)&#10;    public R selectOne(@PathVariable Serializable id) {&#10;        return success(this.$!{serviceName}.getById(id));&#10;    }&#10;&#10;    /**&#10;     * 新增数据&#10;     *&#10;     * @param $!entityName 实体对象&#10;     * @return 新增结果&#10;     */&#10;    @PostMapping&#10;    public R insert(@RequestBody $!tableInfo.name $!entityName) {&#10;        return success(this.$!{serviceName}.save($!entityName));&#10;    }&#10;&#10;    /**&#10;     * 修改数据&#10;     *&#10;     * @param $!entityName 实体对象&#10;     * @return 修改结果&#10;     */&#10;    @PutMapping&#10;    public R update(@RequestBody $!tableInfo.name $!entityName) {&#10;        return success(this.$!{serviceName}.updateById($!entityName));&#10;    }&#10;&#10;    /**&#10;     * 删除数据&#10;     *&#10;     * @param idList 主键结合&#10;     * @return 删除结果&#10;     */&#10;    @DeleteMapping&#10;    public R delete(@RequestParam(&quot;idList&quot;) List&lt;Long&gt; idList) {&#10;        return success(this.$!{serviceName}.removeByIds(idList));&#10;    }&#10;}&#10;" />
+                    <option name="name" value="controller.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;Mapper&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/mapper&quot;, &quot;Mapper.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;mapper&quot;)&#10;&#10;import com.baomidou.mybatisplus.core.mapper.BaseMapper;&#10;import $!{tableInfo.savePackageName}.entity.$!tableInfo.name;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表数据库访问层&quot;)&#10;public interface $!{tableName} extends BaseMapper&lt;$!tableInfo.name&gt; {&#10;&#10;}&#10;" />
+                    <option name="name" value="dao.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##自动导入包（全局变量）&#10;$!{autoImport.vm}&#10;import com.baomidou.mybatisplus.extension.activerecord.Model;&#10;import java.io.Serializable;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@SuppressWarnings(&quot;serial&quot;)&#10;public class $!{tableInfo.name} extends Model&lt;$!{tableInfo.name}&gt; {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})//${column.comment}#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;&#10;#foreach($column in $tableInfo.fullColumn)&#10;#getSetMethod($column)&#10;#end&#10;&#10;#foreach($column in $tableInfo.pkColumn)&#10;    /**&#10;     * 获取主键值&#10;     *&#10;     * @return 主键值&#10;     */&#10;    @Override&#10;    protected Serializable pkVal() {&#10;        return this.$!column.name;&#10;    }&#10;    #break&#10;#end&#10;}&#10;" />
+                    <option name="name" value="entity.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;Service&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/service&quot;, &quot;Service.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;service&quot;)&#10;&#10;import com.baomidou.mybatisplus.extension.service.IService;&#10;import $!{tableInfo.savePackageName}.entity.$!tableInfo.name;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表服务接口&quot;)&#10;public interface $!{tableName} extends IService&lt;$!tableInfo.name&gt; {&#10;&#10;}&#10;" />
+                    <option name="name" value="service.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;ServiceImpl&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/service/impl&quot;, &quot;ServiceImpl.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;service.impl&quot;)&#10;&#10;import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;&#10;import $!{tableInfo.savePackageName}.dao.$!{tableInfo.name}Dao;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;&#10;import org.springframework.stereotype.Service;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表服务实现类&quot;)&#10;@Service(&quot;$!tool.firstLowerCase($tableInfo.name)Service&quot;)&#10;public class $!{tableName} extends ServiceImpl&lt;$!{tableInfo.name}Dao, $!{tableInfo.name}&gt; implements $!{tableInfo.name}Service {&#10;&#10;}&#10;" />
+                    <option name="name" value="serviceImpl.java.vm" />
+                  </Template>
+                </list>
+              </option>
+              <option name="name" value="MybatisPlus" />
+            </TemplateGroup>
+          </value>
+        </entry>
+        <entry key="MybatisPlus-Mixed">
+          <value>
+            <TemplateGroup>
+              <option name="elementList">
+                <list>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;Controller&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/controller&quot;, &quot;Controller.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;controller&quot;)&#10;&#10;##定义服务名&#10;#set($serviceName = $!tool.append($!tool.firstLowerCase($!tableInfo.name), &quot;Service&quot;))&#10;&#10;##定义实体对象名&#10;#set($entityName = $!tool.firstLowerCase($!tableInfo.name))&#10;&#10;import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;&#10;import com.baomidou.mybatisplus.extension.api.ApiController;&#10;import com.baomidou.mybatisplus.extension.api.R;&#10;import com.baomidou.mybatisplus.extension.plugins.pagination.Page;&#10;import $!{tableInfo.savePackageName}.entity.$!tableInfo.name;&#10;import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;&#10;import org.springframework.web.bind.annotation.*;&#10;&#10;import javax.annotation.Resource;&#10;import java.io.Serializable;&#10;import java.util.List;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表控制层&quot;)&#10;@RestController&#10;@RequestMapping(&quot;$!tool.firstLowerCase($!tableInfo.name)&quot;)&#10;public class $!{tableName} extends ApiController {&#10;    /**&#10;     * 服务对象&#10;     */&#10;    @Resource&#10;    private $!{tableInfo.name}Service $!{serviceName};&#10;&#10;    /**&#10;     * 分页查询所有数据&#10;     *&#10;     * @param page 分页对象&#10;     * @param $!entityName 查询实体&#10;     * @return 所有数据&#10;     */&#10;    @GetMapping&#10;    public R selectAll(Page&lt;$!tableInfo.name&gt; page, $!tableInfo.name $!entityName) {&#10;        return success(this.$!{serviceName}.page(page, new QueryWrapper&lt;&gt;($!entityName)));&#10;    }&#10;&#10;    /**&#10;     * 通过主键查询单条数据&#10;     *&#10;     * @param id 主键&#10;     * @return 单条数据&#10;     */&#10;    @GetMapping(&quot;{id}&quot;)&#10;    public R selectOne(@PathVariable Serializable id) {&#10;        return success(this.$!{serviceName}.getById(id));&#10;    }&#10;&#10;    /**&#10;     * 新增数据&#10;     *&#10;     * @param $!entityName 实体对象&#10;     * @return 新增结果&#10;     */&#10;    @PostMapping&#10;    public R insert(@RequestBody $!tableInfo.name $!entityName) {&#10;        return success(this.$!{serviceName}.save($!entityName));&#10;    }&#10;&#10;    /**&#10;     * 修改数据&#10;     *&#10;     * @param $!entityName 实体对象&#10;     * @return 修改结果&#10;     */&#10;    @PutMapping&#10;    public R update(@RequestBody $!tableInfo.name $!entityName) {&#10;        return success(this.$!{serviceName}.updateById($!entityName));&#10;    }&#10;&#10;    /**&#10;     * 删除数据&#10;     *&#10;     * @param idList 主键结合&#10;     * @return 删除结果&#10;     */&#10;    @DeleteMapping&#10;    public R delete(@RequestParam(&quot;idList&quot;) List&lt;Long&gt; idList) {&#10;        return success(this.$!{serviceName}.removeByIds(idList));&#10;    }&#10;}&#10;" />
+                    <option name="name" value="controller.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;Dao&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/dao&quot;, &quot;Dao.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;dao&quot;)&#10;&#10;import java.util.List;&#10;&#10;import com.baomidou.mybatisplus.core.mapper.BaseMapper;&#10;import org.apache.ibatis.annotations.Param;&#10;import $!{tableInfo.savePackageName}.entity.$!tableInfo.name;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表数据库访问层&quot;)&#10;public interface $!{tableName} extends BaseMapper&lt;$!tableInfo.name&gt; {&#10;&#10;/**&#10;* 批量新增数据（MyBatis原生foreach方法）&#10;*&#10;* @param entities List&lt;$!{tableInfo.name}&gt; 实例对象列表&#10;* @return 影响行数&#10;*/&#10;int insertBatch(@Param(&quot;entities&quot;) List&lt;$!{tableInfo.name}&gt; entities);&#10;&#10;/**&#10;* 批量新增或按主键更新数据（MyBatis原生foreach方法）&#10;*&#10;* @param entities List&lt;$!{tableInfo.name}&gt; 实例对象列表&#10;* @return 影响行数&#10;* @throws org.springframework.jdbc.BadSqlGrammarException 入参是空List的时候会抛SQL语句错误的异常，请自行校验入参&#10;*/&#10;int insertOrUpdateBatch(@Param(&quot;entities&quot;) List&lt;$!{tableInfo.name}&gt; entities);&#10;&#10;}&#10;" />
+                    <option name="name" value="dao.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##自动导入包（全局变量）&#10;$!autoImport&#10;import com.baomidou.mybatisplus.extension.activerecord.Model;&#10;import java.io.Serializable;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@SuppressWarnings(&quot;serial&quot;)&#10;public class $!{tableInfo.name} extends Model&lt;$!{tableInfo.name}&gt; {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})//${column.comment}#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;&#10;#foreach($column in $tableInfo.fullColumn)&#10;#getSetMethod($column)&#10;#end&#10;&#10;#foreach($column in $tableInfo.pkColumn)&#10;    /**&#10;     * 获取主键值&#10;     *&#10;     * @return 主键值&#10;     */&#10;    @Override&#10;    protected Serializable pkVal() {&#10;        return this.$!column.name;&#10;    }&#10;    #break&#10;#end&#10;}&#10;" />
+                    <option name="name" value="entity.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##引入mybatis支持&#10;$!{mybatisSupport.vm}&#10;&#10;##设置保存名称与保存位置&#10;$!callback.setFileName($tool.append($!{tableInfo.name}, &quot;Dao.xml&quot;))&#10;$!callback.setSavePath($tool.append($modulePath, &quot;/src/main/resources/mapper&quot;))&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;&#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;!DOCTYPE mapper PUBLIC &quot;-//mybatis.org//DTD Mapper 3.0//EN&quot; &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;&gt;&#10;&lt;mapper namespace=&quot;$!{tableInfo.savePackageName}.dao.$!{tableInfo.name}Dao&quot;&gt;&#10;&#10;    &lt;resultMap type=&quot;$!{tableInfo.savePackageName}.entity.$!{tableInfo.name}&quot; id=&quot;$!{tableInfo.name}Map&quot;&gt;&#10;#foreach($column in $tableInfo.fullColumn)&#10;        &lt;result property=&quot;$!column.name&quot; column=&quot;$!column.obj.name&quot; jdbcType=&quot;$!column.ext.jdbcType&quot;/&gt;&#10;#end&#10;    &lt;/resultMap&gt;&#10;&#10;    &lt;!-- 批量插入 --&gt;&#10;    &lt;insert id=&quot;insertBatch&quot; keyProperty=&quot;$!pk.name&quot; useGeneratedKeys=&quot;true&quot;&gt;&#10;        insert into $!{tableInfo.obj.parent.name}.$!{tableInfo.obj.name}(#foreach($column in $tableInfo.otherColumn)$!column.obj.name#if($velocityHasNext), #end#end)&#10;        values&#10;        &lt;foreach collection=&quot;entities&quot; item=&quot;entity&quot; separator=&quot;,&quot;&gt;&#10;        (#foreach($column in $tableInfo.otherColumn)#{entity.$!{column.name}}#if($velocityHasNext), #end#end)&#10;        &lt;/foreach&gt;&#10;    &lt;/insert&gt;&#10;    &lt;!-- 批量插入或按主键更新 --&gt;&#10;    &lt;insert id=&quot;insertOrUpdateBatch&quot; keyProperty=&quot;$!pk.name&quot; useGeneratedKeys=&quot;true&quot;&gt;&#10;        insert into $!{tableInfo.obj.parent.name}.$!{tableInfo.obj.name}(#foreach($column in $tableInfo.otherColumn)$!column.obj.name#if($velocityHasNext), #end#end)&#10;        values&#10;        &lt;foreach collection=&quot;entities&quot; item=&quot;entity&quot; separator=&quot;,&quot;&gt;&#10;            (#foreach($column in $tableInfo.otherColumn)#{entity.$!{column.name}}#if($velocityHasNext), #end#end)&#10;        &lt;/foreach&gt;&#10;        on duplicate key update&#10;         #foreach($column in $tableInfo.otherColumn)$!column.obj.name = values($!column.obj.name) #if($velocityHasNext), #end#end&#10;    &lt;/insert&gt;&#10;&#10;&lt;/mapper&gt;&#10;" />
+                    <option name="name" value="mapper.xml.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;Service&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/service&quot;, &quot;Service.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;service&quot;)&#10;&#10;import com.baomidou.mybatisplus.extension.service.IService;&#10;import $!{tableInfo.savePackageName}.entity.$!tableInfo.name;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表服务接口&quot;)&#10;public interface $!{tableName} extends IService&lt;$!tableInfo.name&gt; {&#10;&#10;}&#10;" />
+                    <option name="name" value="service.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##设置表后缀（宏定义）&#10;#setTableSuffix(&quot;ServiceImpl&quot;)&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/service/impl&quot;, &quot;ServiceImpl.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;service.impl&quot;)&#10;&#10;import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;&#10;import $!{tableInfo.savePackageName}.dao.$!{tableInfo.name}Dao;&#10;import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};&#10;import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;&#10;import org.springframework.stereotype.Service;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表服务实现类&quot;)&#10;@Service(&quot;$!tool.firstLowerCase($tableInfo.name)Service&quot;)&#10;public class $!{tableName} extends ServiceImpl&lt;$!{tableInfo.name}Dao, $!{tableInfo.name}&gt; implements $!{tableInfo.name}Service {&#10;&#10;}&#10;" />
+                    <option name="name" value="serviceImpl.java.vm" />
+                  </Template>
+                </list>
+              </option>
+              <option name="name" value="MybatisPlus-Mixed" />
+            </TemplateGroup>
+          </value>
+        </entry>
+        <entry key="spring-data-mongodb">
+          <value>
+            <TemplateGroup>
+              <option name="elementList">
+                <list>
+                  <Template>
+                    <option name="code" value="##导入宏定义、设置包名、类名、文件名##导入宏定义&#10;$!{define.vm}&#10;#setPackageSuffix(&quot;controller&quot;)&#10;#setTableSuffix(&quot;Controller&quot;)&#10;#save(&quot;/controller&quot;, &quot;Controller.java&quot;)&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;##定义服务名&#10;#set($serviceSortType = $!tool.append($!tableInfo.name, &quot;Service&quot;))&#10;#set($serviceType = $!tool.append($!tableInfo.savePackageName, &quot;.service.&quot;, $serviceSortType))&#10;#set($serviceVarName = $!tool.firstLowerCase($serviceSortType))&#10;&#10;#set($entityShortType = $!tableInfo.name)&#10;#set($entityType = $!tableInfo.psiClassObj.getQualifiedName())&#10;#set($entityVarName = $!tool.firstLowerCase($!tableInfo.name))&#10;#set($pkType = $!pk.type)&#10;&#10;import $pkType;&#10;import $entityType;&#10;import $serviceType;&#10;import lombok.AllArgsConstructor;&#10;import org.springframework.data.domain.Page;&#10;import org.springframework.data.domain.Pageable;&#10;import org.springframework.web.bind.annotation.GetMapping;&#10;import org.springframework.web.bind.annotation.PostMapping;&#10;import org.springframework.web.bind.annotation.RequestBody;&#10;import org.springframework.web.bind.annotation.RequestMapping;&#10;import org.springframework.web.bind.annotation.RestController;&#10;&#10;&#10;/**&#10; * $!{tableInfo.comment}控制层&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;@RestController&#10;@RequestMapping(&quot;/$!tool.firstLowerCase($!tableInfo.name)&quot;)&#10;@AllArgsConstructor&#10;public class $!{tableName} {&#10;&#10;&#9;private $serviceSortType $serviceVarName;&#10;&#10;&#9;/**&#10;&#9; * 获取$!{tableInfo.comment}列表(分页)&#10;&#9; */&#10;&#9;@GetMapping(&quot;/list&quot;)&#10;&#9;public Page&lt;$entityShortType&gt; list(Pageable page) {&#10;&#9;&#9;return null;&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * 获取$!{tableInfo.comment}&#10;&#9; */&#10;&#9;@GetMapping(&quot;/get&quot;)&#10;&#9;public $entityShortType get($!pk.shortType id) {&#10;&#9;&#9;return ${serviceVarName}.findById(id);&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * 添加$!{tableInfo.comment}&#10;&#9; */&#10;&#9;@PostMapping(&quot;/add&quot;)&#10;&#9;public void add(@RequestBody $entityShortType $entityVarName) {&#10;&#9;&#9;${serviceVarName}.save($entityVarName);&#10;&#9;}&#10;&#10;&#10;&#9;/**&#10;&#9; * 修改$!{tableInfo.comment}&#10;&#9; */&#10;&#9;@PostMapping(&quot;/update&quot;)&#10;&#9;public void update(@RequestBody $entityShortType $entityVarName) {&#10;&#9;&#9;${serviceVarName}.save($entityVarName);&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * 删除$!{tableInfo.comment}&#10;&#9; */&#10;&#9;@PostMapping(&quot;/delete&quot;)&#10;&#9;public void delete($!pk.shortType id) {&#10;&#9;&#9;${serviceVarName}.deleteById(id);&#10;&#9;}&#10;&#10;}&#10;" />
+                    <option name="name" value="controller.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##引入宏定义&#10;$!{define.vm}&#10;&#10;##使用宏定义设置回调（保存位置与文件后缀）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##使用宏定义设置包后缀&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##使用全局变量实现默认包导入&#10;$!{autoImport.vm}&#10;import java.io.Serializable;&#10;&#10;##使用宏定义实现类注释信息&#10;#tableComment(&quot;实体类&quot;)&#10;public class $!{tableInfo.name} implements Serializable {&#10;    private static final long serialVersionUID = $!tool.serial();&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})/**&#10;     * ${column.comment}&#10;     */#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;&#10;#foreach($column in $tableInfo.fullColumn)&#10;##使用宏定义实现get,set方法&#10;#getSetMethod($column)&#10;#end&#10;&#10;}&#10;" />
+                    <option name="name" value="entity.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义、设置包名、类名、文件名##导入宏定义&#10;$!{define.vm}&#10;#setPackageSuffix(&quot;repository&quot;)&#10;#setTableSuffix(&quot;Repository&quot;)&#10;#save(&quot;/repository&quot;, &quot;Repository.java&quot;)&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;##实体类名、主键类名&#10;#set($entityShortType = $!tableInfo.name)&#10;#set($entityType = $!tableInfo.psiClassObj.getQualifiedName())&#10;#set($pkShortType = $!pk.shortType)&#10;#set($pkType = $!pk.type)&#10;&#10;import $pkType;&#10;import $entityType;&#10;import org.springframework.data.mongodb.repository.MongoRepository;&#10;&#10;&#10;/**&#10; * $!{tableInfo.comment}持久层&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;public interface $!{tableName} extends MongoRepository&lt;$entityShortType, $pkShortType&gt; {&#10;&#10;}&#10;" />
+                    <option name="name" value="repository.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义、设置包名、类名、文件名##导入宏定义&#10;$!{define.vm}&#10;#setPackageSuffix(&quot;service&quot;)&#10;#setTableSuffix(&quot;Service&quot;)&#10;#save(&quot;/service&quot;, &quot;Service.java&quot;)&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;##实体类名、主键类名&#10;#set($entityShortType = $!tableInfo.name)&#10;#set($entityType = $!tableInfo.psiClassObj.getQualifiedName())&#10;#set($entityVarName = $!tool.firstLowerCase($!tableInfo.name))&#10;#set($pkShortType = $!pk.shortType)&#10;#set($pkType = $!pk.type)&#10;&#10;import $pkType;&#10;import $entityType;&#10;import org.springframework.data.domain.Page;&#10;import org.springframework.data.domain.Pageable;&#10;import java.util.Collection;&#10;import java.util.List;&#10;&#10;&#10;/**&#10; * $!{tableInfo.comment}业务层&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;public interface $!{tableName} {&#10;&#10;    void save($entityShortType $entityVarName);&#10;&#10;    void deleteById($pkShortType id);&#10;&#10;    $entityShortType findById($pkShortType id);&#10;&#10;    List&lt;$entityShortType&gt; findById(Collection&lt;$pkShortType&gt; ids);&#10;&#10;    Page&lt;$entityShortType&gt; list(Pageable page);&#10;&#10;}&#10;" />
+                    <option name="name" value="service.java.vm" />
+                  </Template>
+                  <Template>
+                    <option name="code" value="##导入宏定义、设置包名、类名、文件名&#10;$!{define.vm}&#10;#setPackageSuffix(&quot;service.impl&quot;)&#10;#setTableSuffix(&quot;ServiceImpl&quot;)&#10;#save(&quot;/service/impl&quot;, &quot;ServiceImpl.java&quot;)&#10;&#10;##拿到主键&#10;#if(!$tableInfo.pkColumn.isEmpty())&#10;    #set($pk = $tableInfo.pkColumn.get(0))&#10;#end&#10;##业务层类名、持久层类名、实体名&#10;#set($serviceSortType = $!tool.append($!tableInfo.name, &quot;Service&quot;))&#10;#set($serviceType = $!tool.append($!tableInfo.savePackageName, &quot;.service.&quot;, $serviceSortType))&#10;#set($repositorySortType = $!tool.append($!tableInfo.name, &quot;Repository&quot;))&#10;#set($repositoryType = $!tool.append($!tableInfo.savePackageName, &quot;.repository.&quot;, $repositorySortType))&#10;#set($repositoryVarName = $!tool.firstLowerCase($!repositorySortType))&#10;#set($entityShortType = $!tableInfo.name)&#10;#set($entityType = $!tableInfo.psiClassObj.getQualifiedName())&#10;#set($entityVarName = $!tool.firstLowerCase($!tableInfo.name))&#10;#set($pkShortType = $!pk.shortType)&#10;#set($pkType = $!pk.type)&#10;&#10;import $pkType;&#10;import $entityType;&#10;import $serviceType;&#10;import $repositoryType;&#10;import org.springframework.stereotype.Service;&#10;import javax.annotation.Resource;&#10;import org.springframework.data.domain.Page;&#10;import org.springframework.data.domain.Pageable;&#10;import java.util.Collection;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;import java.util.stream.StreamSupport;&#10;&#10;&#10;/**&#10; * $!{tableInfo.comment}业务层&#10; *&#10; * @author $!author&#10; * @since $!time.currTime()&#10; */&#10;@Service&#10;public class $!{tableName} implements $!serviceSortType {&#10;&#10;&#9;@Resource&#10;    private $repositorySortType $repositoryVarName;&#10;&#10;    @Override&#10;    public void save($entityShortType $entityVarName) {&#10;        $!{repositoryVarName}.save($entityVarName);&#10;    }&#10;&#10;    @Override&#10;    public void deleteById($pkShortType id) {&#10;        $!{repositoryVarName}.delete(id);&#10;    }&#10;&#10;    @Override&#10;    public $entityShortType findById($pkShortType id) {&#10;        return $!{repositoryVarName}.findOne(id);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;$entityShortType&gt; findById(Collection&lt;$pkShortType&gt; ids) {&#10;        Iterable&lt;$entityShortType&gt; iterable = $!{repositoryVarName}.findAll(ids);&#10;        return StreamSupport.stream(iterable.spliterator(), false)&#10;                .collect(Collectors.toList());&#10;    }&#10;&#10;    @Override&#10;    public Page&lt;$entityShortType&gt; list(Pageable page) {&#10;        return $!{repositoryVarName}.findAll(page);&#10;    }&#10;&#10;}&#10;" />
+                    <option name="name" value="serviceImpl.java.vm" />
+                  </Template>
+                </list>
+              </option>
+              <option name="name" value="spring-data-mongodb" />
+            </TemplateGroup>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="typeMapperGroupMap">
+      <map>
+        <entry key="Default">
+          <value>
+            <TypeMapperGroup>
+              <option name="elementList">
+                <list>
+                  <TypeMapper>
+                    <option name="columnType" value="varchar(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.String" />
+                    <option name="matchType" value="REGEX" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="char(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.String" />
+                    <option name="matchType" value="REGEX" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="(tiny|medium|long)*text" />
+                    <option name="javaType" value="java.lang.String" />
+                    <option name="matchType" value="REGEX" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="decimal(\(\d+,\d+\))?" />
+                    <option name="javaType" value="java.lang.Double" />
+                    <option name="matchType" value="REGEX" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="integer" />
+                    <option name="javaType" value="java.lang.Integer" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="(tiny|small|medium)*int(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.Integer" />
+                    <option name="matchType" value="REGEX" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int4" />
+                    <option name="javaType" value="java.lang.Integer" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int8" />
+                    <option name="javaType" value="java.lang.Long" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="bigint(\(\d+\))?" />
+                    <option name="javaType" value="java.lang.Long" />
+                    <option name="matchType" value="REGEX" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="date" />
+                    <option name="javaType" value="java.util.Date" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="datetime" />
+                    <option name="javaType" value="java.util.Date" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="timestamp" />
+                    <option name="javaType" value="java.util.Date" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="time" />
+                    <option name="javaType" value="java.time.LocalTime" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="boolean" />
+                    <option name="javaType" value="java.lang.Boolean" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
+                </list>
+              </option>
+              <option name="name" value="Default" />
+            </TypeMapperGroup>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="userSecure" value="" />
+    <option name="version" value="1.2.4" />
+  </component>
+</application>
