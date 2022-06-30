@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="[INFO] Scanning for projects... [ERROR] [ERROR] Some problems were encountered while processing the POMs: [ERROR] 'dependencyManagement.dependencies.dependency.artifactId' for org.apache.shardingsphere:shardingsphere‐jdbc‐core‐spring‐boot‐starter:jar with value 'shardingsphere‐jdbc‐core‐spring‐boot‐starter' does not match a valid id pattern. @ line 43, column 30" />
       <item value="java.lang.IllegalArgumentException: ShardingSphere rule configuration cannot be null or empty." />
       <item value="Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dkmAdminMapper' defined in file [D:\worksapce\dks_back\target\classes\com\vecentek\back\mapper\DkmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [combaomidoumybatisplusautoconfigureMybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shardingSphereDataSource' defined in class path resource [orgapacheshardingspherespringbootShardingSphereAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'shardingSphereDataSource' threw exception; nested exceptio" />
       <item value="Could not transfer artifact org.apache.shardingsphere:shardingsphere-jdbc-core:pom:5.0.0 fromto nexus-aliyun" />
@@ -39,8 +40,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="35" />
-        <entry key="ENGLISH" value="36" />
+        <entry key="CHINESE" value="36" />
+        <entry key="ENGLISH" value="37" />
       </map>
     </option>
   </component>
