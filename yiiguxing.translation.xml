@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Could not transfer artifact org.apache.shardingsphere:shardingsphere-jdbc-core:pom:5.0.0 fromto nexus-aliyun" />
       <item value="吊销" />
       <item value="过期" />
       <item value="freeze" />
@@ -37,7 +38,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="33" />
-        <entry key="ENGLISH" value="33" />
+        <entry key="ENGLISH" value="34" />
       </map>
     </option>
   </component>
