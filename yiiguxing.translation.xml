@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="This pull request has conflicts. You must resolve the conflicts by manually merging master into this branch. After the conflicts are resolved you will be able to merge the pull request. Step 1: Checkout the source branch and merge in the changes from the target branch. Resolve conflicts. git checkout liu git pull origin master Step 2: After the merge conflicts are resolved, stage the changes accordingly, commit the changes and push. git commit git push origin HEAD Step 3: Merge the updated pull request." />
       <item value="D:\env\bin\java.exe -Dmaven.multiModuleProjectDirectory=D:\worksapce\dks_back &quot;-Dmaven.home=D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3&quot; &quot;-Dclassworlds.conf=D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3\bin\m2.conf&quot; &quot;-Dmaven.ext.class.path=D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven-event-listener.jar&quot; &quot;-javaagent:D:\IntelliJ IDEA 2021.1.2\lib\idea_rt.jar=56088:D:\IntelliJ IDEA 2021.1.2\bin&quot; -Dfile.encoding=UTF-8 -classpath &quot;D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license&quot; org.codehaus.classworlds.Launcher -Didea.version=2021.1.2 -s D:\maven\apache-maven-3.8.6\conf\settings.xml -Dmaven.repo.local=D:\repository clean [INFO] Scanning for projects... [ERROR] [ERROR] Some problems were encountered while processing the POMs: [FATAL] Non-parseable POM D:\worksapce\dks_back\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...&lt;dependency&gt;\r\n\r\n\r\n-\r\n &lt;... @173:7) @ line 173, column 7 @ [ERROR] The build could not read 1 project -&gt; [Help 1] [ERROR] [ERROR] The project (D:\worksapce\dks_back\pom.xml) has 1 error [ERROR] Non-parseable POM D:\worksapce\dks_back\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...&lt;dependency&gt;\r\n\r\n\r\n-\r\n &lt;... @173:7) @ line 173, column 7 -&gt; [Help 2] [ERROR] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch. [ERROR] Re-run Maven using the -X switch to enable full debug logging. [ERROR] [ERROR] For more information about the errors and possible solutions, please read the following a" />
       <item value="Transfer" />
       <item value="[INFO] Scanning for projects... [ERROR] [ERROR] Some problems were encountered while processing the POMs: [ERROR] 'dependencyManagement.dependencies.dependency.artifactId' for org.apache.shardingsphere:shardingsphere‐jdbc‐core‐spring‐boot‐starter:jar with value 'shardingsphere‐jdbc‐core‐spring‐boot‐starter' does not match a valid id pattern. @ line 43, column 30" />
@@ -42,8 +43,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="38" />
-        <entry key="ENGLISH" value="39" />
+        <entry key="CHINESE" value="39" />
+        <entry key="ENGLISH" value="40" />
       </map>
     </option>
   </component>
