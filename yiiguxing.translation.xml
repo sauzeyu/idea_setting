@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="RECORD CONTENT" />
       <item value="Caused by: com.mysql.cj.exceptions.WrongArgumentException: The database URL cannot be null. at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_201] at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_201] at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_201] at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_201] at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.21.jar:8.0.21] at com.mysql.cj.conf.ConnectionUrlParser.isConnectionStringSupported(ConnectionUrlParser.java:149) ~[mysql-connector-java-8.0.21.jar:8.0.21] at com.mysql.cj.conf.ConnectionUrl.acceptsUrl(ConnectionUrl.java:317) ~[mysql-connector-java-8.0.21.jar:8.0.21] at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:185) ~[mysql-connector-java-8.0.21.jar:8.0.21]" />
       <item value="The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specifc time zone value if you want to utilize time zone support. at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) at java.lang.reflect.Constructor.newInstance(Constructor.java:423)" />
       <item value=": Could not create connection to database server. Attempted reconnect 3 times. Giving up." />
@@ -46,8 +47,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="41" />
-        <entry key="ENGLISH" value="43" />
+        <entry key="CHINESE" value="42" />
+        <entry key="ENGLISH" value="44" />
       </map>
     </option>
   </component>
