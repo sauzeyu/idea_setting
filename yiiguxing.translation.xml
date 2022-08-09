@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Annotation-specified bean name 'myBlockHandler' for bean class [com.vecentek.handler.MyBlockHandler] conflicts with existing, non-compatible bean definition of same name and class" />
       <item value="Error querying database. Cause: java.util.NoSuchElementException The error may exist in comvecentekbackmapperDomeMapper.java (best guess) The error may involve defaultParameterMap The error occurred while setting parameters SQL: SELECT id,create_id,create_date,update_id,u" />
       <item value="The error occurred while setting parameters" />
       <item value="RECORD CONTENT" />
@@ -49,8 +50,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="44" />
-        <entry key="ENGLISH" value="46" />
+        <entry key="CHINESE" value="45" />
+        <entry key="ENGLISH" value="47" />
       </map>
     </option>
   </component>
