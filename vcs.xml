@@ -26,6 +26,10 @@
           <option name="url" value="https://gitee.com/lihanbo/shardingjdbc-dome.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://172.16.10.118:17990/scm/web/dkserver-framework.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\worksapce" />
