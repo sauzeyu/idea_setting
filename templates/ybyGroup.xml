@@ -1,0 +1,21 @@
+<templateSet group="ybyGroup">
+  <template name="*" value="** &#10; * @description: $description$ &#10; * @param: $params$ &#10; * @return: $returns$ &#10; * @author $USER$&#10; * @date: $date$ $time$&#10; */ " description="方法的注释" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="groovyScript(&quot;def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {result+='' + params[i] + ((i &lt; params.size() - 1) ? '\\n':'')}; return result&quot;, methodParameters()) " alwaysStopAt="true" />
+    <variable name="returns" expression="" defaultValue="methodReturnType()" alwaysStopAt="true" />
+    <variable name="USER" expression="" defaultValue="user()" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="date()" alwaysStopAt="true" />
+    <variable name="time" expression="" defaultValue="time()" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="**" value="**&#10; * @description: TODO&#10; * @author $user$&#10; * @date $date$ $time$&#10; * @version 1.0&#10; */" description="类的注释" toReformat="false" toShortenFQNames="true">
+    <variable name="user" expression="" defaultValue="user()" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="date()" alwaysStopAt="true" />
+    <variable name="time" expression="" defaultValue="time()" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
