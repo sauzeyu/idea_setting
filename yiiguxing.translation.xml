@@ -5,6 +5,11 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Decrypts given ciphertext with given private key" />
+      <item value="Encrypts given message with given public key" />
+      <item value="Generates new key pair consists of {@link ECPublicKey} and {@link ECPrivateKey}" />
+      <item value="Encrypts given message with given public key in hex" />
+      <item value="Generates new key pair consists of" />
       <item value="成败标识" />
       <item value="操作类型" />
       <item value="分表" />
@@ -53,13 +58,13 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="53" />
+        <entry key="ENGLISH" value="54" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1661242885438" />
+    <option name="lastTrimTime" value="1663037738095" />
   </component>
   <component name="Settings">
     <option name="youdaoTranslateSettings">
