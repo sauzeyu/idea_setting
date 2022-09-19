@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="This does nothing (except returning null), because either: 1. the implementation object returned by getInstance() is an instance of KeyPairGenerator which has its own implementation of generateKeyPair (overriding this one), so the application would be calling that method directly, or 2. the implementation returned by getInstance() is an instance of Delegate, in which case generateKeyPair is overridden to invoke the corresponding SPI method. (This is a special case, because in JDK 1.1.x the generateKeyPair method was used both as an API and a SPI method.) return null;" />
+      <item value="4738 E 61360 B 79 FD 6 B 8 B 18 C 2496064 F 1 E 9 B 7 DED 6 FB 3 CEEEB 144 A 7 C 8253 C 9 C 84 D 4" />
       <item value="Returns the given number of seed bytes, computed using the seed generation algorithm that this class uses to seed itself. This call may be used to seed other random number generators. Params: numBytes – the number of seed bytes to generate. Returns: the seed bytes." />
       <item value="Decrypts given ciphertext with given private key" />
       <item value="Encrypts given message with given public key" />
@@ -53,13 +55,11 @@
       <item value="钥匙使用记录" />
       <item value="Failed to execute goal com.spotify:docker-maven-plugin:1.0.0:build (build-image) on project dkserver-back: Exception caught" />
       <item value="Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project dkserver-back: There are test failures. Please refer to D:\worksapce\back2.0-framework\dkserver-back\target\surefire-reports for the individual test results. Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream." />
-      <item value="[INFO] [INFO] --- docker-maven-plugin:1.0.0:build (build-image) @ dkserver-back --- [INFO] Using authentication suppliers: [ConfigFileRegistryAuthSupplier] [INFO] Copying D:\worksapce\back2.0-framework\dkserver-back\target\dkserver-back-1.0-SNAPSHOT.jar -&gt; D:\worksapce\back2.0-framework\dkserver-back\target\docker\dkserver-back-1.0-SNAPSHOT.jar [INFO] Building image dkserver-back" />
-      <item value="Non-resolvable parent POM for com.vecentek.dkserver:dkserver-icce:1.0-SNAPSHOT: Could not find artifact com.vecentek.dkserver:vecentek-dkserver:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="54" />
-        <entry key="ENGLISH" value="55" />
+        <entry key="CHINESE" value="56" />
+        <entry key="ENGLISH" value="57" />
       </map>
     </option>
   </component>
