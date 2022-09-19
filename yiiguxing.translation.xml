@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Returns the given number of seed bytes, computed using the seed generation algorithm that this class uses to seed itself. This call may be used to seed other random number generators. Params: numBytes – the number of seed bytes to generate. Returns: the seed bytes." />
       <item value="Decrypts given ciphertext with given private key" />
       <item value="Encrypts given message with given public key" />
       <item value="Generates new key pair consists of {@link ECPublicKey} and {@link ECPrivateKey}" />
@@ -54,17 +55,16 @@
       <item value="Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project dkserver-back: There are test failures. Please refer to D:\worksapce\back2.0-framework\dkserver-back\target\surefire-reports for the individual test results. Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream." />
       <item value="[INFO] [INFO] --- docker-maven-plugin:1.0.0:build (build-image) @ dkserver-back --- [INFO] Using authentication suppliers: [ConfigFileRegistryAuthSupplier] [INFO] Copying D:\worksapce\back2.0-framework\dkserver-back\target\dkserver-back-1.0-SNAPSHOT.jar -&gt; D:\worksapce\back2.0-framework\dkserver-back\target\docker\dkserver-back-1.0-SNAPSHOT.jar [INFO] Building image dkserver-back" />
       <item value="Non-resolvable parent POM for com.vecentek.dkserver:dkserver-icce:1.0-SNAPSHOT: Could not find artifact com.vecentek.dkserver:vecentek-dkserver:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM" />
-      <item value="For more information about the errors and possible solutions, please read the following articles:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="54" />
+        <entry key="ENGLISH" value="55" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1663037738095" />
+    <option name="lastTrimTime" value="1663555397950" />
   </component>
   <component name="Settings">
     <option name="youdaoTranslateSettings">
