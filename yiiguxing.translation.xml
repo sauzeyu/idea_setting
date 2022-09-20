@@ -5,6 +5,12 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="encoding and derivation parameters, may be wrapped to include an IV for an underlying block cipher." />
+      <item value="the recipient'ssender's public key parameters" />
+      <item value="our private key parameters" />
+      <item value="whether or not this is encryptiondecryption." />
+      <item value="WHETHER OR NOT THIS IS ENCRYPTIONDECRYPTION." />
+      <item value="set up for use in conjunction with a block cipher to handle the message." />
       <item value="this produces ciphertext that can be decrypted by calling" />
       <item value="UNCOMPRESSED" />
       <item value="If the standard transaction was successful, the owner device shall send an asynchronous message to register the owner key to the KTS. Key registration is optional for the vehicle. If the vehicle attempts to register the key as well, a race condition may occur. Thus, key registration by vehicle is not recommended. Note: When the standard transaction fails, the device shall not send a key tracking request to the server. The data elements listed in Table 6-2 shall be sent to the KTS by the device" />
@@ -49,17 +55,11 @@
       <item value="失效开始时间" />
       <item value="生效" />
       <item value="生效开始时间" />
-      <item value="申请" />
-      <item value="申请时间" />
-      <item value="周期开始时间" />
-      <item value="Variable 'dkmKeyLogs' initializer 'new ArrayList&lt;&gt;()' is redundant" />
-      <item value="Method has 9 parameters, which is greater than 7 authorized." />
-      <item value="reates an ArrayBlockingQueue with the given (fixed) capacity and default access policy. Params: capacity – the capacity of this queue Throws: IllegalArgumentException – if capacity &lt; 1" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="64" />
-        <entry key="ENGLISH" value="65" />
+        <entry key="CHINESE" value="70" />
+        <entry key="ENGLISH" value="71" />
       </map>
     </option>
   </component>
