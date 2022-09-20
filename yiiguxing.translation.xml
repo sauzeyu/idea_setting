@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="this produces ciphertext that can be decrypted by calling" />
       <item value="UNCOMPRESSED" />
       <item value="If the standard transaction was successful, the owner device shall send an asynchronous message to register the owner key to the KTS. Key registration is optional for the vehicle. If the vehicle attempts to register the key as well, a race condition may occur. Thus, key registration by vehicle is not recommended. Note: When the standard transaction fails, the device shall not send a key tracking request to the server. The data elements listed in Table 6-2 shall be sent to the KTS by the device" />
       <item value="This is a generic API offered by the Vehicle OEM Server to track a Digital Key. This API should have idempotent behavior. If trackKey is called for a keyID that is already registered, the API call shall be successful and return with a usual response. This API is used in owner pairing and key sharing as described in Section 6.3.4.4 and Section 11.8.5, respectively." />
@@ -54,12 +55,11 @@
       <item value="Variable 'dkmKeyLogs' initializer 'new ArrayList&lt;&gt;()' is redundant" />
       <item value="Method has 9 parameters, which is greater than 7 authorized." />
       <item value="reates an ArrayBlockingQueue with the given (fixed) capacity and default access policy. Params: capacity – the capacity of this queue Throws: IllegalArgumentException – if capacity &lt; 1" />
-      <item value="历史导出记录" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="64" />
+        <entry key="CHINESE" value="64" />
+        <entry key="ENGLISH" value="65" />
       </map>
     </option>
   </component>
