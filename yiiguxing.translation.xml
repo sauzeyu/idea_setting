@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Derive shared secret" />
       <item value="encoding and derivation parameters, may be wrapped to include an IV for an underlying block cipher." />
       <item value="the recipient'ssender's public key parameters" />
       <item value="our private key parameters" />
@@ -54,12 +55,11 @@
       <item value="失效" />
       <item value="失效开始时间" />
       <item value="生效" />
-      <item value="生效开始时间" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
-        <entry key="ENGLISH" value="71" />
+        <entry key="CHINESE" value="71" />
+        <entry key="ENGLISH" value="72" />
       </map>
     </option>
   </component>
