@@ -5,6 +5,9 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="the cipher to used for encrypting the message" />
+      <item value="the key derivation function used for byte generation" />
+      <item value="the key agreement used as the basis for the encryption" />
       <item value="Derive shared secret" />
       <item value="encoding and derivation parameters, may be wrapped to include an IV for an underlying block cipher." />
       <item value="the recipient'ssender's public key parameters" />
@@ -52,14 +55,11 @@
       <item value="已启用" />
       <item value="Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured. Reason: Failed to determine a suitable driver class" />
       <item value="fail" />
-      <item value="失效" />
-      <item value="失效开始时间" />
-      <item value="生效" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="71" />
-        <entry key="ENGLISH" value="72" />
+        <entry key="CHINESE" value="74" />
+        <entry key="ENGLISH" value="75" />
       </map>
     </option>
   </component>
