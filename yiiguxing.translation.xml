@@ -67,6 +67,7 @@
     <option name="lastTrimTime" value="1663555397950" />
   </component>
   <component name="Settings">
+    <option name="translateDocumentation" value="true" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="sauzeyu@163.com" />
