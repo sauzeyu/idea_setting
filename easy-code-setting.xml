@@ -1,6 +1,6 @@
 <application>
   <component name="EasyCodeSetting">
-    <option name="author" value="makejava" />
+    <option name="author" value="liujz" />
     <option name="columnConfigGroupMap">
       <map>
         <entry key="Default">
@@ -116,7 +116,7 @@
                     <option name="name" value="dao.java.vm" />
                   </Template>
                   <Template>
-                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##自动导入包（全局变量）&#10;$!{autoImport.vm}&#10;import com.baomidou.mybatisplus.extension.activerecord.Model;&#10;import java.io.Serializable;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@SuppressWarnings(&quot;serial&quot;)&#10;public class $!{tableInfo.name} extends Model&lt;$!{tableInfo.name}&gt; {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})//${column.comment}#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;&#10;#foreach($column in $tableInfo.fullColumn)&#10;#getSetMethod($column)&#10;#end&#10;&#10;#foreach($column in $tableInfo.pkColumn)&#10;    /**&#10;     * 获取主键值&#10;     *&#10;     * @return 主键值&#10;     */&#10;    @Override&#10;    protected Serializable pkVal() {&#10;        return this.$!column.name;&#10;    }&#10;    #break&#10;#end&#10;}&#10;" />
+                    <option name="code" value="##导入宏定义&#10;$!{define.vm}&#10;&#10;##保存文件（宏定义）&#10;#save(&quot;/entity&quot;, &quot;.java&quot;)&#10;&#10;##包路径（宏定义）&#10;#setPackageSuffix(&quot;entity&quot;)&#10;&#10;##自动导入包（全局变量）&#10;$!{autoImport.vm}&#10;import com.baomidou.mybatisplus.extension.activerecord.Model;&#10;import java.io.Serializable;&#10;&#10;##表注释（宏定义）&#10;#tableComment(&quot;表实体类&quot;)&#10;@SuppressWarnings(&quot;serial&quot;)&#10;@Data&#10;public class $!{tableInfo.name} extends Model&lt;$!{tableInfo.name}&gt; {&#10;#foreach($column in $tableInfo.fullColumn)&#10;    #if(${column.comment})/*** ${column.comment} */#end&#10;&#10;    private $!{tool.getClsNameByFullName($column.type)} $!{column.name};&#10;#end&#10;&#10;&#10;#foreach($column in $tableInfo.pkColumn)&#10;    /**&#10;     * 获取主键值&#10;     *&#10;     * @return 主键值&#10;     */&#10;    @Override&#10;    protected Serializable pkVal() {&#10;        return this.$!column.name;&#10;    }&#10;    #break&#10;#end&#10;}&#10;" />
                     <option name="name" value="entity.java.vm" />
                   </Template>
                   <Template>
