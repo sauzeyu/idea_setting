@@ -6,6 +6,10 @@
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="EditorScrollToCenter" />
+  <action id="ToggleRenderedDocPresentation" />
+  <action id="ToggleRenderedDocPresentationForAll">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
