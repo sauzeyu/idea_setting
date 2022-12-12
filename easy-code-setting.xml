@@ -278,6 +278,11 @@
                     <option name="javaType" value="java.lang.Boolean" />
                     <option name="matchType" value="ORDINARY" />
                   </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="int(10) unsigned zerofill" />
+                    <option name="javaType" value="java.lang.Integer" />
+                    <option name="matchType" value="ORDINARY" />
+                  </TypeMapper>
                 </list>
               </option>
               <option name="name" value="Default" />
