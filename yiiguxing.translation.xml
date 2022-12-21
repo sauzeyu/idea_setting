@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="0" />
       <item value="event Notification" />
       <item value="invalid characters encountered in Hex string" />
       <item value="the cipher to used for encrypting the message" />
@@ -54,7 +55,6 @@
       <item value="过期" />
       <item value="freeze" />
       <item value="冻结" />
-      <item value="已启用" />
     </histories>
     <option name="languageScores">
       <map>
