@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Declaration/Split declaration" />
+    <ignoreAction name="Java/Refactorings/Extract method" />
+  </component>
+</application>
