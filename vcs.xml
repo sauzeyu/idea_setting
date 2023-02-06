@@ -82,6 +82,14 @@
           <option name="url" value="http://172.16.10.118:17990/scm/icce/dkserver-icce-saic.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://cd.vecentek.com:57990/scm/icce/dkserver-icce-foton.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://cd.vecentek.com:57990" />
+          <option name="userName" value="liujz" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\worksapce" />
