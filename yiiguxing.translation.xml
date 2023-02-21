@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Conversation" />
       <item value="SHIP" />
       <item value="STOPSHIP" />
       <item value="0" />
@@ -54,7 +55,6 @@
       <item value="Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dkmAdminMapper' defined in file [D:\worksapce\dks_back\target\classes\com\vecentek\back\mapper\DkmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [combaomidoumybatisplusautoconfigureMybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shardingSphereDataSource' defined in class path resource [orgapacheshardingspherespringbootShardingSphereAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'shardingSphereDataSource' threw exception; nested exceptio" />
       <item value="Could not transfer artifact org.apache.shardingsphere:shardingsphere-jdbc-core:pom:5.0.0 fromto nexus-aliyun" />
       <item value="吊销" />
-      <item value="过期" />
     </histories>
     <option name="languageScores">
       <map>
