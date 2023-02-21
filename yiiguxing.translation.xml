@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="451" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="SHIP" />
+      <item value="STOPSHIP" />
       <item value="0" />
       <item value="event Notification" />
       <item value="invalid characters encountered in Hex string" />
@@ -53,8 +55,6 @@
       <item value="Could not transfer artifact org.apache.shardingsphere:shardingsphere-jdbc-core:pom:5.0.0 fromto nexus-aliyun" />
       <item value="吊销" />
       <item value="过期" />
-      <item value="freeze" />
-      <item value="冻结" />
     </histories>
     <option name="languageScores">
       <map>
