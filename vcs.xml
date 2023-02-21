@@ -94,6 +94,10 @@
           <option name="url" value="https://github.com/coldwalker/Sample.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitee.com" />
+          <option name="userName" value="sauzeyu@163.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\worksapce" />
