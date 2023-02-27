@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1677050464730" />
+    <option name="lastTrimTime" value="1677484355501" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="AUTO" />
@@ -88,7 +88,13 @@
     </option>
   </component>
   <component name="Translation.States">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="791" />
+    <option name="newTranslationDialogY" value="451" />
     <histories>
+      <item value="散列" />
+      <item value="暂时" />
+      <item value="substring" />
       <item value="init Time" />
       <item value="query Wrapper" />
       <item value="get Dead Line" />
