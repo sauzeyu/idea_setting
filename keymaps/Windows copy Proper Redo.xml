@@ -1,0 +1,16 @@
+<keymap version="1" name="Windows copy Proper Redo" parent="$default">
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="ToggleRenderedDocPresentation" />
+  <action id="ToggleRenderedDocPresentationForAll">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+</keymap>

@@ -1,67 +1,18 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
-    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
-    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
-    <option name="JAVADOC_INFO_DELAY" value="500" />
+    <option name="PARAMETER_INFO_DELAY" value="300" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
-    <option name="ADD_IMPORTS_ON_PASTE" value="3" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <option name="JSP_ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="14" />
-    <option name="FONT_FAMILY" value="Consolas" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
-    <option name="LINE_SPACING" value="1.0" />
   </component>
   <component name="EditorSettings">
-    <option name="languageBreadcrumbsMap">
-      <map>
-        <entry key="CSS" value="true" />
-        <entry key="FTL" value="true" />
-        <entry key="Groovy" value="true" />
-        <entry key="HTML" value="true" />
-        <entry key="Haml" value="true" />
-        <entry key="JAVA" value="false" />
-        <entry key="JSON" value="true" />
-        <entry key="JSP" value="true" />
-        <entry key="JSPX" value="true" />
-        <entry key="JavaScript" value="true" />
-        <entry key="LESS" value="true" />
-        <entry key="Markdown" value="false" />
-        <entry key="SASS" value="true" />
-        <entry key="SCSS" value="true" />
-        <entry key="SQL" value="true" />
-        <entry key="Stylus" value="true" />
-        <entry key="TypeScript" value="true" />
-        <entry key="VTL" value="true" />
-        <entry key="XHTML" value="true" />
-        <entry key="XML" value="true" />
-        <entry key="kotlin" value="false" />
-        <entry key="protobuf" value="true" />
-        <entry key="yaml" value="true" />
-      </map>
-    </option>
-    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
-    <option name="ENABLE_RENDERED_DOC" value="true" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
-  <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
-    <settingsMapElement>
-      <JAVA.annotation.hints>
-        <Settings>
-          <option name="showExternal" value="false" />
-        </Settings>
-      </JAVA.annotation.hints>
-    </settingsMapElement>
-  </component>
-  <component name="LiveEditOptions" chromeAutoDelay="500" chromeUpdateJSOnChanges="true" nodeAutoDelay="500" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
 </application>

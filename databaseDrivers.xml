@@ -1,15 +1,8 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="h2.unified">
-      <artifact id="H2" name="H2" use="true" version="1.4.200" />
-    </driver>
     <driver id="mysql.8">
       <artifact />
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.25" />
-    </driver>
-    <driver id="mysql">
-      <artifact />
-      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="5.1.47" />
     </driver>
   </component>
 </application>

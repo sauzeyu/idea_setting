@@ -1,0 +1,10 @@
+<application>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="D:/chrome/downloads" />
+        <option value="D:/worksapce" />
+      </list>
+    </option>
+  </component>
+</application>

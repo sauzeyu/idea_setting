@@ -1,19 +1,14 @@
 <application>
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
-    <option name="reopenLastProject" value="false" />
-    <option name="showTipsOnStartup" value="false" />
-    <option name="useDefaultBrowser" value="false" />
   </component>
   <component name="Registry">
-    <entry key="compiler.automake.allow.when.app.running" value="true" />
+    <entry key="compiler.automake.allow.parallel" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
         <entry key="Memory" value="true" />
-        <entry key="com.codota.intellij.common.notifier.CodotaStatusWidget" value="false" />
-        <entry key="com.tabnine.statusBar.TabnineStatusBarWidget" value="false" />
       </map>
     </option>
   </component>

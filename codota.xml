@@ -1,47 +1,29 @@
 <application>
   <component name="CodotaSettings">
     <option name="methodCompletionsPercentageSet" value="true" />
-    <option name="id" value="e843b1ca-c95c-43f7-acda-0df1d0bcddbb" />
+    <option name="id" value="b24d8901-214d-4886-b4d5-ed689c2245da" />
     <option name="wasRunBefore" value="true" />
-    <option name="firstRun" value="1630047181506" />
+    <option name="firstRun" value="1655798142161" />
     <option name="generation" value="129" />
     <option name="updateGeneration" value="1" />
     <option name="isInJSBeta" value="YES" />
     <option name="isMethodCompletionsPercentageActive" value="true" />
     <option name="isMethodCompletionsPercentageSet" value="true" />
-    <option name="featureFlags">
-      <map>
-        <entry key="deep-completions" value="true" />
-      </map>
-    </option>
     <option name="testedFeatureFlags">
-      <set>
-        <option value="deep-completions" />
-      </set>
-    </option>
-    <option name="everTurnedOnFeatureFlags">
       <set>
         <option value="deep-completions" />
       </set>
     </option>
     <option name="completeIndexingProjects">
       <map>
-        <entry key="19254259" value="1" />
-        <entry key="34ffdc65" value="1" />
-        <entry key="3a37cac6" value="3" />
-        <entry key="78c61eba" value="1" />
-        <entry key="7c68f486" value="2" />
-        <entry key="7e0a2baf" value="4" />
-        <entry key="9505f875" value="2" />
-        <entry key="ee412b5c" value="1" />
+        <entry key="77953d89" value="2" />
       </map>
     </option>
     <option name="usedLanguages">
       <set>
         <option value="java" />
-        <option value="javascript" />
       </set>
     </option>
-    <option name="lastTabnineRecommendationDisplayDate" value="1647942902736" />
+    <option name="lastTabnineRecommendationDisplayDate" value="1664446689228" />
   </component>
 </application>
