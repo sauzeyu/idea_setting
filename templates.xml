@@ -1,6 +1,5 @@
 <application>
   <component name="TemplateSettings">
-    <defaultShortcut shortcut="ENTER" />
     <option name="deletedKeys">
       <list>
         <TemplateKey>

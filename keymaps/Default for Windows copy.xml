@@ -1,0 +1,20 @@
+<keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="$EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CWMHostShowPopupAction" />
+  <action id="Editor EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="Editor ShowTranslationDialogAction">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="ForceOthersToFollowAction" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift e" />
+  </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift q" />
+    <keyboard-shortcut first-keystroke="shift t" />
+  </action>
+</keymap>

@@ -1,15 +1,9 @@
 <application>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
-      <entry key="Default">
+      <entry key="DirDiff">
         <PlaceSettings>
-          <option name="ENABLE_SYNC_SCROLL" value="false" />
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
-        </PlaceSettings>
-      </entry>
-      <entry key="Merge">
-        <PlaceSettings>
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
+          <option name="SHOW_INDENT_LINES" value="true" />
         </PlaceSettings>
       </entry>
     </option>

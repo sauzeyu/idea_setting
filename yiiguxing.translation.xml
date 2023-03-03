@@ -1,113 +1,86 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="596" />
-    <option name="newTranslationDialogX" value="815" />
-    <option name="newTranslationDialogY" value="451" />
-    <option name="pinTranslationDialog" value="true" />
+    <option name="lastReplacementTargetLanguage" value="ENGLISH" />
+    <option name="newTranslationDialogHeight" value="404" />
+    <option name="newTranslationDialogWidth" value="749" />
+    <option name="newTranslationDialogX" value="1040" />
+    <option name="newTranslationDialogY" value="520" />
+    <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="range unbounded on this side" />
-      <item value="Conversation" />
-      <item value="SHIP" />
-      <item value="STOPSHIP" />
-      <item value="0" />
-      <item value="event Notification" />
-      <item value="invalid characters encountered in Hex string" />
-      <item value="the cipher to used for encrypting the message" />
-      <item value="the key derivation function used for byte generation" />
-      <item value="the key agreement used as the basis for the encryption" />
-      <item value="Derive shared secret" />
-      <item value="encoding and derivation parameters, may be wrapped to include an IV for an underlying block cipher." />
-      <item value="the recipient'ssender's public key parameters" />
-      <item value="our private key parameters" />
-      <item value="whether or not this is encryptiondecryption." />
-      <item value="WHETHER OR NOT THIS IS ENCRYPTIONDECRYPTION." />
-      <item value="set up for use in conjunction with a block cipher to handle the message." />
-      <item value="this produces ciphertext that can be decrypted by calling" />
-      <item value="UNCOMPRESSED" />
-      <item value="If the standard transaction was successful, the owner device shall send an asynchronous message to register the owner key to the KTS. Key registration is optional for the vehicle. If the vehicle attempts to register the key as well, a race condition may occur. Thus, key registration by vehicle is not recommended. Note: When the standard transaction fails, the device shall not send a key tracking request to the server. The data elements listed in Table 6-2 shall be sent to the KTS by the device" />
-      <item value="This is a generic API offered by the Vehicle OEM Server to track a Digital Key. This API should have idempotent behavior. If trackKey is called for a keyID that is already registered, the API call shall be successful and return with a usual response. This API is used in owner pairing and key sharing as described in Section 6.3.4.4 and Section 11.8.5, respectively." />
-      <item value="identifies version 0 of the scrypt format, using a 128-bit salt and 256-bit derived key." />
-      <item value="Simple {@link SCrypt} interface for hashing passwords using the &lt;a href=&quot;http:www.tarsnap.comscrypt.html&quot;&gt;scrypt&lt;a&gt; key derivation function and comparing a plain text password to a hashed one. The hashed output is an extended implementation of the Modular Crypt Format that also includes the scrypt algorithm parameters." />
-      <item value="Simple {@link SCrypt} interface for hashing passwords using the &lt;a href=&quot;http:www.tarsnap.comscrypt.html&quot;&gt;scrypt&lt;a&gt; key derivation function and comparing a plain text password to a hashed one. The hashed output is an extended implementation of the Modular Crypt Format that also includes the scrypt algorithm parameters. Format: &lt;code&gt;s0PARAMSSALTKEY&lt;code&gt;. &lt;dl&gt; &lt;dd&gt;PARAMS&lt;dd&gt;&lt;dt&gt;32-bit hex integer containing log2(N) (16 bits), r (8 bits), and p (8 bits)&lt;dt&gt; &lt;dd&gt;SALT&lt;dd&gt;&lt;dt&gt;base64-encoded salt&lt;dt&gt; &lt;dd&gt;KEY&lt;dd&gt;&lt;dt&gt;base64-encoded derived key&lt;dt&gt; &lt;dl&gt; &lt;code&gt;s0&lt;code&gt; identifies version 0 of the scrypt format, using a 128-bit salt and 256-bit derived key. @author Will Glozer" />
-      <item value="04 D 50 BF 8037 F 149 DB 961 D 0 D 3 CB 7 ADB 262 D 67 FACCFBD 600 B 7 EB 07494 B 10 E 4668748 DA 1 D 6 F 29010 FCE 44 F 8 D 1 BE 0 B 174 AA 80 C 266 C 91 A 4287 E 0 D 3 FB 692591808 A 8 CD 24" />
-      <item value="This does nothing (except returning null), because either: 1. the implementation object returned by getInstance() is an instance of KeyPairGenerator which has its own implementation of generateKeyPair (overriding this one), so the application would be calling that method directly, or 2. the implementation returned by getInstance() is an instance of Delegate, in which case generateKeyPair is overridden to invoke the corresponding SPI method. (This is a special case, because in JDK 1.1.x the generateKeyPair method was used both as an API and a SPI method.) return null;" />
-      <item value="4738 E 61360 B 79 FD 6 B 8 B 18 C 2496064 F 1 E 9 B 7 DED 6 FB 3 CEEEB 144 A 7 C 8253 C 9 C 84 D 4" />
-      <item value="Returns the given number of seed bytes, computed using the seed generation algorithm that this class uses to seed itself. This call may be used to seed other random number generators. Params: numBytes – the number of seed bytes to generate. Returns: the seed bytes." />
-      <item value="Decrypts given ciphertext with given private key" />
-      <item value="Encrypts given message with given public key" />
-      <item value="Generates new key pair consists of {@link ECPublicKey} and {@link ECPrivateKey}" />
-      <item value="Encrypts given message with given public key in hex" />
-      <item value="Generates new key pair consists of" />
-      <item value="成败标识" />
-      <item value="操作类型" />
-      <item value="分表" />
-      <item value="Annotation-specified bean name 'myBlockHandler' for bean class [com.vecentek.handler.MyBlockHandler] conflicts with existing, non-compatible bean definition of same name and class" />
-      <item value="Error querying database. Cause: java.util.NoSuchElementException The error may exist in comvecentekbackmapperDomeMapper.java (best guess) The error may involve defaultParameterMap The error occurred while setting parameters SQL: SELECT id,create_id,create_date,update_id,u" />
-      <item value="The error occurred while setting parameters" />
-      <item value="RECORD CONTENT" />
-      <item value="Caused by: com.mysql.cj.exceptions.WrongArgumentException: The database URL cannot be null. at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_201] at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_201] at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_201] at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_201] at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.21.jar:8.0.21] at com.mysql.cj.conf.ConnectionUrlParser.isConnectionStringSupported(ConnectionUrlParser.java:149) ~[mysql-connector-java-8.0.21.jar:8.0.21] at com.mysql.cj.conf.ConnectionUrl.acceptsUrl(ConnectionUrl.java:317) ~[mysql-connector-java-8.0.21.jar:8.0.21] at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:185) ~[mysql-connector-java-8.0.21.jar:8.0.21]" />
-      <item value="The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specifc time zone value if you want to utilize time zone support. at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) at java.lang.reflect.Constructor.newInstance(Constructor.java:423)" />
-      <item value=": Could not create connection to database server. Attempted reconnect 3 times. Giving up." />
-      <item value="This pull request has conflicts. You must resolve the conflicts by manually merging master into this branch. After the conflicts are resolved you will be able to merge the pull request. Step 1: Checkout the source branch and merge in the changes from the target branch. Resolve conflicts. git checkout liu git pull origin master Step 2: After the merge conflicts are resolved, stage the changes accordingly, commit the changes and push. git commit git push origin HEAD Step 3: Merge the updated pull request." />
-      <item value="D:\env\bin\java.exe -Dmaven.multiModuleProjectDirectory=D:\worksapce\dks_back &quot;-Dmaven.home=D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3&quot; &quot;-Dclassworlds.conf=D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3\bin\m2.conf&quot; &quot;-Dmaven.ext.class.path=D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven-event-listener.jar&quot; &quot;-javaagent:D:\IntelliJ IDEA 2021.1.2\lib\idea_rt.jar=56088:D:\IntelliJ IDEA 2021.1.2\bin&quot; -Dfile.encoding=UTF-8 -classpath &quot;D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\IntelliJ IDEA 2021.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license&quot; org.codehaus.classworlds.Launcher -Didea.version=2021.1.2 -s D:\maven\apache-maven-3.8.6\conf\settings.xml -Dmaven.repo.local=D:\repository clean [INFO] Scanning for projects... [ERROR] [ERROR] Some problems were encountered while processing the POMs: [FATAL] Non-parseable POM D:\worksapce\dks_back\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...&lt;dependency&gt;\r\n\r\n\r\n-\r\n &lt;... @173:7) @ line 173, column 7 @ [ERROR] The build could not read 1 project -&gt; [Help 1] [ERROR] [ERROR] The project (D:\worksapce\dks_back\pom.xml) has 1 error [ERROR] Non-parseable POM D:\worksapce\dks_back\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...&lt;dependency&gt;\r\n\r\n\r\n-\r\n &lt;... @173:7) @ line 173, column 7 -&gt; [Help 2] [ERROR] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch. [ERROR] Re-run Maven using the -X switch to enable full debug logging. [ERROR] [ERROR] For more information about the errors and possible solutions, please read the following a" />
-      <item value="Transfer" />
-      <item value="[INFO] Scanning for projects... [ERROR] [ERROR] Some problems were encountered while processing the POMs: [ERROR] 'dependencyManagement.dependencies.dependency.artifactId' for org.apache.shardingsphere:shardingsphere‐jdbc‐core‐spring‐boot‐starter:jar with value 'shardingsphere‐jdbc‐core‐spring‐boot‐starter' does not match a valid id pattern. @ line 43, column 30" />
-      <item value="java.lang.IllegalArgumentException: ShardingSphere rule configuration cannot be null or empty." />
-      <item value="Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dkmAdminMapper' defined in file [D:\worksapce\dks_back\target\classes\com\vecentek\back\mapper\DkmAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [combaomidoumybatisplusautoconfigureMybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shardingSphereDataSource' defined in class path resource [orgapacheshardingspherespringbootShardingSphereAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'shardingSphereDataSource' threw exception; nested exceptio" />
-      <item value="Could not transfer artifact org.apache.shardingsphere:shardingsphere-jdbc-core:pom:5.0.0 fromto nexus-aliyun" />
+      <item value="Cordova" />
+      <item value="already Exits" />
+      <item value="page Index" />
+      <item value="page Size" />
+      <item value="nclusion rule to use for entries (&quot;content&quot;) of annotated java.util.Maps and referential types (like java.util.concurrent.atomic.AtomicReference); defaults to JsonInclude.Include.ALWAYS." />
+      <item value="nclusion rule to use for instances (values) of types (Classes) or properties annotated; defaults to" />
+      <item value="USE DEFAULTS" />
+      <item value="CUSTOM" />
+      <item value="NON EMPTY" />
+      <item value="Value that indicates that properties are included unless their value is:&#10;null&#10;&quot;absent&quot; value of a referential type (like Java 8 `Optional`, or {link java.util.concurrent.atomic.AtomicReference}); that is, something that would not deference to a non-null value.&#10;This option is mostly used to work with &quot;Optional&quot;s (Java 8, Guava).&#10;Since:&#10;2.6" />
+      <item value="Value that indicates that only properties with non-null values are to be included." />
+      <item value="Value that indicates that property is to be always included, independent of value of the property." />
+      <item value="maximum" />
+      <item value="1867734617" />
+      <item value="Max Upload Size Exceeded Exception" />
+      <item value="File Size Limit Exceeded Exception" />
+      <item value="1048576" />
+      <item value="Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl" />
+      <item value="Maximum" />
+      <item value="personal And Calibration String" />
+      <item value="INTERNAL SERVER ERROR" />
+      <item value="Bad Request." />
+      <item value="ble Manufacturer" />
+      <item value="蓝牙模块供应商零件号" />
+      <item value="蓝牙模块供应商硬件号" />
+      <item value="检查文件是否合法" />
+      <item value="检查文件是否he'f" />
+      <item value="检查文件是否合肥" />
+      <item value="present" />
+      <item value="售后换件" />
+      <item value="售后" />
+      <item value="shou'h" />
+      <item value="Incompatible types. Found: 'com.baomidou.mybatisplus.annotation.IdType', required: 'java.lang.String" />
+      <item value="http Message Not Readable Exception" />
+      <item value="annot resolve method 'ok(java.lang.String, int, java.util.List&lt;com.vecentek.back.dto.DkmVehicleDTO&gt;)" />
+      <item value="u 6 CE 8\u 518 C\u 4 E 2 D\u 5 FC 3\u 5730\u 5740" />
+      <item value="JWT must not be accepted before &quot; + nbfVal + &quot;. Current time: &quot; + nowVal +&#10;                        &quot;, a difference of &quot; +&#10;                        differenceMillis + &quot; milliseconds.  Allowed clock skew: &quot; +&#10;                        this.allowedClockSkewMillis + &quot; milliseconds." />
+      <item value="ublic class ExpiredJwtException extends ClaimJwtException {&#10;&#10;    public ExpiredJwtException(Header header, Claims claims, String message) {&#10;        super(header, claims, message);&#10;    }&#10;&#10;    &#10;      @param header jwt header&#10;      @param claims jwt claims (body)&#10;      @param message exception message&#10;      @param cause cause&#10;      @since 0.5&#10;     &#10;    public ExpiredJwtException(Header header, Claims claims, String message, Throwable cause) {&#10;        super(header, claims, message, cause);&#10;    }" />
+      <item value="Base class for JWT-related runtime exceptions." />
+      <item value="The universal logger SPI interface.&#10;Notice: the placeholder only supports the most popular placeholder convention (slf4j). So, if you're not using slf4j, you should create adapters compatible with placeholders &quot;{}&quot;.&#10;Since:&#10;1.7.2&#10;Author:&#10;xue8" />
+      <item value="Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. Returned values are chosen pseudorandomly with (approximately) uniform distribution from that range.&#10;When this method is first called, it creates a single new pseudorandom-number generator, exactly as if by the expression&#10;new java.util.Random()&#10;This new pseudorandom-number generator is used thereafter for all calls to this method and is used nowhere else.&#10;This method is properly synchronized to allow correct use by more than one thread. However, if many threads need to generate pseudorandom numbers at a great rate, it may reduce contention for each thread to have its own pseudorandom-number generator.&#10;Returns:&#10;a pseudorandom double greater than or equal to 0.0 and less than 1.0.&#10;See Also:&#10;Random.nextDouble()" />
+      <item value="fallback To Local When Fail" />
+      <item value="Advance" />
+      <item value="show Advance Button" />
+      <item value="query App Machines" />
+      <item value="overlay" />
+      <item value="Dialog" />
+      <item value="confirm Dialog" />
+      <item value="flow Rule Dialog Scope" />
+      <item value="flow Rule Dialog" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="74" />
-        <entry key="ENGLISH" value="75" />
+        <entry key="CHINESE" value="1397" />
+        <entry key="ENGLISH" value="1397" />
+        <entry key="DANISH" value="2" />
+        <entry key="FRISIAN" value="1" />
+        <entry key="LATIN" value="1" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="JAPANESE" value="1" />
+        <entry key="INDONESIAN" value="2" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1663555397950" />
+    <option name="lastTrimTime" value="1652777873087" />
   </component>
   <component name="Settings">
+    <option name="autoReplace" value="true" />
+    <option name="keepFormat" value="true" />
+    <option name="selectTargetLanguageBeforeReplacement" value="true" />
+    <option name="showActionsInContextMenuOnlyWithSelection" value="false" />
+    <option name="showExplanation" value="true" />
+    <option name="showWordsOnStartup" value="true" />
     <option name="translateDocumentation" value="true" />
-    <option name="translator" value="YOUDAO" />
-    <option name="youdaoTranslateSettings">
-      <youdao-translate>
-        <option name="appId" value="sauzeyu@163.com" />
-      </youdao-translate>
-    </option>
-  </component>
-  <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1677484355501" />
-  </component>
-  <component name="Translation.Settings">
-    <option name="primaryLanguage" value="AUTO" />
-    <option name="translator" value="YOUDAO" />
-    <option name="youdaoTranslateSettings">
-      <youdao-translate>
-        <option name="appId" value="092fa81e7803d26c" />
-      </youdao-translate>
-    </option>
-  </component>
-  <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="592" />
-    <option name="newTranslationDialogX" value="791" />
-    <option name="newTranslationDialogY" value="451" />
-    <histories>
-      <item value="单元测试" />
-      <item value="幂等性" />
-      <item value="Checks if there are any new Maven project dependencies available.&#10;If there are any new releases of the dependencies you use in your project the plugin will display a dialogue containing all dependencies which can or should be updated in oder to avoid security issues for example. You'll see the version of the dependencies you use right now and the latest versions available at Maven Central. You can choose to keep the results by copying them to the clipboard. The plugin does NOT modify your POM file.&#10;Please keep in mind that dependencies which are available at Maven Central will be checked only.&#10;In order to check for updates just select your Maven POM file (pom.xml) in the project explorer view. Right-click the file and choose Check Maven Dependencies from the context menu." />
-      <item value="散列" />
-      <item value="暂时" />
-      <item value="substring" />
-      <item value="init Time" />
-      <item value="query Wrapper" />
-      <item value="get Dead Line" />
-      <item value="dkm Key Logs" />
-    </histories>
-    <option name="languageScores">
-      <map>
-        <entry key="CHINESE" value="2" />
-        <entry key="ENGLISH" value="2" />
-      </map>
-    </option>
   </component>
 </application>

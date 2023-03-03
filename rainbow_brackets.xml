@@ -1,7 +1,9 @@
 <application>
   <component name="RainbowSettings">
-    <option name="rainbowifyTagNameInXML" value="true" />
+    <option name="cycleCountOnAllBrackets" value="true" />
+    <option name="numberOfColors" value="10" />
     <option name="suppressBigFileCheck" value="true" />
-    <option name="version" value="2023.2.6-ij" />
+    <option name="useColorGenerator" value="true" />
+    <option name="version" value="6.21" />
   </component>
 </application>
