@@ -74,6 +74,10 @@
           <option name="url" value="https://github.com/macrozheng/mall-swarm.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://cd.vecentek.com:57990" />
+          <option name="userName" value="liujz" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\worksapce" />
