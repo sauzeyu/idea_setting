@@ -78,6 +78,10 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1677822639365" />
   </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="MICROSOFT" />
+  </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
     <option name="newTranslationDialogWidth" value="594" />
