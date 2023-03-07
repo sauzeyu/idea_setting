@@ -88,13 +88,14 @@
     <option name="newTranslationDialogX" value="531" />
     <option name="newTranslationDialogY" value="500" />
     <histories>
+      <item value="actual" />
       <item value="It looks like either your git installation or your&#10;git-subtree installation is broken.&#10;" />
       <item value="指令执行成功" />
       <item value=" Move the contents of this initializer to a standard constructor or to field initializers." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="4" />
+        <entry key="CHINESE" value="5" />
         <entry key="ENGLISH" value="1" />
       </map>
     </option>
