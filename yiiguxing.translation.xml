@@ -84,10 +84,11 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="594" />
-    <option name="newTranslationDialogX" value="531" />
-    <option name="newTranslationDialogY" value="500" />
+    <option name="newTranslationDialogWidth" value="592" />
+    <option name="newTranslationDialogX" value="560" />
+    <option name="newTranslationDialogY" value="360" />
     <histories>
+      <item value="Duplicate class found in the file 'D:\worksapce\dkserver-back-foton\src\test\java\com\vecentek\back\TestUtils.java'" />
       <item value="actual" />
       <item value="It looks like either your git installation or your&#10;git-subtree installation is broken.&#10;" />
       <item value="指令执行成功" />
@@ -95,7 +96,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
+        <entry key="CHINESE" value="6" />
         <entry key="ENGLISH" value="1" />
       </map>
     </option>
