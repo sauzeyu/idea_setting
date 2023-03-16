@@ -102,6 +102,10 @@
           <option name="url" value="https://github.com/alibaba/canal.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://cd.vecentek.com:57990/scm/web/dkserver-common-base.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\worksapce" />
