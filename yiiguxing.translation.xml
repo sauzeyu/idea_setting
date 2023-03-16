@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1678336505123" />
+    <option name="lastTrimTime" value="1678950005464" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -84,10 +84,13 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="590" />
+    <option name="newTranslationDialogWidth" value="588" />
     <option name="newTranslationDialogX" value="560" />
     <option name="newTranslationDialogY" value="360" />
     <histories>
+      <item value="日志内容" />
+      <item value="错误日志" />
+      <item value="cuo" />
       <item value="首页" />
       <item value="shouu" />
       <item value="Duplicate class found in the file 'D:\worksapce\dkserver-back-foton\src\test\java\com\vecentek\back\TestUtils.java'" />
@@ -98,8 +101,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="12" />
+        <entry key="CHINESE" value="28" />
+        <entry key="ENGLISH" value="23" />
       </map>
     </option>
   </component>
