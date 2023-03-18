@@ -84,10 +84,11 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="588" />
+    <option name="newTranslationDialogWidth" value="586" />
     <option name="newTranslationDialogX" value="560" />
     <option name="newTranslationDialogY" value="360" />
     <histories>
+      <item value="文档基本操作" />
       <item value="日志内容" />
       <item value="错误日志" />
       <item value="cuo" />
