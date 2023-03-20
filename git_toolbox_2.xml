@@ -1,5 +1,6 @@
 <application>
   <component name="GitToolBoxAppSettings2">
+    <option name="startupNotificationVersion" value="1" />
     <option name="version" value="6" />
   </component>
 </application>
