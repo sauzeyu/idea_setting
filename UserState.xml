@@ -1,7 +1,8 @@
 <application>
   <component name="SmartInputUserState">
-    <option name="authorizationInfo" value="{&quot;effective&quot;:true,&quot;expireTimestamp&quot;:1679812361295,&quot;queryTimestamp&quot;:1679380361295,&quot;secretCode&quot;:&quot;GFMKJEJELE&quot;,&quot;success&quot;:true}" />
-    <option name="todayLanguageChangeTimes" value="2" />
-    <option name="lastFrameStateActivateTimestamp" value="1679380385364" />
+    <option name="authorizationInfo" value="{&quot;effective&quot;:true,&quot;expireTimestamp&quot;:1679886851797,&quot;queryTimestamp&quot;:1679454851797,&quot;secretCode&quot;:&quot;LJMKIEJELL&quot;,&quot;success&quot;:true}" />
+    <option name="languageChangeCumulativeTimes" value="2" />
+    <option name="todayLanguageChangeTimes" value="13" />
+    <option name="lastFrameStateActivateTimestamp" value="1679454959823" />
   </component>
 </application>
