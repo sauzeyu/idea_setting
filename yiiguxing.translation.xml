@@ -84,10 +84,17 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="584" />
+    <option name="newTranslationDialogWidth" value="580" />
     <option name="newTranslationDialogX" value="560" />
     <option name="newTranslationDialogY" value="360" />
     <histories>
+      <item value="解析日志" />
+      <item value="日志格式" />
+      <item value="基础日志" />
+      <item value="ji" />
+      <item value="op Code" />
+      <item value="keyid" />
+      <item value="车控功能异常" />
       <item value="日志记录时间" />
       <item value="原始日志" />
       <item value="原始" />
@@ -106,8 +113,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="32" />
+        <entry key="CHINESE" value="51" />
+        <entry key="DUTCH" value="1" />
+        <entry key="ENGLISH" value="47" />
       </map>
     </option>
   </component>
