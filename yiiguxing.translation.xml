@@ -89,6 +89,9 @@
     <option name="newTranslationDialogY" value="360" />
     <histories>
       <item value="功能异常" />
+      <item value="解决方案" />
+      <item value="故障" />
+      <item value="业务" />
       <item value="解析日志" />
       <item value="日志格式" />
       <item value="基础日志" />
@@ -114,9 +117,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="52" />
+        <entry key="CHINESE" value="58" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="ENGLISH" value="54" />
       </map>
     </option>
   </component>
