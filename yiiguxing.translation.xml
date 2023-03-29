@@ -84,13 +84,16 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="578" />
+    <option name="newTranslationDialogWidth" value="576" />
     <option name="newTranslationDialogX" value="1095" />
     <option name="newTranslationDialogY" value="270" />
     <histories>
+      <item value="功能异常" />
+      <item value="功能异常I" />
+      <item value="异常" />
+      <item value="yi'cha" />
       <item value="invalid method reference&#10;  cannot find symbol" />
       <item value="DateUtil' is already defined in this compilation unit" />
-      <item value="功能异常" />
       <item value="解决方案" />
       <item value="故障" />
       <item value="业务" />
@@ -119,9 +122,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="60" />
+        <entry key="CHINESE" value="70" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="ENGLISH" value="64" />
       </map>
     </option>
   </component>
