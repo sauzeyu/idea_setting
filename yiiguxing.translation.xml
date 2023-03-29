@@ -84,10 +84,14 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="576" />
+    <option name="newTranslationDialogWidth" value="574" />
     <option name="newTranslationDialogX" value="1095" />
     <option name="newTranslationDialogY" value="270" />
     <histories>
+      <item value="归属" />
+      <item value="gui'shu" />
+      <item value="g" />
+      <item value="gu" />
       <item value="功能异常" />
       <item value="功能异常I" />
       <item value="异常" />
@@ -122,9 +126,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
+        <entry key="CHINESE" value="78" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="64" />
+        <entry key="ENGLISH" value="72" />
       </map>
     </option>
   </component>
