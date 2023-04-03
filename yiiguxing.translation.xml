@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1679992693764" />
+    <option name="lastTrimTime" value="1680505998450" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -84,10 +84,11 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="574" />
+    <option name="newTranslationDialogWidth" value="572" />
     <option name="newTranslationDialogX" value="1095" />
     <option name="newTranslationDialogY" value="270" />
     <histories>
+      <item value="三个月之前" />
       <item value="归属" />
       <item value="gui'shu" />
       <item value="g" />
@@ -126,9 +127,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
+        <entry key="CHINESE" value="84" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="72" />
+        <entry key="ENGLISH" value="78" />
       </map>
     </option>
   </component>
