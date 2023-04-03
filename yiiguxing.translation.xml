@@ -84,10 +84,13 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="572" />
-    <option name="newTranslationDialogX" value="1095" />
-    <option name="newTranslationDialogY" value="270" />
+    <option name="newTranslationDialogWidth" value="564" />
+    <option name="newTranslationDialogX" value="1234" />
+    <option name="newTranslationDialogY" value="461" />
     <histories>
+      <item value="数据库前缀" />
+      <item value="shu'ju'k" />
+      <item value="Provide the parametrized type for this generic." />
       <item value="三个月之前" />
       <item value="归属" />
       <item value="gui'shu" />
@@ -127,9 +130,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="84" />
+        <entry key="CHINESE" value="92" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="78" />
+        <entry key="ENGLISH" value="85" />
       </map>
     </option>
   </component>
