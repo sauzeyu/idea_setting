@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1680505998450" />
+    <option name="lastTrimTime" value="1681106951328" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -84,10 +84,12 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="560" />
+    <option name="newTranslationDialogWidth" value="558" />
     <option name="newTranslationDialogX" value="1234" />
     <option name="newTranslationDialogY" value="461" />
     <histories>
+      <item value="原始" />
+      <item value="row" />
       <item value="Define and throw a dedicated exception instead of using a generic one." />
       <item value="Unchecked assignment: 'java.util.HashSet' to 'java.util.Collection&lt;java.lang.Object&gt;'" />
       <item value="Immediately return this expression instead of assigning it to the temporary variable &quot;subTableList&quot;." />
@@ -126,7 +128,6 @@
       <item value="车控功能异常" />
       <item value="日志记录时间" />
       <item value="原始日志" />
-      <item value="原始" />
       <item value="mei" />
       <item value="文档基本操作" />
       <item value="日志内容" />
@@ -137,13 +138,12 @@
       <item value="Duplicate class found in the file 'D:\worksapce\dkserver-back-foton\src\test\java\com\vecentek\back\TestUtils.java'" />
       <item value="actual" />
       <item value="It looks like either your git installation or your&#10;git-subtree installation is broken.&#10;" />
-      <item value="指令执行成功" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="132" />
+        <entry key="CHINESE" value="141" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="118" />
+        <entry key="ENGLISH" value="127" />
       </map>
     </option>
   </component>
