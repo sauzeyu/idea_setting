@@ -1,0 +1,14 @@
+<application>
+  <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
+    <option name="enableProxy" value="true" />
+    <option name="proxyType" value="HTTP" />
+    <option name="proxyPort" value="7890" />
+    <option name="apiKey" value="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" />
+    <option name="customActionsPrefix">
+      <list>
+        <option value="单元测试" />
+      </list>
+    </option>
+    <option name="assistantApiKey" value="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" />
+  </component>
+</application>
