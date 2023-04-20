@@ -84,10 +84,11 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="567" />
-    <option name="newTranslationDialogWidth" value="1103" />
+    <option name="newTranslationDialogWidth" value="1101" />
     <option name="newTranslationDialogX" value="754" />
     <option name="newTranslationDialogY" value="286" />
     <histories>
+      <item value="序列" />
       <item value="Return an instance, which may be shared or independent, of the specified bean. This method allows a Spring BeanFactory to be used as a replacement for the Singleton or Prototype design pattern. Callers may retain references to returned objects in the case of Singleton beans. Translates aliases back to the corresponding canonical bean name. Will ask the parent factory if the bean cannot be found in this factory instance. Params: name – the name of the bean to retrieve Returns: an instance of the bean" />
       <item value="Create a new MockMultipartFile with the given content. Params: name – the name of the file content – the content of the file" />
       <item value="If you're unsure why you're getting above error read on. Due to the nature of the syntax above problem might occur because: 1. This exception might occur in wrongly written multi-threaded tests. Please refer to Mockito FAQ on limitations of concurrency testing. 2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method." />
@@ -137,13 +138,12 @@
       <item value="mei" />
       <item value="文档基本操作" />
       <item value="日志内容" />
-      <item value="错误日志" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="143" />
+        <entry key="CHINESE" value="149" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="130" />
+        <entry key="ENGLISH" value="136" />
       </map>
     </option>
   </component>
