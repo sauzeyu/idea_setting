@@ -84,10 +84,15 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="567" />
-    <option name="newTranslationDialogWidth" value="1101" />
+    <option name="newTranslationDialogWidth" value="1099" />
     <option name="newTranslationDialogX" value="754" />
     <option name="newTranslationDialogY" value="286" />
     <histories>
+      <item value="诊断日志" />
+      <item value="Exception" />
+      <item value="检索号" />
+      <item value="c" />
+      <item value="VIN号信息不存在" />
       <item value="序列" />
       <item value="Return an instance, which may be shared or independent, of the specified bean. This method allows a Spring BeanFactory to be used as a replacement for the Singleton or Prototype design pattern. Callers may retain references to returned objects in the case of Singleton beans. Translates aliases back to the corresponding canonical bean name. Will ask the parent factory if the bean cannot be found in this factory instance. Params: name – the name of the bean to retrieve Returns: an instance of the bean" />
       <item value="Create a new MockMultipartFile with the given content. Params: name – the name of the file content – the content of the file" />
@@ -133,17 +138,12 @@
       <item value="op Code" />
       <item value="keyid" />
       <item value="车控功能异常" />
-      <item value="日志记录时间" />
-      <item value="原始日志" />
-      <item value="mei" />
-      <item value="文档基本操作" />
-      <item value="日志内容" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="149" />
+        <entry key="CHINESE" value="162" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="136" />
+        <entry key="ENGLISH" value="150" />
       </map>
     </option>
   </component>
