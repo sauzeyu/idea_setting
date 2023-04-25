@@ -1,9 +1,9 @@
 <application>
   <component name="SmartInputUserState">
-    <option name="scenesChangeHitCloseAdvise" value="46" />
-    <option name="authorizationInfo" value="{&quot;effective&quot;:true,&quot;expireTimestamp&quot;:1682820749701,&quot;queryTimestamp&quot;:1682388749701,&quot;secretCode&quot;:&quot;KDFLHMJELF&quot;,&quot;success&quot;:true}" />
+    <option name="scenesChangeHitCloseAdvise" value="47" />
+    <option name="authorizationInfo" value="{&quot;effective&quot;:true,&quot;expireTimestamp&quot;:1682825132652,&quot;queryTimestamp&quot;:1682393132652,&quot;secretCode&quot;:&quot;EIFLGFJELF&quot;,&quot;success&quot;:true}" />
     <option name="languageChangeCumulativeTimes" value="2310" />
-    <option name="todayLanguageChangeTimes" value="17" />
-    <option name="lastFrameStateActivateTimestamp" value="1682389074376" />
+    <option name="todayLanguageChangeTimes" value="67" />
+    <option name="lastFrameStateActivateTimestamp" value="1682393135413" />
   </component>
 </application>

@@ -87,7 +87,19 @@
     <option name="newTranslationDialogWidth" value="1097" />
     <option name="newTranslationDialogX" value="754" />
     <option name="newTranslationDialogY" value="286" />
+    <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="分享钥匙（用户中心-钥匙平台）" />
+      <item value="吊销钥匙（更换手机）" />
+      <item value="车主注销（解除人车绑定关系）" />
+      <item value="User vehicle binding" />
+      <item value="用户车辆绑定" />
+      <item value="Enter vehicle information (after-sales replacement)" />
+      <item value="录入车辆信息（售后换件）" />
+      <item value="开通钥匙" />
+      <item value="The vehicle information is empty" />
+      <item value="车辆信息为空" />
+      <item value="SHARE KEYS USER CENTER - KEY PLATFORM" />
       <item value="分割符" />
       <item value="分割fu" />
       <item value="诊断日志" />
@@ -127,23 +139,12 @@
       <item value="功能异常" />
       <item value="功能异常I" />
       <item value="异常" />
-      <item value="yi'cha" />
-      <item value="invalid method reference&#10;  cannot find symbol" />
-      <item value="DateUtil' is already defined in this compilation unit" />
-      <item value="解决方案" />
-      <item value="故障" />
-      <item value="业务" />
-      <item value="解析日志" />
-      <item value="日志格式" />
-      <item value="基础日志" />
-      <item value="ji" />
-      <item value="op Code" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="168" />
+        <entry key="CHINESE" value="180" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="156" />
+        <entry key="ENGLISH" value="172" />
       </map>
     </option>
   </component>
