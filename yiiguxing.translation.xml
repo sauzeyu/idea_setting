@@ -89,6 +89,26 @@
     <option name="newTranslationDialogY" value="286" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="蓝牙信息没有对应二级密钥" />
+      <item value="车辆信息为空" />
+      <item value="钥匙状态异常不能分享" />
+      <item value="钥匙信息为空" />
+      <item value="禁止自己分享给自己" />
+      <item value="The key takes effect or the expiration time format cannot be parsed" />
+      <item value="钥匙生效或失效时间格式解析失败" />
+      <item value="用户车辆信息不匹配" />
+      <item value="The vehicle information is bound to the owner" />
+      <item value="车辆信息已绑定车主" />
+      <item value="车辆信息不存在" />
+      <item value="传参中存在空值或者参数格式不正确" />
+      <item value="Duplicate upload data" />
+      <item value="上传数据重复" />
+      <item value="上传数据超过最大值" />
+      <item value="REVOKE_KEYS_REPLACE_PHONE_There are null values in the passing parameters" />
+      <item value="传参中存在空值" />
+      <item value="Provisioning failed" />
+      <item value="开通失败" />
+      <item value="存在已冻结钥匙" />
       <item value="分享钥匙（用户中心-钥匙平台）" />
       <item value="吊销钥匙（更换手机）" />
       <item value="车主注销（解除人车绑定关系）" />
@@ -98,7 +118,6 @@
       <item value="录入车辆信息（售后换件）" />
       <item value="开通钥匙" />
       <item value="The vehicle information is empty" />
-      <item value="车辆信息为空" />
       <item value="SHARE KEYS USER CENTER - KEY PLATFORM" />
       <item value="分割符" />
       <item value="分割fu" />
@@ -120,31 +139,12 @@
       <item value="Unchecked assignment: 'java.util.HashSet' to 'java.util.Collection&lt;java.lang.Object&gt;'" />
       <item value="Immediately return this expression instead of assigning it to the temporary variable &quot;subTableList&quot;." />
       <item value="Raw use of parameterized class 'Range'" />
-      <item value="Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation." />
-      <item value="Provide the parametrized type for this generic." />
-      <item value="Field can be converted to a local variable" />
-      <item value="百分比" />
-      <item value="bai'fen'b" />
-      <item value="bai'fen" />
-      <item value="pai" />
-      <item value="pa'r" />
-      <item value="pa'r'bai'f" />
-      <item value="数据库前缀" />
-      <item value="shu'ju'k" />
-      <item value="三个月之前" />
-      <item value="归属" />
-      <item value="gui'shu" />
-      <item value="g" />
-      <item value="gu" />
-      <item value="功能异常" />
-      <item value="功能异常I" />
-      <item value="异常" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="180" />
+        <entry key="CHINESE" value="197" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="172" />
+        <entry key="ENGLISH" value="194" />
       </map>
     </option>
   </component>
