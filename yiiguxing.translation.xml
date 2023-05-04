@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1682216127529" />
+    <option name="lastTrimTime" value="1683185878307" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -89,6 +89,8 @@
     <option name="newTranslationDialogY" value="286" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="钥匙状态传参错误" />
+      <item value="钥匙状态未传递" />
       <item value="蓝牙信息没有对应二级密钥" />
       <item value="车辆信息为空" />
       <item value="钥匙状态异常不能分享" />
@@ -137,14 +139,12 @@
       <item value="row" />
       <item value="Define and throw a dedicated exception instead of using a generic one." />
       <item value="Unchecked assignment: 'java.util.HashSet' to 'java.util.Collection&lt;java.lang.Object&gt;'" />
-      <item value="Immediately return this expression instead of assigning it to the temporary variable &quot;subTableList&quot;." />
-      <item value="Raw use of parameterized class 'Range'" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="197" />
+        <entry key="CHINESE" value="199" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="194" />
+        <entry key="ENGLISH" value="196" />
       </map>
     </option>
   </component>
