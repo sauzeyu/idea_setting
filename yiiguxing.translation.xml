@@ -89,10 +89,11 @@
     <option name="newTranslationDialogY" value="354" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="重复" />
+      <item value="上传数据重复" />
       <item value="If you're unsure why you're getting above error read on. Due to the nature of the syntax above problem might occur because: 1. This exception might occur in wrongly written multi-threaded tests. Please refer to Mockito FAQ on limitations of concurrency testing. 2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method." />
       <item value="org.mockito.exceptions.misusing.WrongTypeOfReturnValue: ArrayList cannot be returned by toString() toString() should return String If you're unsure why you're getting above error read on. Due to the nature of the syntax above problem might occur because: 1. This exception might occur in wrongly written multi-threaded tests. Please refer to Mockito FAQ on limitations of concurrency testing. 2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method." />
       <item value="Description : The scope of the dependency - compile, runtime, test, system, and provided. Used to calculate the various classpaths used for compilation, testing, and so on. It also assists in determining which artifacts to include in a distribution of this project. For more information, see the dependency mechanism ." />
-      <item value="重复" />
       <item value="50 条" />
       <item value="数据不得为空" />
       <item value="钥匙状态传参错误" />
@@ -110,7 +111,6 @@
       <item value="车辆信息不存在" />
       <item value="传参中存在空值或者参数格式不正确" />
       <item value="Duplicate upload data" />
-      <item value="上传数据重复" />
       <item value="上传数据超过最大值" />
       <item value="REVOKE_KEYS_REPLACE_PHONE_There are null values in the passing parameters" />
       <item value="传参中存在空值" />
@@ -142,9 +142,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="203" />
+        <entry key="CHINESE" value="205" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="201" />
+        <entry key="ENGLISH" value="203" />
       </map>
     </option>
   </component>
