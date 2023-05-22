@@ -89,6 +89,8 @@
     <option name="newTranslationDialogY" value="354" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="重复成对" />
+      <item value="唯一" />
       <item value="未传递" />
       <item value="重复参数" />
       <item value="上传数据量超过最大值" />
@@ -137,14 +139,12 @@
       <item value="Exception" />
       <item value="检索号" />
       <item value="c" />
-      <item value="VIN号信息不存在" />
-      <item value="序列" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="209" />
+        <entry key="CHINESE" value="211" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="207" />
+        <entry key="ENGLISH" value="209" />
       </map>
     </option>
   </component>
