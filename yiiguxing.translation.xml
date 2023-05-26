@@ -89,6 +89,7 @@
     <option name="newTranslationDialogY" value="354" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="pub Key Flag" />
       <item value="Constraint" />
       <item value="重复成对" />
       <item value="唯一" />
@@ -138,7 +139,6 @@
       <item value="分割fu" />
       <item value="诊断日志" />
       <item value="Exception" />
-      <item value="检索号" />
     </histories>
     <option name="languageScores">
       <map>
