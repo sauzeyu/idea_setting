@@ -1,0 +1,14 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="contrastMode" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="useMaterialFont2" value="true" />
+    <option name="useMaterialWallpapers" value="true" />
+    <option name="indicatorStyle" value="None" />
+    <option name="accentColor" value="f9826c" />
+    <option name="selectedTheme" value="GITHUB_DARK" />
+    <option name="userId" value="11b32db7:18899fd8ee2:-8000" />
+    <option name="version" value="6.7.2" />
+    <option name="tabHighlightPosition" value="None" />
+  </component>
+</application>
