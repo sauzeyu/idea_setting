@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1685927154495" />
+    <option name="lastTrimTime" value="1686635913034" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -89,6 +89,7 @@
     <option name="newTranslationDialogY" value="354" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Description: Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured. Reason: Failed to determine a suitable driver class" />
       <item value="提示" />
       <item value="tu" />
       <item value="t" />
@@ -138,13 +139,12 @@
       <item value="车主注销（解除人车绑定关系）" />
       <item value="User vehicle binding" />
       <item value="用户车辆绑定" />
-      <item value="Enter vehicle information (after-sales replacement)" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="224" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="223" />
+        <entry key="ENGLISH" value="224" />
       </map>
     </option>
   </component>
