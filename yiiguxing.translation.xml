@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1686635913034" />
+    <option name="lastTrimTime" value="1687136818864" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -84,11 +84,14 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="567" />
-    <option name="newTranslationDialogWidth" value="1093" />
-    <option name="newTranslationDialogX" value="179" />
-    <option name="newTranslationDialogY" value="354" />
+    <option name="newTranslationDialogWidth" value="1091" />
+    <option name="newTranslationDialogX" value="454" />
+    <option name="newTranslationDialogY" value="608" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="定期更新解决方案" />
+      <item value="更新解决方案" />
+      <item value="更新jie'ju" />
       <item value="Description: Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured. Reason: Failed to determine a suitable driver class" />
       <item value="提示" />
       <item value="tu" />
@@ -136,15 +139,12 @@
       <item value="存在已冻结钥匙" />
       <item value="分享钥匙（用户中心-钥匙平台）" />
       <item value="吊销钥匙（更换手机）" />
-      <item value="车主注销（解除人车绑定关系）" />
-      <item value="User vehicle binding" />
-      <item value="用户车辆绑定" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="224" />
+        <entry key="CHINESE" value="230" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="224" />
+        <entry key="ENGLISH" value="230" />
       </map>
     </option>
   </component>
