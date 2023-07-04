@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1687136818864" />
+    <option name="lastTrimTime" value="1688449330664" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -89,6 +89,7 @@
     <option name="newTranslationDialogY" value="608" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Consider the following: If you want an embedded database (H2, HSQL or Derby), please put it on the classpath. If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active)." />
       <item value="定期更新解决方案" />
       <item value="更新解决方案" />
       <item value="更新jie'ju" />
@@ -138,13 +139,12 @@
       <item value="开通失败" />
       <item value="存在已冻结钥匙" />
       <item value="分享钥匙（用户中心-钥匙平台）" />
-      <item value="吊销钥匙（更换手机）" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="230" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="230" />
+        <entry key="ENGLISH" value="231" />
       </map>
     </option>
   </component>
