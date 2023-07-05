@@ -84,11 +84,14 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="567" />
-    <option name="newTranslationDialogWidth" value="1091" />
+    <option name="newTranslationDialogWidth" value="1089" />
     <option name="newTranslationDialogX" value="454" />
-    <option name="newTranslationDialogY" value="608" />
+    <option name="newTranslationDialogY" value="471" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="16进制" />
+      <item value="16jin'xi" />
+      <item value="16" />
       <item value="Consider the following: If you want an embedded database (H2, HSQL or Derby), please put it on the classpath. If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active)." />
       <item value="定期更新解决方案" />
       <item value="更新解决方案" />
@@ -136,15 +139,12 @@
       <item value="REVOKE_KEYS_REPLACE_PHONE_There are null values in the passing parameters" />
       <item value="传参中存在空值" />
       <item value="Provisioning failed" />
-      <item value="开通失败" />
-      <item value="存在已冻结钥匙" />
-      <item value="分享钥匙（用户中心-钥匙平台）" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="230" />
+        <entry key="CHINESE" value="231" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="231" />
+        <entry key="ENGLISH" value="232" />
       </map>
     </option>
   </component>
