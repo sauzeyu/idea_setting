@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1688449330664" />
+    <option name="lastTrimTime" value="1688952716688" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -84,11 +84,13 @@
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogHeight" value="567" />
-    <option name="newTranslationDialogWidth" value="1089" />
-    <option name="newTranslationDialogX" value="454" />
-    <option name="newTranslationDialogY" value="471" />
+    <option name="newTranslationDialogWidth" value="1087" />
+    <option name="newTranslationDialogX" value="411" />
+    <option name="newTranslationDialogY" value="372" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Lightweight real-time memory management application to monitor&#10;and clean system memory on your computer.&#10;&#10;The program used undocumented internal system features (Native API) to clear&#10;system cache (system working set, working set, standby page lists, modified page&#10;lists) with variable result ~10-50%. Application it is compatible with Windows XP SP3 and&#10;higher operating systems, but some general features available only since Windows Vista.&#10;&#10;You can download either the installer or portable version. For correct working you are require administrator rights.&#10;&#10;```&#10;To activate portable mode, create &quot;memreduct.ini&quot; in application folder, or move it from &quot;%APPDATA%\Henry++\Mem Reduct&quot;.&#10;```&#10;" />
+      <item value="true" />
       <item value="16进制" />
       <item value="16jin'xi" />
       <item value="16" />
@@ -137,14 +139,12 @@
       <item value="Duplicate upload data" />
       <item value="上传数据超过最大值" />
       <item value="REVOKE_KEYS_REPLACE_PHONE_There are null values in the passing parameters" />
-      <item value="传参中存在空值" />
-      <item value="Provisioning failed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="231" />
+        <entry key="CHINESE" value="235" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="232" />
+        <entry key="ENGLISH" value="235" />
       </map>
     </option>
   </component>
