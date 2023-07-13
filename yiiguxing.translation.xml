@@ -88,6 +88,7 @@
     <option name="newTranslationDialogX" value="411" />
     <option name="newTranslationDialogY" value="372" />
     <histories>
+      <item value="人车关系" />
       <item value="校验" />
       <item value="未激活" />
       <item value="四门车窗解锁" />
@@ -137,13 +138,12 @@
       <item value="钥匙生效或失效时间格式解析失败" />
       <item value="用户车辆信息不匹配" />
       <item value="The vehicle information is bound to the owner" />
-      <item value="车辆信息已绑定车主" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="244" />
+        <entry key="CHINESE" value="245" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="244" />
+        <entry key="ENGLISH" value="245" />
       </map>
     </option>
   </component>
