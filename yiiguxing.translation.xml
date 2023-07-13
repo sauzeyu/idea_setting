@@ -88,6 +88,8 @@
     <option name="newTranslationDialogX" value="411" />
     <option name="newTranslationDialogY" value="372" />
     <histories>
+      <item value="校验" />
+      <item value="未激活" />
       <item value="四门车窗解锁" />
       <item value="environment" />
       <item value="环境" />
@@ -136,14 +138,12 @@
       <item value="用户车辆信息不匹配" />
       <item value="The vehicle information is bound to the owner" />
       <item value="车辆信息已绑定车主" />
-      <item value="车辆信息不存在" />
-      <item value="传参中存在空值或者参数格式不正确" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="242" />
+        <entry key="CHINESE" value="244" />
         <entry key="DUTCH" value="1" />
-        <entry key="ENGLISH" value="242" />
+        <entry key="ENGLISH" value="244" />
       </map>
     </option>
   </component>
