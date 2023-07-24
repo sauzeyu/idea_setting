@@ -1,0 +1,7 @@
+<application>
+  <component name="sequenceParams">
+    <option name="callDepth" value="10" />
+    <option name="projectClassesOnly" value="false" />
+    <option name="noGetterSetters" value="false" />
+  </component>
+</application>
