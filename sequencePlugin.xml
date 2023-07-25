@@ -3,5 +3,6 @@
     <option name="callDepth" value="10" />
     <option name="projectClassesOnly" value="false" />
     <option name="noGetterSetters" value="false" />
+    <option name="noConstructors" value="true" />
   </component>
 </application>
