@@ -2,7 +2,7 @@
   <component name="sequenceParams">
     <option name="callDepth" value="10" />
     <option name="projectClassesOnly" value="false" />
-    <option name="noGetterSetters" value="false" />
+    <option name="noPrivateMethods" value="true" />
     <option name="noConstructors" value="true" />
   </component>
 </application>
