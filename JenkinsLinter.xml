@@ -1,0 +1,5 @@
+<application>
+  <component name="JenkinsLinterState">
+    <option name="jenkinsUrl" value="http://172.16.70.112:8080" />
+  </component>
+</application>

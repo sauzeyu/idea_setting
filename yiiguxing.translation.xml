@@ -76,34 +76,74 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1678950005464" />
+    <option name="lastTrimTime" value="1688952716688" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
     <option name="translator" value="MICROSOFT" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogHeight" value="256" />
-    <option name="newTranslationDialogWidth" value="586" />
-    <option name="newTranslationDialogX" value="560" />
-    <option name="newTranslationDialogY" value="360" />
+    <option name="newTranslationDialogHeight" value="567" />
+    <option name="newTranslationDialogWidth" value="1085" />
+    <option name="newTranslationDialogX" value="411" />
+    <option name="newTranslationDialogY" value="372" />
     <histories>
-      <item value="文档基本操作" />
-      <item value="日志内容" />
-      <item value="错误日志" />
-      <item value="cuo" />
-      <item value="首页" />
-      <item value="shouu" />
-      <item value="Duplicate class found in the file 'D:\worksapce\dkserver-back-foton\src\test\java\com\vecentek\back\TestUtils.java'" />
-      <item value="actual" />
-      <item value="It looks like either your git installation or your&#10;git-subtree installation is broken.&#10;" />
-      <item value="指令执行成功" />
-      <item value=" Move the contents of this initializer to a standard constructor or to field initializers." />
+      <item value="人车关系" />
+      <item value="校验" />
+      <item value="未激活" />
+      <item value="四门车窗解锁" />
+      <item value="environment" />
+      <item value="环境" />
+      <item value="Lightweight real-time memory management application to monitor&#10;and clean system memory on your computer.&#10;&#10;The program used undocumented internal system features (Native API) to clear&#10;system cache (system working set, working set, standby page lists, modified page&#10;lists) with variable result ~10-50%. Application it is compatible with Windows XP SP3 and&#10;higher operating systems, but some general features available only since Windows Vista.&#10;&#10;You can download either the installer or portable version. For correct working you are require administrator rights.&#10;&#10;```&#10;To activate portable mode, create &quot;memreduct.ini&quot; in application folder, or move it from &quot;%APPDATA%\Henry++\Mem Reduct&quot;.&#10;```&#10;" />
+      <item value="true" />
+      <item value="16进制" />
+      <item value="16jin'xi" />
+      <item value="16" />
+      <item value="Consider the following: If you want an embedded database (H2, HSQL or Derby), please put it on the classpath. If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active)." />
+      <item value="定期更新解决方案" />
+      <item value="更新解决方案" />
+      <item value="更新jie'ju" />
+      <item value="Description: Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured. Reason: Failed to determine a suitable driver class" />
+      <item value="提示" />
+      <item value="tu" />
+      <item value="t" />
+      <item value="ti" />
+      <item value="Key management" />
+      <item value="钥匙管理" />
+      <item value="蓝牙连接" />
+      <item value="控车" />
+      <item value="pub Key Flag" />
+      <item value="Constraint" />
+      <item value="重复成对" />
+      <item value="唯一" />
+      <item value="未传递" />
+      <item value="重复参数" />
+      <item value="上传数据量超过最大值" />
+      <item value="上传数据不得为空" />
+      <item value="重复" />
+      <item value="上传数据重复" />
+      <item value="If you're unsure why you're getting above error read on. Due to the nature of the syntax above problem might occur because: 1. This exception might occur in wrongly written multi-threaded tests. Please refer to Mockito FAQ on limitations of concurrency testing. 2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method." />
+      <item value="org.mockito.exceptions.misusing.WrongTypeOfReturnValue: ArrayList cannot be returned by toString() toString() should return String If you're unsure why you're getting above error read on. Due to the nature of the syntax above problem might occur because: 1. This exception might occur in wrongly written multi-threaded tests. Please refer to Mockito FAQ on limitations of concurrency testing. 2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method." />
+      <item value="Description : The scope of the dependency - compile, runtime, test, system, and provided. Used to calculate the various classpaths used for compilation, testing, and so on. It also assists in determining which artifacts to include in a distribution of this project. For more information, see the dependency mechanism ." />
+      <item value="50 条" />
+      <item value="数据不得为空" />
+      <item value="钥匙状态传参错误" />
+      <item value="钥匙状态未传递" />
+      <item value="蓝牙信息没有对应二级密钥" />
+      <item value="车辆信息为空" />
+      <item value="钥匙状态异常不能分享" />
+      <item value="钥匙信息为空" />
+      <item value="禁止自己分享给自己" />
+      <item value="The key takes effect or the expiration time format cannot be parsed" />
+      <item value="钥匙生效或失效时间格式解析失败" />
+      <item value="用户车辆信息不匹配" />
+      <item value="The vehicle information is bound to the owner" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="28" />
-        <entry key="ENGLISH" value="23" />
+        <entry key="CHINESE" value="245" />
+        <entry key="DUTCH" value="1" />
+        <entry key="ENGLISH" value="245" />
       </map>
     </option>
   </component>

@@ -1,9 +1,0 @@
-<application>
-  <component name="ExportableFileTemplateSettings">
-    <internal_templates>
-      <template name="Class.java" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="Enum.java" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="Interface.java" reformat="true" live-template-enabled="true" enabled="true" />
-    </internal_templates>
-  </component>
-</application>
